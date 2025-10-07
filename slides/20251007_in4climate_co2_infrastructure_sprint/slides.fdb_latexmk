@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1759414749.2893 "/home/bobby/Projects/project-material/slides/20251007_in4climate_co2_infrastructure_sprint/slides.tex" "slides.pdf" "slides" 1759414756.74394 0
-  "/home/bobby/Projects/project-material/slides/20251007_in4climate_co2_infrastructure_sprint/slides.tex" 1759414748.9222 17874 2bc87311e01c48e08c30f900891dd05d ""
+["pdflatex"] 1759830571.0442 "/home/bobby/Projects/project-material/slides/20251007_in4climate_co2_infrastructure_sprint/slides.tex" "slides.pdf" "slides" 1759830578.32238 0
+  "/home/bobby/Projects/project-material/slides/20251007_in4climate_co2_infrastructure_sprint/slides.tex" 1759830570.80809 18841 6a0acaec26ec6cd0fca0b6d0b985083f ""
   "/home/bobby/Software/texlive/2025/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc" 1576101225 2976 14f3c84565dd1bc57c13b9dc0aaeea06 ""
   "/home/bobby/Software/texlive/2025/texmf-dist/fonts/enc/dvips/roboto/rbto_schjax.enc" 1576101225 2974 729e60f1953f7d28deb744dead16208c ""
   "/home/bobby/Software/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -320,10 +320,14 @@
   "beamerthemeBerlin.sty" 1753687779.65155 5423 0a1169680ef52071b7901ed2c76ecbf0 ""
   "figures/exogenous_demand.pdf" 1753686771.55119 48647 b302cef17d51f3cd9132cd5423d4f402 ""
   "figures/map_adm_pcipmi.pdf" 1753686771.61524 3789362 f581015852e00a7964b2f1e1cf4a38ff ""
+  "figures/pci___base_s_adm___2050-balance_map_H2.pdf" 1753686771.88471 2879729 a83e9ca911db65844256a27efd13a645 ""
+  "figures/pci___base_s_adm___2050-balance_map_co2_stored.pdf" 1753686771.89321 2889732 120d0c2d76910d5e1144c12773b6301e ""
   "graphics/logos/bmwk_en_logo.png" 1753687779.65645 53658 3585b6ca2b36888d6aee3b8c391d8d55 ""
   "graphics/logos/cetp_logo.png" 1753687779.65703 342153 8a37e8080e4e27a4aa1b193c0b7404f8 ""
   "graphics/logos/ensys_short_logo.pdf" 1753687779.65754 5728 6b82372309ccaa0ae591b7c0b0483d2e ""
+  "graphics/logos/logo-secondary-light.png" 1759829664.67995 165994 817ec208e9614b9edda1d689218ef560 ""
   "graphics/logos/tub_logo.pdf" 1753687779.65872 6257 14682fe0999a923c141491dce27164cf ""
+  "graphics/osm_map.pdf" 1753687779.65954 3637951 fc3ac1af28a6ef0cccdbbe6568ecd389 ""
   "graphics/other/carbon_networks_balance_bar_carbon.png" 1753687779.66038 122139 7cec77d42d048a49950502431e630145 ""
   "graphics/other/carbon_networks_balance_map_carbon.png" 1753687779.66074 789162 d53b471244e1a1b2efc24ac904db6981 ""
   "graphics/other/carbon_networks_balance_map_hydrogen.png" 1753687779.66114 693541 0326e44478f6ac3e1c1eb1b860b93499 ""
@@ -334,10 +338,10 @@
   "graphics/other/pypsa_eur_elec.png" 1753687779.66259 1779165 a360ac4fdacdea58c4f57dab506c1c19 ""
   "graphics/other/resilient_partners.png" 1753687779.66332 322267 06b6eb0a75c1600ca05bbd253a8436a1 ""
   "graphics/other/resilient_project_structure.png" 1753687779.66378 622203 e1c8d19f3392b19b974ee317c893dc94 ""
-  "slides.aux" 1759414756.50738 3019 af1f18efbcb20536f9e7a5ec86b64bce "pdflatex"
-  "slides.nav" 1759414756.50831 1885 865de85dc0d6773bb333d5f25077cbb4 "pdflatex"
-  "slides.out" 1759414756.50831 387 10dcc217d61c2ed23ee5e2fdc02b2d58 "pdflatex"
-  "slides.tex" 1759414748.9222 17874 2bc87311e01c48e08c30f900891dd05d ""
+  "slides.aux" 1759830578.13643 3275 aca8cbe07b7ffa8b3e5c2b1b490cf742 "pdflatex"
+  "slides.nav" 1759830578.13729 2069 80d02d8fbb91b27ea76297cd2d7496e3 "pdflatex"
+  "slides.out" 1759830578.13685 387 10dcc217d61c2ed23ee5e2fdc02b2d58 "pdflatex"
+  "slides.tex" 1759830570.80809 18841 6a0acaec26ec6cd0fca0b6d0b985083f ""
   (generated)
   "slides.aux"
   "slides.log"

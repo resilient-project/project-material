@@ -31,6 +31,7 @@
 \usepackage[super]{nth}
 \usepackage[version=4]{mhchem}
 \usepackage{siunitx}
+
 \sisetup{
   detect-all = true
 }
@@ -132,6 +133,7 @@
   \normalsize
   \alert{Kurzvorstellung des RESILIENT-Projekts} \\ 
   \footnotesize
+  \url{https://resilient-project.github.io/} \\
   FG Digitaler Wander in Energiesystemen \\
   Technische Universität Berlin \\
 
@@ -142,7 +144,7 @@
 
 \date{}
 
-\subject{Recent Research with PyPSA-Eur}
+\subject{IN4climate --- Kickoff Sprint CO2 Infrastruktur}
 
 \titlegraphic{%
 \vspace{-1cm}
@@ -151,7 +153,6 @@
 \hspace{0.5cm}\includegraphics[trim=0 0cm 0 0cm,height=1cm,clip=true]{logos/tub_logo.pdf}
 \hspace{0.5cm}\includegraphics[trim=0.2cm 0.6cm 0.6cm 0.2cm,height=1.1cm,clip=true]{logos/bmwk_en_logo.png}
 }
-
 
 \begin{document}
 
@@ -181,15 +182,24 @@
 \end{frame}
 
 \begin{frame}{RESILIENT-Projektübersicht}
-  \begin{itemize}
-  \item \alert{Problemdiagnose}: Welt befindet sich in einer Phase der \alert{Unsicherheit} und des \alert{Wandels}
-    (Geopolitik, Energiewende, Klimawandel); Szenarien mit einzelnen deterministischen
-    Lösungen nicht mehr bedarfsgerecht
-  \item \alert{Projektziel}: Entwicklung und Demonstration von Werkzeugen für eine resiliente Planung der Energiewende für Industrie, E-fuels und Netze
-  \item Baut auf dem schon etablierten, quelloffenen und weltweit genutzten Multi-Vektor-Energiesystemmodell \alert{Python for Power System Analysis (PyPSA)}
-  \item \alert{Methodischer Schwerpunkt}: Optimierung unter Unsicherheit (stochastisch und robust),  Dekompositionsmethoden und Heuristiken für Resilienz
-  \item \alert{Fallstudien}: \alert{Industriewende in NRW}, Netzplanung in BW, E-Fuels in Skandinavien, Klimaextremereignisse in Frankreich
-  \end{itemize}
+  \footnotesize
+  \begin{columns}
+    \begin{column}{0.75\textwidth}
+    \begin{itemize}
+    \item \alert{Problemdiagnose}: Welt befindet sich in einer Phase der \alert{Unsicherheit} und des \alert{Wandels}
+      (Geopolitik, Energiewende, Klimawandel); Szenarien mit einzelnen deterministischen
+      Lösungen nicht mehr bedarfsgerecht
+    \item \alert{Projektziel}: Entwicklung und Demonstration von Werkzeugen für eine resiliente Planung der Energiewende für Industrie, E-fuels und Netze
+    \item Baut auf dem schon etablierten, quelloffenen und weltweit genutzten Multi-Vektor-Energiesystemmodell \alert{Python for Power System Analysis (PyPSA)}
+    \item \alert{Methodischer Schwerpunkt}: Optimierung unter Unsicherheit (stochastisch und robust),  Dekompositionsmethoden und Heuristiken für Resilienz
+    \item \alert{Fallstudien}: \alert{Industriewende in NRW}, Netzplanung in BW, E-Fuels in Skandinavien, Klimaextremereignisse in Frankreich
+    \end{itemize}
+    \end{column}
+    \begin{column}{0.25\textwidth}
+      \includegraphics[width=1\textwidth]{logos/logo-secondary-light.png}
+    \end{column}
+  \end{columns}
+
 
 \end{frame}
 
@@ -282,17 +292,6 @@
 
 \section{Aktuelle Studienbeispiele}
 
-\begin{frame}{Studie: Nutzenvergleich Stromnetzausbau vs. H$_2$-Netz}
-  \centering
-  \includegraphics[width=0.9\textwidth]{other/neumann_hydrogen_paper}
-  \\
-  \footnotesize
-  $\rightarrow$ Wasserstoffnetz \alert{reduziert Systemkosten}, aber \alert{Stromnetzausbau ist attraktiver.}
-
-  \source{Neumann, Zeyen, Victoria, Brown: \url{https://doi.org/10.1016/j.joule.2023.06.016}}
-\end{frame}
-
-
 \begin{frame}{Studie: H$_2$ zu CO$_2$ oder CO$_2$ zu H$_2$ Standorten transportieren?}
   
   \centering
@@ -343,6 +342,26 @@
 
   \source{Eigene Darstellung nach \url{https://ec.europa.eu/energy/infrastructure/transparency_platform/map-viewer}. Preprint Xiong, Brown, Riepin (2025): \url{https://doi.org/10.48550/arXiv.2507.01860}}
 
+\end{frame}
+
+\begin{frame}{Studie: PCI-PMI H$_2$- und CO$_2$-Infrastrukturprojekte}
+  \centering
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \footnotesize
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.8\textwidth]{pci___base_s_adm___2050-balance_map_H2}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.8\textwidth]{pci___base_s_adm___2050-balance_map_co2_stored}
+      \end{figure}
+    \end{column}
+  \end{columns}
+  \source{Preprint Xiong, Brown, Riepin (2025): \url{https://doi.org/10.48550/arXiv.2507.01860}}
 \end{frame}
 
 \begin{frame}
@@ -413,6 +432,17 @@
   \source{Eigene Darstellung.}
 \end{frame}
 
+\begin{frame}{Studie: Nutzenvergleich Stromnetzausbau vs. H$_2$-Netz}
+  \centering
+  \includegraphics[width=0.9\textwidth]{other/neumann_hydrogen_paper}
+  \\
+  \footnotesize
+  $\rightarrow$ Wasserstoffnetz \alert{reduziert Systemkosten}, aber \alert{Stromnetzausbau ist attraktiver.}
+
+  \source{Neumann, Zeyen, Victoria, Brown: \url{https://doi.org/10.1016/j.joule.2023.06.016}}
+\end{frame}
+
+
 \begin{frame}{H$_2$-Nutzung hauptsächlich für Derivate und als Grundstoff}
   
   \includegraphics[width=1.2\textwidth, trim=0cm 6.6cm 0cm 6.6cm, clip]{other/hydrogen_balance.pdf}
@@ -456,28 +486,28 @@
 \end{frame}
 
 
-% \begin{frame}{Electricity high-voltage grid based on OpenStreetMap (OSM)}
+\begin{frame}{Übertragungsnetz basierend auf OpenStreetMap (OSM)}
 
-%   \begin{columns}
-%     \begin{column}{0.64\textwidth}
-%       \footnotesize
-%       \begin{itemize}
-%         \setlength\itemsep{.8em}
-%         \item Dataset contains a topologically connected representation of the European high-voltage grid (220 kV to 750 kV) constructed using OpenStreetMap data
-%         \item Heuristic cleaning process was used to for lines and links where electrical parameters are incomplete, missing, or ambiguous
-%         \item Close substations within a radius of 500 m are aggregated to single buses
-%         \item Unique transformers are added for each voltage pair in a substation
-%         \item AC lines mapped using pandapower's standard line type library. In default version, nominal capacity is set to 70 \% of the technical capacity to account for n-1 security approximation
-%         \item Includes all 38 European HVDC connections with their nominal rating that are commissioned as of 2024
-%       \end{itemize}
-%     \end{column}
-%     \begin{column}{0.36\textwidth}
-%       \includegraphics[width=1\textwidth]{osm_map}
-%     \end{column}
-%   \end{columns}
-%   \source{Eigene Darstellung based on data extracted using Overpass Turbo API\\\url{https://openstreetmap.org}}
+  \begin{columns}
+    \begin{column}{0.66\textwidth}
+      \footnotesize
+      \begin{itemize}
+        \setlength\itemsep{.8em}
+        \item Datensatz enthält das europäische Hoch- und Höchstspannungsnetz (220 kV bis 750 kV), erstellt auf Basis von OSM-Daten
+        \item Ein heuristischer Aufbereitungsprozess wurde angewendet für Einträge, bei denen elektrische Parameter unvollständig, fehlend oder mehrdeutig sind
+        \item Umspannwerke innerhalb eines Radius von 500 m werden zu gemeinsamen Knoten aggregiert
+        \item Für jedes Spannungspaar in einem Umspannwerk werden Transformatoren hinzugefügt
+        \item Wechselstromleitungen werden über Standarddaten der pandapower-Bibliothek parametriert und mit einem Faktor von 0.7 multipliziert, um eine n-1-Sicherheitsnäherung zu berücksichtigen
+        \item Enthält alle 38 europäischen HGÜ-Verbindungen in ihrer Nennleistung, die bis Ende 2024 in Betrieb genommen wurden
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.34\textwidth}
+      \includegraphics[width=1\textwidth]{osm_map}
+    \end{column}
+  \end{columns}
+  \source{Eigene Darstellung auf Basis von OSM-Daten, extrahiert mit der Overpass turbo API\\\url{https://openstreetmap.org}}
   
   
-% \end{frame}
+\end{frame}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.27)  2 OCT 2025 16:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.27)  7 OCT 2025 11:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -932,7 +932,7 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
  (/home/bobby/Software/texlive/2025/texmf-dist/tex/latex/doclicense/doclicense-english.ldf
 File: doclicense-english.ldf 
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 52.
+Package hyperref Info: Option `colorlinks' set `true' on input line 53.
  (/home/bobby/Software/texlive/2025/texmf-dist/tex/latex/roboto/roboto.sty
 Package: roboto 2022/09/10 (Bob Tennent) Supports Roboto fonts for all LaTeX engines.
  (/home/bobby/Software/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
@@ -1063,17 +1063,17 @@ Library (tcolorbox): 'tcbposter.code.tex' version '6.7.1'
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 156.
+(hyperref)                removing `math shift' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 156.
+(hyperref)                removing `subscript' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 156.
+(hyperref)                removing `math shift' on input line 157.
 
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 156.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 157.
 (/home/bobby/Software/texlive/2025/texmf-dist/tex/latex/ccicons/ccicons.sty
 Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
 ) (/home/bobby/Software/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
@@ -1093,35 +1093,35 @@ Package csquotes Info: ... configuration file loaded successfully.
  (/home/bobby/Software/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
-LaTeX Font Info:    Trying to load font information for OT1+Roboto-LF on input line 156.
+LaTeX Font Info:    Trying to load font information for OT1+Roboto-LF on input line 157.
  (/home/bobby/Software/texlive/2025/texmf-dist/tex/latex/roboto/OT1Roboto-LF.fd
 File: OT1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for OT1/Roboto-LF.
 )
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 156.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 157.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 156.
+(Font)              scaled to size 10.0pt on input line 157.
  (./slides.aux)
 \openout1 = `slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1176,58 +1176,58 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/home/bobby/Software/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 156.
+Package hyperref Info: Link coloring ON on input line 157.
  (./slides.out) (./slides.out)
 \@outlinefile=\write5
 \openout5 = `slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 156.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 157.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 156.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 157.
 \symnumbers=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 156.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 157.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/Roboto-LF/m/it on input line 156.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/Roboto-LF/m/it on input line 157.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/bx/sl --> OT1/Roboto-LF/m/it on input line 156.
+(Font)                  OT1/mathkerncmss/bx/sl --> OT1/Roboto-LF/m/it on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 156.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 156.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 156.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 157.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 157.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/Roboto-LF/m/n on input line 156.
+(Font)                  OT1/cmss/m/n --> OT1/Roboto-LF/m/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/Roboto-LF/m/n on input line 156.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 156.
+(Font)                  OT1/cmss/bx/n --> OT1/Roboto-LF/m/n on input line 157.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/Roboto-LF/m/it on input line 156.
+(Font)                  OT1/cmr/m/it --> OT1/Roboto-LF/m/it on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/Roboto-LF/m/it on input line 156.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 156.
+(Font)                  OT1/cmr/bx/it --> OT1/Roboto-LF/m/it on input line 157.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 156.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 156.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 157.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/Roboto-LF/m/n --> OT1/Roboto-LF/b/n on input line 156.
+(Font)                  OT1/Roboto-LF/m/n --> OT1/Roboto-LF/b/n on input line 157.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/Roboto-LF/m/it --> OT1/Roboto-LF/b/it on input line 156.
+(Font)                  OT1/Roboto-LF/m/it --> OT1/Roboto-LF/b/it on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 156.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/Roboto-LF/b/n --> OT1/Roboto-LF/b/n on input line 156.
+(Font)                  OT1/Roboto-LF/b/n --> OT1/Roboto-LF/b/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/Roboto-LF/m/n --> OT1/Roboto-LF/b/n on input line 156.
+(Font)                  OT1/Roboto-LF/m/n --> OT1/Roboto-LF/b/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/Roboto-LF/m/it --> OT1/Roboto-LF/b/it on input line 156.
+(Font)                  OT1/Roboto-LF/m/it --> OT1/Roboto-LF/b/it on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 156.
-LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 156.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 157.
+LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 157.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `normal'
-(Font)                  OT1/mathkerncmss/bx/sl --> OT1/Roboto-LF/bx/it on input line 156.
+(Font)                  OT1/mathkerncmss/bx/sl --> OT1/Roboto-LF/bx/it on input line 157.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/bx/sl --> OT1/Roboto-LF/bx/it on input line 156.
+(Font)                  OT1/mathkerncmss/bx/sl --> OT1/Roboto-LF/bx/it on input line 157.
  (/home/bobby/Software/texlive/2025/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/home/bobby/Software/texlive/2025/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1245,309 +1245,323 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Package chemgreek Info: Activating mapping `default' on line 156.
+Package chemgreek Info: Activating mapping `default' on line 157.
 
  (/home/bobby/Software/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 156.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 157.
 \c@mv@tabular=\count446
 \c@mv@boldtabular=\count447
 \c@lstlisting=\count448
  (./slides.nav)
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 156.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 157.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 156.
+(Font)              scaled to size 5.0pt on input line 157.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 156.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 157.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 156.
+(Font)              scaled to size 9.0pt on input line 157.
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 9.0pt on input line 156.
+(Font)              scaled to size 9.0pt on input line 157.
 <graphics/logos/tub_logo.pdf, id=61, 190.0381pt x 106.00542pt>
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 156.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 157.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 169.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 169.
+(Font)              scaled to size 14.4pt on input line 170.
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 14.4pt on input line 169.
+(Font)              scaled to size 14.4pt on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
-(Font)              `OT1/Roboto-LF/bold/n' on input line 169.
+(Font)              `OT1/Roboto-LF/bold/n' on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 169.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 169.
+(Font)              scaled to size 14.4pt on input line 170.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 170.
  (/home/bobby/Software/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 169.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 170.
  (/home/bobby/Software/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
-(Font)              `OT1/Roboto-LF/regular/it' on input line 169.
+(Font)              `OT1/Roboto-LF/regular/it' on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 14.4pt on input line 169.
+(Font)              scaled to size 14.4pt on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
-(Font)              `OT1/Roboto-LF/regular/it' on input line 169.
+(Font)              `OT1/Roboto-LF/regular/it' on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
-(Font)              `OT1/Roboto-LF/regular/it' on input line 169.
+(Font)              `OT1/Roboto-LF/regular/it' on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 7.0pt on input line 169.
+(Font)              scaled to size 7.0pt on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 169.
+(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
-(Font)              `OT1/Roboto-LF/bold/it' on input line 169.
+(Font)              `OT1/Roboto-LF/bold/it' on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
-(Font)              scaled to size 14.4pt on input line 169.
+(Font)              scaled to size 14.4pt on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <10> not available
-(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 169.
+(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
-(Font)              `OT1/Roboto-LF/bold/it' on input line 169.
+(Font)              `OT1/Roboto-LF/bold/it' on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <7> not available
-(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 169.
+(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
-(Font)              `OT1/Roboto-LF/bold/it' on input line 169.
+(Font)              `OT1/Roboto-LF/bold/it' on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
-(Font)              scaled to size 7.0pt on input line 169.
+(Font)              scaled to size 7.0pt on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 169.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 169.
+(Font)              scaled to size 7.0pt on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
-(Font)              `OT1/Roboto-LF/bold/n' on input line 169.
+(Font)              `OT1/Roboto-LF/bold/n' on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 169.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 169.
-<graphics/logos/cetp_logo.png, id=68, 3663.6875pt x 1804.7425pt>
+(Font)              scaled to size 8.0pt on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
+(Font)              `OT1/Roboto-LF/regular/it' on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 8.0pt on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
+(Font)              `OT1/Roboto-LF/regular/it' on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 6.0pt on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
+(Font)              `OT1/Roboto-LF/regular/it' on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 5.0pt on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <8> not available
+(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
+(Font)              `OT1/Roboto-LF/bold/it' on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
+(Font)              scaled to size 8.0pt on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <6> not available
+(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
+(Font)              `OT1/Roboto-LF/bold/it' on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
+(Font)              scaled to size 6.0pt on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <5> not available
+(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
+(Font)              `OT1/Roboto-LF/bold/it' on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
+(Font)              scaled to size 5.0pt on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
+(Font)              `OT1/Roboto-LF/regular/n' on input line 170.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 6.0pt on input line 170.
+<graphics/logos/cetp_logo.png, id=69, 3663.6875pt x 1804.7425pt>
 File: graphics/logos/cetp_logo.png Graphic file (type png)
 <use graphics/logos/cetp_logo.png>
-Package pdftex.def Info: graphics/logos/cetp_logo.png  used on input line 169.
+Package pdftex.def Info: graphics/logos/cetp_logo.png  used on input line 170.
 (pdftex.def)             Requested size: 57.7481pt x 28.45274pt.
-<graphics/logos/ensys_short_logo.pdf, id=71, 110.96574pt x 68.2866pt>
+<graphics/logos/ensys_short_logo.pdf, id=72, 110.96574pt x 68.2866pt>
 File: graphics/logos/ensys_short_logo.pdf Graphic file (type pdf)
 <use graphics/logos/ensys_short_logo.pdf>
-Package pdftex.def Info: graphics/logos/ensys_short_logo.pdf  used on input line 169.
+Package pdftex.def Info: graphics/logos/ensys_short_logo.pdf  used on input line 170.
 (pdftex.def)             Requested size: 46.23616pt x 28.45274pt.
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 169.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 170.
 (pdftex.def)             Requested size: 51.00648pt x 28.45274pt.
-<graphics/logos/bmwk_en_logo.png, id=74, 170.6375pt x 175.65625pt>
+<graphics/logos/bmwk_en_logo.png, id=75, 170.6375pt x 175.65625pt>
 File: graphics/logos/bmwk_en_logo.png Graphic file (type png)
 <use graphics/logos/bmwk_en_logo.png>
-Package pdftex.def Info: graphics/logos/bmwk_en_logo.png  used on input line 169.
+Package pdftex.def Info: graphics/logos/bmwk_en_logo.png  used on input line 170.
 (pdftex.def)             Requested size: 30.26949pt x 31.2982pt.
 
 
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 169.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 170.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 4.0pt on input line 169.
+(Font)              scaled to size 4.0pt on input line 170.
 [1{/home/bobby/Software/texlive/2025/texmf-sysvar/fonts/map/pdftex/updmap/pdftex.map}{/home/bobby/Software/texlive/2025/texmf-dist/fonts/enc/dvips/roboto/rbto_schjax.enc}
 
  <./graphics/logos/cetp_logo.png> <./graphics/logos/ensys_short_logo.pdf> <./graphics/logos/tub_logo.pdf> <./graphics/logos/bmwk_en_logo.png>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 181.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 182.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/resilient_partners.png, id=108, 1816.7875pt x 883.3pt>
+<graphics/other/resilient_partners.png, id=110, 1816.7875pt x 883.3pt>
 File: graphics/other/resilient_partners.png Graphic file (type png)
 <use graphics/other/resilient_partners.png>
-Package pdftex.def Info: graphics/other/resilient_partners.png  used on input line 181.
+Package pdftex.def Info: graphics/other/resilient_partners.png  used on input line 182.
 (pdftex.def)             Requested size: 338.59023pt x 164.60748pt.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
-(Font)              `OT1/Roboto-LF/bold/n' on input line 181.
+(Font)              `OT1/Roboto-LF/bold/n' on input line 182.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 8.0pt on input line 181.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
-(Font)              `OT1/Roboto-LF/regular/it' on input line 181.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 5.0pt on input line 181.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <5> not available
-(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 181.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
-(Font)              `OT1/Roboto-LF/bold/it' on input line 181.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
-(Font)              scaled to size 5.0pt on input line 181.
+(Font)              scaled to size 8.0pt on input line 182.
 
-Overfull \vbox (1.3589pt too high) detected at line 181
+Overfull \vbox (1.3589pt too high) detected at line 182
  []
 
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 181.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 182.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 [2
 
  <./graphics/other/resilient_partners.png>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 194.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 204.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/logos/logo-secondary-light.png, id=125, 433.33092pt x 528.87186pt>
+File: graphics/logos/logo-secondary-light.png Graphic file (type png)
+<use graphics/logos/logo-secondary-light.png>
+Package pdftex.def Info: graphics/logos/logo-secondary-light.png  used on input line 204.
+(pdftex.def)             Requested size: 99.58464pt x 121.54112pt.
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 194.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 204.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 [3
 
-]
+ <./graphics/logos/logo-secondary-light.png>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 199.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 209.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/resilient_project_structure.png, id=135, 262.42924pt x 146.62654pt>
+<graphics/other/resilient_project_structure.png, id=138, 262.42924pt x 146.62654pt>
 File: graphics/other/resilient_project_structure.png Graphic file (type png)
 <use graphics/other/resilient_project_structure.png>
-Package pdftex.def Info: graphics/other/resilient_project_structure.png  used on input line 199.
+Package pdftex.def Info: graphics/other/resilient_project_structure.png  used on input line 209.
 (pdftex.def)             Requested size: 318.67209pt x 178.06525pt.
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 199.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 209.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 [4
 
  <./graphics/other/resilient_project_structure.png>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 222.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 232.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/pypsa_eur_elec.png, id=148, 571.4148pt x 412.1799pt>
+<graphics/other/pypsa_eur_elec.png, id=151, 571.4148pt x 412.1799pt>
 File: graphics/other/pypsa_eur_elec.png Graphic file (type png)
 <use graphics/other/pypsa_eur_elec.png>
-Package pdftex.def Info: graphics/other/pypsa_eur_elec.png  used on input line 222.
+Package pdftex.def Info: graphics/other/pypsa_eur_elec.png  used on input line 232.
 (pdftex.def)             Requested size: 199.1693pt x 143.66763pt.
 
-Overfull \vbox (7.65233pt too high) detected at line 222
+Overfull \vbox (7.65233pt too high) detected at line 232
  []
 
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 222.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 232.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 [5
 
  <./graphics/other/pypsa_eur_elec.png>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 293.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 302.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/neumann_hydrogen_paper.png, id=162, 2836.5975pt x 1281.78876pt>
-File: graphics/other/neumann_hydrogen_paper.png Graphic file (type png)
-<use graphics/other/neumann_hydrogen_paper.png>
-Package pdftex.def Info: graphics/other/neumann_hydrogen_paper.png  used on input line 293.
-(pdftex.def)             Requested size: 358.50229pt x 161.98346pt.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
-(Font)              `OT1/Roboto-LF/regular/it' on input line 293.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 8.0pt on input line 293.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
-(Font)              `OT1/Roboto-LF/regular/it' on input line 293.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 6.0pt on input line 293.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <8> not available
-(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 293.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
-(Font)              `OT1/Roboto-LF/bold/it' on input line 293.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
-(Font)              scaled to size 8.0pt on input line 293.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <6> not available
-(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 293.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
-(Font)              `OT1/Roboto-LF/bold/it' on input line 293.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
-(Font)              scaled to size 6.0pt on input line 293.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 293.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 293.
-
-
-File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
-<use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 293.
-(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-[6
-
- <./graphics/other/neumann_hydrogen_paper.png>]
-File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
-<use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 303.
-(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/carbon_networks_balance_map_carbon.png, id=176, 369.5406pt x 529.2573pt>
+<graphics/other/carbon_networks_balance_map_carbon.png, id=165, 369.5406pt x 529.2573pt>
 File: graphics/other/carbon_networks_balance_map_carbon.png Graphic file (type png)
 <use graphics/other/carbon_networks_balance_map_carbon.png>
-Package pdftex.def Info: graphics/other/carbon_networks_balance_map_carbon.png  used on input line 303.
+Package pdftex.def Info: graphics/other/carbon_networks_balance_map_carbon.png  used on input line 302.
 (pdftex.def)             Requested size: 139.42093pt x 199.68236pt.
-<graphics/other/carbon_networks_balance_map_hydrogen.png, id=177, 369.5406pt x 530.2209pt>
+<graphics/other/carbon_networks_balance_map_hydrogen.png, id=166, 369.5406pt x 530.2209pt>
 File: graphics/other/carbon_networks_balance_map_hydrogen.png Graphic file (type png)
 <use graphics/other/carbon_networks_balance_map_hydrogen.png>
-Package pdftex.def Info: graphics/other/carbon_networks_balance_map_hydrogen.png  used on input line 303.
+Package pdftex.def Info: graphics/other/carbon_networks_balance_map_hydrogen.png  used on input line 302.
 (pdftex.def)             Requested size: 139.42093pt x 200.04591pt.
 
-Overfull \vbox (18.64328pt too high) detected at line 303
+Overfull \vbox (18.64328pt too high) detected at line 302
  []
 
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 303.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 302.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-[7
+[6
 
  <./graphics/other/carbon_networks_balance_map_carbon.png> <./graphics/other/carbon_networks_balance_map_hydrogen.png>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 346.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 345.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
-(Font)              `OT1/Roboto-LF/bold/n' on input line 346.
+(Font)              `OT1/Roboto-LF/bold/n' on input line 345.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 7.0pt on input line 346.
-<figures/map_adm_pcipmi.pdf, id=193, 249.69284pt x 279.87845pt>
+(Font)              scaled to size 7.0pt on input line 345.
+<figures/map_adm_pcipmi.pdf, id=180, 249.69284pt x 279.87845pt>
 File: figures/map_adm_pcipmi.pdf Graphic file (type pdf)
 <use figures/map_adm_pcipmi.pdf>
-Package pdftex.def Info: figures/map_adm_pcipmi.pdf  used on input line 346.
+Package pdftex.def Info: figures/map_adm_pcipmi.pdf  used on input line 345.
 (pdftex.def)             Requested size: 143.40213pt x 160.74094pt.
 
-Overfull \vbox (7.73935pt too high) detected at line 346
+Overfull \vbox (7.73935pt too high) detected at line 345
  []
 
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 346.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 345.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-[8
+[7
 
  <./figures/map_adm_pcipmi.pdf>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
 Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 365.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<figures/pci___base_s_adm___2050-balance_map_H2.pdf, id=244, 189.10602pt x 244.79378pt>
+File: figures/pci___base_s_adm___2050-balance_map_H2.pdf Graphic file (type pdf)
+<use figures/pci___base_s_adm___2050-balance_map_H2.pdf>
+Package pdftex.def Info: figures/pci___base_s_adm___2050-balance_map_H2.pdf  used on input line 365.
+(pdftex.def)             Requested size: 159.33604pt x 206.26782pt.
+<figures/pci___base_s_adm___2050-balance_map_co2_stored.pdf, id=245, 189.10602pt x 252.43794pt>
+File: figures/pci___base_s_adm___2050-balance_map_co2_stored.pdf Graphic file (type pdf)
+<use figures/pci___base_s_adm___2050-balance_map_co2_stored.pdf>
+Package pdftex.def Info: figures/pci___base_s_adm___2050-balance_map_co2_stored.pdf  used on input line 365.
+(pdftex.def)             Requested size: 159.33604pt x 212.70894pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 365--365
+Overfull \vbox (26.3063pt too high) detected at line 365
+ []
+
+
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 365.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[8
+
+ <./figures/pci___base_s_adm___2050-balance_map_H2.pdf> <./figures/pci___base_s_adm___2050-balance_map_co2_stored.pdf>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 384.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 384--384
  [][][][] 
  []
 
@@ -1555,62 +1569,80 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 365--365
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 365.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 384.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 [9
 
 {/home/bobby/Software/texlive/2025/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc}]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 391.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 410.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/multisector_diagram.pdf, id=274, 259.66342pt x 240.12856pt>
+<graphics/other/multisector_diagram.pdf, id=438, 259.66342pt x 240.12856pt>
 File: graphics/other/multisector_diagram.pdf Graphic file (type pdf)
 <use graphics/other/multisector_diagram.pdf>
-Package pdftex.def Info: graphics/other/multisector_diagram.pdf  used on input line 391.
+Package pdftex.def Info: graphics/other/multisector_diagram.pdf  used on input line 410.
 (pdftex.def)             Requested size: 199.1693pt x 184.18872pt.
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 391.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 410.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 [10
 
  <./graphics/other/multisector_diagram.pdf>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 414.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 433.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<figures/exogenous_demand.pdf, id=306, 273.12038pt x 290.67657pt>
+<figures/exogenous_demand.pdf, id=470, 273.12038pt x 290.67657pt>
 File: figures/exogenous_demand.pdf Graphic file (type pdf)
 <use figures/exogenous_demand.pdf>
-Package pdftex.def Info: figures/exogenous_demand.pdf  used on input line 414.
+Package pdftex.def Info: figures/exogenous_demand.pdf  used on input line 433.
 (pdftex.def)             Requested size: 191.20082pt x 203.49883pt.
 
-Overfull \vbox (17.09619pt too high) detected at line 414
+Overfull \vbox (17.09619pt too high) detected at line 433
  []
 
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 414.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 433.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 [11
 
  <./figures/exogenous_demand.pdf>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 436.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 443.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/hydrogen_balance.pdf, id=422, 925.3471pt x 568.88536pt>
+<graphics/other/neumann_hydrogen_paper.png, id=586, 2836.5975pt x 1281.78876pt>
+File: graphics/other/neumann_hydrogen_paper.png Graphic file (type png)
+<use graphics/other/neumann_hydrogen_paper.png>
+Package pdftex.def Info: graphics/other/neumann_hydrogen_paper.png  used on input line 443.
+(pdftex.def)             Requested size: 358.50229pt x 161.98346pt.
+
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 443.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[12
+
+ <./graphics/other/neumann_hydrogen_paper.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 466.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/other/hydrogen_balance.pdf, id=601, 925.3471pt x 568.88536pt>
 File: graphics/other/hydrogen_balance.pdf Graphic file (type pdf)
 <use graphics/other/hydrogen_balance.pdf>
-Package pdftex.def Info: graphics/other/hydrogen_balance.pdf  used on input line 436.
+Package pdftex.def Info: graphics/other/hydrogen_balance.pdf  used on input line 466.
 (pdftex.def)             Requested size: 478.00508pt x 99.85446pt.
 
-Overfull \hbox (79.66649pt too wide) in paragraph at lines 436--436
+Overfull \hbox (79.66649pt too wide) in paragraph at lines 466--466
 [][]  
  []
 
@@ -1624,42 +1656,64 @@ Overfull \hbox (79.66649pt too wide) in paragraph at lines 436--436
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 436.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 466.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-[12
+[13
 
  <./graphics/other/hydrogen_balance.pdf>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 456.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 486.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/carbon_networks_cost_bar.png, id=491, 297.2706pt x 297.2706pt>
+<graphics/other/carbon_networks_cost_bar.png, id=672, 297.2706pt x 297.2706pt>
 File: graphics/other/carbon_networks_cost_bar.png Graphic file (type png)
 <use graphics/other/carbon_networks_cost_bar.png>
-Package pdftex.def Info: graphics/other/carbon_networks_cost_bar.png  used on input line 456.
+Package pdftex.def Info: graphics/other/carbon_networks_cost_bar.png  used on input line 486.
 (pdftex.def)             Requested size: 149.82788pt x 149.8258pt.
-<graphics/other/carbon_networks_balance_bar_carbon.png, id=492, 297.2706pt x 261.1356pt>
+<graphics/other/carbon_networks_balance_bar_carbon.png, id=673, 297.2706pt x 261.1356pt>
 File: graphics/other/carbon_networks_balance_bar_carbon.png Graphic file (type png)
 <use graphics/other/carbon_networks_balance_bar_carbon.png>
-Package pdftex.def Info: graphics/other/carbon_networks_balance_bar_carbon.png  used on input line 456.
+Package pdftex.def Info: graphics/other/carbon_networks_balance_bar_carbon.png  used on input line 486.
 (pdftex.def)             Requested size: 165.88979pt x 145.72322pt.
 
-Overfull \vbox (8.49217pt too high) detected at line 456
+Overfull \vbox (8.49217pt too high) detected at line 486
  []
 
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 456.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 486.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[14
+
+ <./graphics/other/carbon_networks_cost_bar.png> <./graphics/other/carbon_networks_balance_bar_carbon.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 511.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/osm_map.pdf, id=688, 504.08327pt x 640.20245pt>
+File: graphics/osm_map.pdf Graphic file (type pdf)
+<use graphics/osm_map.pdf>
+Package pdftex.def Info: graphics/osm_map.pdf  used on input line 511.
+(pdftex.def)             Requested size: 135.43365pt x 171.99731pt.
+
+Overfull \vbox (5.5783pt too high) detected at line 511
+ []
+
+
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 511.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 (/home/bobby/Software/texlive/2025/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/home/bobby/Software/texlive/2025/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [13
+) [15
 
- <./graphics/other/carbon_networks_cost_bar.png> <./graphics/other/carbon_networks_balance_bar_carbon.png>]
+ <./graphics/osm_map.pdf>]
 \tf@nav=\write6
 \openout6 = `slides.nav'.
 
@@ -1678,18 +1732,18 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: 10DCC217D61C2ED23EE5E2FDC02B2D58;387.
  ) 
 Here is how much of TeX's memory you used:
- 42382 strings out of 467816
- 930136 string characters out of 5427048
- 1323159 words of memory out of 5000000
- 70181 multiletter control sequences out of 15000+600000
- 670307 words of font info for 115 fonts, out of 8000000 for 9000
+ 42430 strings out of 467816
+ 932082 string characters out of 5427048
+ 1323412 words of memory out of 5000000
+ 70225 multiletter control sequences out of 15000+600000
+ 670475 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,14n,123p,934b,1222s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on slides.pdf (13 pages, 8216556 bytes).
+Output written on slides.pdf (15 pages, 17748365 bytes).
 PDF statistics:
- 552 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
- 30 named destinations out of 1000 (max. 500000)
- 331 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 788 PDF objects out of 1000 (max. 8388607)
+ 282 compressed objects within 3 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
