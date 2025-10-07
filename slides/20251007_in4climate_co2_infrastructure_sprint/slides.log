@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.27)  7 OCT 2025 11:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.27)  7 OCT 2025 13:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1558,10 +1558,10 @@ Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 365.
  <./figures/pci___base_s_adm___2050-balance_map_H2.pdf> <./figures/pci___base_s_adm___2050-balance_map_co2_stored.pdf>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 384.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 387.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 384--384
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 387--387
  [][][][] 
  []
 
@@ -1569,80 +1569,80 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 384--384
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 384.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 387.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 [9
 
 {/home/bobby/Software/texlive/2025/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc}]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 410.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 413.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/multisector_diagram.pdf, id=438, 259.66342pt x 240.12856pt>
+<graphics/other/multisector_diagram.pdf, id=439, 259.66342pt x 240.12856pt>
 File: graphics/other/multisector_diagram.pdf Graphic file (type pdf)
 <use graphics/other/multisector_diagram.pdf>
-Package pdftex.def Info: graphics/other/multisector_diagram.pdf  used on input line 410.
+Package pdftex.def Info: graphics/other/multisector_diagram.pdf  used on input line 413.
 (pdftex.def)             Requested size: 199.1693pt x 184.18872pt.
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 410.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 413.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 [10
 
  <./graphics/other/multisector_diagram.pdf>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 433.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 436.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<figures/exogenous_demand.pdf, id=470, 273.12038pt x 290.67657pt>
+<figures/exogenous_demand.pdf, id=471, 273.12038pt x 290.67657pt>
 File: figures/exogenous_demand.pdf Graphic file (type pdf)
 <use figures/exogenous_demand.pdf>
-Package pdftex.def Info: figures/exogenous_demand.pdf  used on input line 433.
+Package pdftex.def Info: figures/exogenous_demand.pdf  used on input line 436.
 (pdftex.def)             Requested size: 191.20082pt x 203.49883pt.
 
-Overfull \vbox (17.09619pt too high) detected at line 433
+Overfull \vbox (17.09619pt too high) detected at line 436
  []
 
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 433.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 436.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 [11
 
  <./figures/exogenous_demand.pdf>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 443.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 446.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/neumann_hydrogen_paper.png, id=586, 2836.5975pt x 1281.78876pt>
+<graphics/other/neumann_hydrogen_paper.png, id=587, 2836.5975pt x 1281.78876pt>
 File: graphics/other/neumann_hydrogen_paper.png Graphic file (type png)
 <use graphics/other/neumann_hydrogen_paper.png>
-Package pdftex.def Info: graphics/other/neumann_hydrogen_paper.png  used on input line 443.
+Package pdftex.def Info: graphics/other/neumann_hydrogen_paper.png  used on input line 446.
 (pdftex.def)             Requested size: 358.50229pt x 161.98346pt.
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 443.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 446.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 [12
 
  <./graphics/other/neumann_hydrogen_paper.png>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 466.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 469.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/hydrogen_balance.pdf, id=601, 925.3471pt x 568.88536pt>
+<graphics/other/hydrogen_balance.pdf, id=602, 925.3471pt x 568.88536pt>
 File: graphics/other/hydrogen_balance.pdf Graphic file (type pdf)
 <use graphics/other/hydrogen_balance.pdf>
-Package pdftex.def Info: graphics/other/hydrogen_balance.pdf  used on input line 466.
+Package pdftex.def Info: graphics/other/hydrogen_balance.pdf  used on input line 469.
 (pdftex.def)             Requested size: 478.00508pt x 99.85446pt.
 
-Overfull \hbox (79.66649pt too wide) in paragraph at lines 466--466
+Overfull \hbox (79.66649pt too wide) in paragraph at lines 469--469
 [][]  
  []
 
@@ -1656,56 +1656,56 @@ Overfull \hbox (79.66649pt too wide) in paragraph at lines 466--466
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 466.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 469.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 [13
 
  <./graphics/other/hydrogen_balance.pdf>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 486.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 489.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/carbon_networks_cost_bar.png, id=672, 297.2706pt x 297.2706pt>
+<graphics/other/carbon_networks_cost_bar.png, id=673, 297.2706pt x 297.2706pt>
 File: graphics/other/carbon_networks_cost_bar.png Graphic file (type png)
 <use graphics/other/carbon_networks_cost_bar.png>
-Package pdftex.def Info: graphics/other/carbon_networks_cost_bar.png  used on input line 486.
+Package pdftex.def Info: graphics/other/carbon_networks_cost_bar.png  used on input line 489.
 (pdftex.def)             Requested size: 149.82788pt x 149.8258pt.
-<graphics/other/carbon_networks_balance_bar_carbon.png, id=673, 297.2706pt x 261.1356pt>
+<graphics/other/carbon_networks_balance_bar_carbon.png, id=674, 297.2706pt x 261.1356pt>
 File: graphics/other/carbon_networks_balance_bar_carbon.png Graphic file (type png)
 <use graphics/other/carbon_networks_balance_bar_carbon.png>
-Package pdftex.def Info: graphics/other/carbon_networks_balance_bar_carbon.png  used on input line 486.
+Package pdftex.def Info: graphics/other/carbon_networks_balance_bar_carbon.png  used on input line 489.
 (pdftex.def)             Requested size: 165.88979pt x 145.72322pt.
 
-Overfull \vbox (8.49217pt too high) detected at line 486
+Overfull \vbox (8.49217pt too high) detected at line 489
  []
 
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 486.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 489.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 [14
 
  <./graphics/other/carbon_networks_cost_bar.png> <./graphics/other/carbon_networks_balance_bar_carbon.png>]
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 511.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 514.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/osm_map.pdf, id=688, 504.08327pt x 640.20245pt>
+<graphics/osm_map.pdf, id=689, 504.08327pt x 640.20245pt>
 File: graphics/osm_map.pdf Graphic file (type pdf)
 <use graphics/osm_map.pdf>
-Package pdftex.def Info: graphics/osm_map.pdf  used on input line 511.
+Package pdftex.def Info: graphics/osm_map.pdf  used on input line 514.
 (pdftex.def)             Requested size: 135.43365pt x 171.99731pt.
 
-Overfull \vbox (5.5783pt too high) detected at line 511
+Overfull \vbox (5.5783pt too high) detected at line 514
  []
 
 
 
 File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
-Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 511.
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 514.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
 (/home/bobby/Software/texlive/2025/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
@@ -1740,10 +1740,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  128i,14n,123p,934b,1222s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on slides.pdf (15 pages, 17748365 bytes).
+Output written on slides.pdf (15 pages, 17748585 bytes).
 PDF statistics:
- 788 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
+ 789 PDF objects out of 1000 (max. 8388607)
+ 283 compressed objects within 3 object streams
  34 named destinations out of 1000 (max. 500000)
  351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
