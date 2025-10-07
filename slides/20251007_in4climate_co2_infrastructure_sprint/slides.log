@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.27)  7 OCT 2025 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.27)  7 OCT 2025 13:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1618,7 +1618,7 @@ File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
 Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 446.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/neumann_hydrogen_paper.png, id=587, 2836.5975pt x 1281.78876pt>
+<graphics/other/neumann_hydrogen_paper.png, id=588, 2836.5975pt x 1281.78876pt>
 File: graphics/other/neumann_hydrogen_paper.png Graphic file (type png)
 <use graphics/other/neumann_hydrogen_paper.png>
 Package pdftex.def Info: graphics/other/neumann_hydrogen_paper.png  used on input line 446.
@@ -1636,7 +1636,7 @@ File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
 Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 469.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/hydrogen_balance.pdf, id=602, 925.3471pt x 568.88536pt>
+<graphics/other/hydrogen_balance.pdf, id=603, 925.3471pt x 568.88536pt>
 File: graphics/other/hydrogen_balance.pdf Graphic file (type pdf)
 <use graphics/other/hydrogen_balance.pdf>
 Package pdftex.def Info: graphics/other/hydrogen_balance.pdf  used on input line 469.
@@ -1665,12 +1665,12 @@ File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
 Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 489.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/other/carbon_networks_cost_bar.png, id=673, 297.2706pt x 297.2706pt>
+<graphics/other/carbon_networks_cost_bar.png, id=674, 297.2706pt x 297.2706pt>
 File: graphics/other/carbon_networks_cost_bar.png Graphic file (type png)
 <use graphics/other/carbon_networks_cost_bar.png>
 Package pdftex.def Info: graphics/other/carbon_networks_cost_bar.png  used on input line 489.
 (pdftex.def)             Requested size: 149.82788pt x 149.8258pt.
-<graphics/other/carbon_networks_balance_bar_carbon.png, id=674, 297.2706pt x 261.1356pt>
+<graphics/other/carbon_networks_balance_bar_carbon.png, id=675, 297.2706pt x 261.1356pt>
 File: graphics/other/carbon_networks_balance_bar_carbon.png Graphic file (type png)
 <use graphics/other/carbon_networks_balance_bar_carbon.png>
 Package pdftex.def Info: graphics/other/carbon_networks_balance_bar_carbon.png  used on input line 489.
@@ -1692,7 +1692,7 @@ File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
 <use graphics/logos/tub_logo.pdf>
 Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 514.
 (pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
-<graphics/osm_map.pdf, id=689, 504.08327pt x 640.20245pt>
+<graphics/osm_map.pdf, id=690, 504.08327pt x 640.20245pt>
 File: graphics/osm_map.pdf Graphic file (type pdf)
 <use graphics/osm_map.pdf>
 Package pdftex.def Info: graphics/osm_map.pdf  used on input line 514.
@@ -1740,10 +1740,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  128i,14n,123p,934b,1222s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/bobby/Software/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on slides.pdf (15 pages, 17748585 bytes).
+Output written on slides.pdf (15 pages, 17748644 bytes).
 PDF statistics:
- 789 PDF objects out of 1000 (max. 8388607)
- 283 compressed objects within 3 object streams
+ 790 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
  34 named destinations out of 1000 (max. 500000)
  351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
