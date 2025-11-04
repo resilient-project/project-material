@@ -432,6 +432,50 @@
   \source{\url{https://www.netztransparenz.de/de-de/Systemdienstleistungen/Versorgungswiederaufbau}}
 \end{frame}
 
+\begin{frame}{Upcoming: Resilience against gas shocks through EU electrification}
+  \footnotesize
+  \vspace{0.5cm}
+
+    \begin{columns}[T,onlytextwidth]
+    % Left third
+    \column{0.65\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/gas_price_resilience_schematic}
+
+    % Right third
+    \column{0.32\textwidth}
+    \centering
+    \includegraphics[width=\linewidth,height=0.22\textheight,keepaspectratio]{figures/power_sector.png}
+    \vfill
+    \includegraphics[width=\linewidth,height=0.22\textheight,keepaspectratio]{figures/heating_sector.png}
+    \vfill
+    \includegraphics[width=\linewidth,height=0.22\textheight,keepaspectratio]{figures/industry_sector.png}
+    \vfill
+    \includegraphics[width=\linewidth,height=0.22\textheight,keepaspectratio]{figures/europe.png}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}{Extending PyPSA-Eur: representing industrial heating by temperature band}
+  \footnotesize
+
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \footnotesize
+      \begin{itemize}
+        \item PyPSA-Eur represents \alert{industrial decarbonisation} by allowing a shift to alternative, low-carbon production pathways.
+        \item In its current form, the model does not track the \alert{end-use of inputs}; in particular, it does not distinguish between heat use and feedstock use.
+        \item The ongoing work introduces this distinction by tracking feedstock and temperature-specific heat uses, enabling the model to \alert{endogenously} simulate cost-optimal decarbonisation pathways.
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \includegraphics[width=1\textwidth]{figures/temperature_band_pie}
+    \end{column}
+  \end{columns}
+
+\end{frame}
+
 \begin{frame}
   \setbeamercolor{background canvas}{bg=red}
   \centering
