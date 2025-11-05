@@ -1,0 +1,2251 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.6)  5 NOV 2025 16:49
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/iegor/ensys/project-material/slides/20251106_dena_exchange/slides-research.tex
+(/home/iegor/ensys/project-material/slides/20251106_dena_exchange/slides-research.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2024/01/06 v3.71 A class for typesetting presentations
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count187
+)
+\beamer@tempbox=\box51
+\beamer@tempcount=\count188
+\c@beamerpauses=\count189
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count190
+\beamer@minimum=\count191
+\beamer@decode@box=\box52
+)
+\beamer@commentbox=\box53
+\beamer@modecount=\count192
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\headdp=\dimen140
+\footheight=\dimen141
+\sidebarheight=\dimen142
+\beamer@tempdim=\dimen143
+\beamer@finalheight=\dimen144
+\beamer@animht=\dimen145
+\beamer@animdp=\dimen146
+\beamer@animwd=\dimen147
+\beamer@leftmargin=\dimen148
+\beamer@rightmargin=\dimen149
+\beamer@leftsidebar=\dimen150
+\beamer@rightsidebar=\dimen151
+\beamer@boxsize=\dimen152
+\beamer@vboxoffset=\dimen153
+\beamer@descdefault=\dimen154
+\beamer@descriptionwidth=\dimen155
+\beamer@lastskip=\skip48
+\beamer@areabox=\box54
+\beamer@animcurrent=\box55
+\beamer@animshowbox=\box56
+\beamer@sectionbox=\box57
+\beamer@logobox=\box58
+\beamer@linebox=\box59
+\beamer@sectioncount=\count193
+\beamer@subsubsectionmax=\count194
+\beamer@subsectionmax=\count195
+\beamer@sectionmax=\count196
+\beamer@totalheads=\count197
+\beamer@headcounter=\count198
+\beamer@partstartpage=\count199
+\beamer@sectionstartpage=\count266
+\beamer@subsectionstartpage=\count267
+\beamer@animationtempa=\count268
+\beamer@animationtempb=\count269
+\beamer@xpos=\count270
+\beamer@ypos=\count271
+\beamer@ypos@offset=\count272
+\beamer@showpartnumber=\count273
+\beamer@currentsubsection=\count274
+\beamer@coveringdepth=\count275
+\beamer@sectionadjust=\count276
+\beamer@toclastsection=\count277
+\beamer@tocsectionnumber=\count278
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+))
+\beamer@paperwidth=\skip49
+\beamer@paperheight=\skip50
+ (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count279
+\Gm@cntv=\count280
+\c@Gm@tempcnt=\count281
+\Gm@bindingoffset=\dimen156
+\Gm@wd@mp=\dimen157
+\Gm@odd@mp=\dimen158
+\Gm@even@mp=\dimen159
+\Gm@layoutwidth=\dimen160
+\Gm@layoutheight=\dimen161
+\Gm@layouthoffset=\dimen162
+\Gm@layoutvoffset=\dimen163
+\Gm@dimlist=\toks18
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen164
+\pgfutil@tempdimb=\dimen165
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box60
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen166
+\pgf@xa=\dimen167
+\pgf@xb=\dimen168
+\pgf@xc=\dimen169
+\pgf@y=\dimen170
+\pgf@ya=\dimen171
+\pgf@yb=\dimen172
+\pgf@yc=\dimen173
+\c@pgf@counta=\count282
+\c@pgf@countb=\count283
+\c@pgf@countc=\count284
+\c@pgf@countd=\count285
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen174
+\pgfmath@count=\count286
+\pgfmath@box=\box61
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count287
+))) (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen175
+\Gin@req@width=\dimen176
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen177
+\pgf@y=\dimen178
+\pgf@xa=\dimen179
+\pgf@ya=\dimen180
+\pgf@xb=\dimen181
+\pgf@yb=\dimen182
+\pgf@xc=\dimen183
+\pgf@yc=\dimen184
+\pgf@xd=\dimen185
+\pgf@yd=\dimen186
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count288
+\c@pgf@countb=\count289
+\c@pgf@countc=\count290
+\c@pgf@countd=\count291
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count292
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count293
+\pgfsyssoftpath@bigbuffer@items=\count294
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen187
+\pgf@picmaxx=\dimen188
+\pgf@picminy=\dimen189
+\pgf@picmaxy=\dimen190
+\pgf@pathminx=\dimen191
+\pgf@pathmaxx=\dimen192
+\pgf@pathminy=\dimen193
+\pgf@pathmaxy=\dimen194
+\pgf@xx=\dimen195
+\pgf@xy=\dimen196
+\pgf@yx=\dimen197
+\pgf@yy=\dimen198
+\pgf@zx=\dimen199
+\pgf@zy=\dimen256
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen257
+\pgf@path@lasty=\dimen258
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen259
+\pgf@shorten@start@additional=\dimen260
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box62
+\pgf@hbox=\box63
+\pgf@layerbox@main=\box64
+\pgf@picture@serial@count=\count295
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen261
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen262
+\pgf@pt@y=\dimen263
+\pgf@pt@temp=\dimen264
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen265
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen266
+\pgf@sys@shading@range@num=\count296
+\pgf@shadingcount=\count297
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box65
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count298
+\XC@countmixins=\count299
+) (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count300
+)
+\@linkdim=\dimen267
+\Hy@linkcounter=\count301
+\Hy@pagecounter=\count302
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count303
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4062.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4062.
+Package hyperref Info: Option `implicit' set `false' on input line 4062.
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count304
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen268
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count305
+\Field@Width=\dimen269
+\Fld@charsize=\dimen270
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+\Hy@abspage=\count306
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count307
+\c@bookmark@seq@number=\count308
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks29
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2020/01/31
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+))))) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count309
+\beamer@lastskipcover=\skip51
+\beamer@trivlistdepth=\count310
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count311
+\c@part=\count312
+\c@section=\count313
+\c@subsection=\count314
+\c@subsubsection=\count315
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box66
+\beamer@frametitlebox=\box67
+\beamer@zoombox=\box68
+\beamer@zoomcount=\count316
+\beamer@zoomframecount=\count317
+\beamer@frametextheight=\dimen271
+\c@subsectionslide=\count318
+\beamer@frametopskip=\skip52
+\beamer@framebottomskip=\skip53
+\beamer@frametopskipautobreak=\skip54
+\beamer@framebottomskipautobreak=\skip55
+\beamer@envbody=\toks30
+\framewidth=\dimen272
+\c@framenumber=\count319
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box69
+\beamer@autobreakcount=\count320
+\beamer@autobreaklastheight=\dimen273
+\beamer@frametitletoks=\toks31
+\beamer@framesubtitletoks=\toks32
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+\beamer@footins=\box70
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box71
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks33
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box72
+\bmb@colorbox=\box73
+\bmb@boxwidth=\dimen274
+\bmb@boxheight=\dimen275
+\bmb@prevheight=\dimen276
+\bmb@temp=\dimen277
+\bmb@dima=\dimen278
+\bmb@dimb=\dimen279
+\bmb@prevheight=\dimen280
+)
+\beamer@blockheadheight=\dimen281
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks34
+)
+\beamer@bibiconwidth=\skip56
+\c@figure=\count321
+\c@table=\count322
+\abovecaptionskip=\skip57
+\belowcaptionskip=\skip58
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigationsymbols.tex)
+\beamer@section@min@dim=\dimen282
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen283
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen284
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count323
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count324
+\leftroot@=\count325
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count326
+\DOTSCASE@=\count327
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box74
+\strutbox@=\box75
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen285
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count328
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count329
+\dotsspace@=\muskip17
+\c@parentequation=\count330
+\dspbrk@lvl=\count331
+\tag@help=\toks36
+\row@=\count332
+\column@=\count333
+\maxfields@=\count334
+\andhelp@=\toks37
+\eqnshift@=\dimen286
+\alignsep@=\dimen287
+\tagshift@=\dimen288
+\tagwidth@=\dimen289
+\totwidth@=\dimen290
+\lineht@=\dimen291
+\@envbody=\toks38
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks40
+\thm@bodyfont=\toks41
+\thm@headfont=\toks42
+\thm@notefont=\toks43
+\thm@headpunct=\toks44
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
+\dth@everypar=\toks45
+)
+\c@theorem=\count335
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+\beamer@dima=\dimen292
+\beamer@dimb=\dimen293
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (./beamerthemeBerlin.sty
+Package: beamerthemeBerlin 
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerectangles.sty) (./beamercolorthemeBerlin.sty)) (/usr/share/texlive/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2022/07/23 v1.10.1
+Package textpos Info: choosing support for LaTeX3 on input line 60.
+\TP@textbox=\box76
+\TP@holdbox=\box77
+\TPHorizModule=\dimen294
+\TPVertModule=\dimen295
+\TP@margin=\dimen296
+\TP@absmargin=\dimen297
+
+Grid set 16 x 16 = 28.45274pt x 16.00467pt
+\TPboxrulesize=\dimen298
+\TP@ox=\dimen299
+\TP@oy=\dimen300
+\TP@tbargs=\toks46
+TextBlockOrigin set to 0pt x 0pt
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks47
+\inpenc@posthook=\toks48
+) (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box78
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen301
+\lightrulewidth=\dimen302
+\cmidrulewidth=\dimen303
+\belowrulesep=\dimen304
+\belowbottomsep=\dimen305
+\aboverulesep=\dimen306
+\abovetopsep=\dimen307
+\cmidrulesep=\dimen308
+\cmidrulekern=\dimen309
+\defaultaddspace=\dimen310
+\@cmidla=\count336
+\@cmidlb=\count337
+\@aboverulesep=\dimen311
+\@belowrulesep=\dimen312
+\@thisruleclass=\count338
+\@lastruleclass=\count339
+\@thisrulewidth=\dimen313
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count340
+\mult@box=\box79
+\multicol@leftmargin=\dimen314
+\c@unbalance=\count341
+\c@collectmore=\count342
+\doublecol@number=\count343
+\multicoltolerance=\count344
+\multicolpretolerance=\count345
+\full@width=\dimen315
+\page@free=\dimen316
+\premulticols=\dimen317
+\postmulticols=\dimen318
+\multicolsep=\skip65
+\multicolbaselineskip=\skip66
+\partial@page=\box80
+\last@line=\box81
+\mc@boxedresult=\box82
+\maxbalancingoverflow=\dimen319
+\mult@rightbox=\box83
+\mult@grightbox=\box84
+\mult@firstbox=\box85
+\mult@gfirstbox=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\c@minrows=\count346
+\c@columnbadness=\count347
+\c@finalcolumnbadness=\count348
+\last@try=\dimen320
+\multicolovershoot=\dimen321
+\multicolundershoot=\dimen322
+\mult@nat@firstbox=\box123
+\colbreak@box=\box124
+\mc@col@check@num=\count349
+) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip67
+\multirow@cntb=\count350
+\multirow@dima=\skip68
+\bigstrutjot=\dimen323
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen324
+\ar@mcellbox=\box125
+\extrarowheight=\dimen325
+\NC@list=\toks49
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box126
+)
+\TX@col@width=\dimen326
+\TX@old@table=\dimen327
+\TX@old@col=\dimen328
+\TX@target=\dimen329
+\TX@delta=\dimen330
+\TX@cols=\count351
+\TX@ftn=\toks50
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen331
+\captionmargin=\dimen332
+\caption@leftmargin=\dimen333
+\caption@rightmargin=\dimen334
+\caption@width=\dimen335
+\caption@indent=\dimen336
+\caption@parindent=\dimen337
+\caption@hangindent=\dimen338
+Package caption Info: beamer document class detected.
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to the beamer document classes (AR)
+))
+\c@caption@flags=\count352
+\c@continuedfloat=\count353
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count354
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count355
+) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+)
+\sympureletters=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 29.
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+\symboldpureletters=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box127
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen339
+\pgf@nodesepend=\dimen340
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen341
+\pgffor@skip=\dimen342
+\pgffor@stack=\toks51
+\pgffor@toks=\toks52
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count356
+\pgfplotmarksize=\dimen343
+)
+\tikz@lastx=\dimen344
+\tikz@lasty=\dimen345
+\tikz@lastxsaved=\dimen346
+\tikz@lastysaved=\dimen347
+\tikz@lastmovetox=\dimen348
+\tikz@lastmovetoy=\dimen349
+\tikzleveldistance=\dimen350
+\tikzsiblingdistance=\dimen351
+\tikz@figbox=\box128
+\tikz@figbox@bg=\box129
+\tikz@tempbox=\box130
+\tikz@tempbox@bg=\box131
+\tikztreelevel=\count357
+\tikznumberofchildren=\count358
+\tikznumberofcurrentchild=\count359
+\tikz@fig@count=\count360
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count361
+\pgfmatrixcurrentcolumn=\count362
+\pgf@matrix@numberofcolumns=\count363
+)
+\tikz@expandcount=\count364
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks53
+\XKV@tempa@toks=\toks54
+)
+\XKV@depth=\count365
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box132
+)
+\tc@llx=\dimen352
+\tc@lly=\dimen353
+\tc@urx=\dimen354
+\tc@ury=\dimen355
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen356
+\adjbox@Height=\dimen357
+\adjbox@Depth=\dimen358
+\adjbox@Totalheight=\dimen359
+\adjbox@pwidth=\dimen360
+\adjbox@pheight=\dimen361
+\adjbox@pdepth=\dimen362
+\adjbox@ptotalheight=\dimen363
+ (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count366
+) (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box133
+\sift@deathcycles=\count367
+\@vwid@loff=\dimen364
+\@vwid@roff=\dimen365
+)) (/usr/share/texlive/texmf-dist/tex/generic/nth/nth.sty
+Package: nth 2002/02/27
+) (/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+ (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count368
+\l__pdf_internal_box=\box134
+)) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count369
+\calc@Bcount=\count370
+\calc@Adimen=\dimen366
+\calc@Bdimen=\dimen367
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count371
+\calc@Cskip=\skip73
+) (/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
+\l__chemgreek_tmpa_int=\count372
+\g__chemgreek_tmpa_int=\count373
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count374
+\__mhchem_arrow_extPgfLength_skip=\skip74
+\mhchem@minispace@tmp=\skip75
+\mhchem@minibackspace@tmp=\skip76
+\mhchem@bondwidth=\skip77
+\mhchem@bondheight=\skip78
+\mhchem@smallbondwidth@tmpA=\skip79
+\mhchem@smallbondwidth@tmpB=\skip80
+\mhchem@smallbondwidth=\skip81
+\mhchem@bondtmp@minussidebearingleft=\skip82
+\mhchem@bondtmp@minussidebearingright=\skip83
+\l__mhchem_option_version_int=\count375
+\mhchem@option@minusmathsidebearingleft=\dimen368
+\mhchem@option@minusmathsidebearingright=\dimen369
+\mhchem@option@minustextsidebearingleft=\dimen370
+\mhchem@option@minustextsidebearingright=\dimen371
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2024-01-25 v3.3.10 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count376
+\l__siunitx_number_exponent_fixed_int=\count377
+\l__siunitx_number_min_decimal_int=\count378
+\l__siunitx_number_min_integer_int=\count379
+\l__siunitx_number_round_precision_int=\count380
+\l__siunitx_number_lower_threshold_int=\count381
+\l__siunitx_number_upper_threshold_int=\count382
+\l__siunitx_number_group_first_int=\count383
+\l__siunitx_number_group_size_int=\count384
+\l__siunitx_number_group_minimum_int=\count385
+\l__siunitx_angle_tmp_dim=\dimen372
+\l__siunitx_angle_marker_box=\box135
+\l__siunitx_angle_unit_box=\box136
+\l__siunitx_compound_count_int=\count386
+ (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box137
+\l__siunitx_table_tmp_dim=\dimen373
+\l__siunitx_table_column_width_dim=\dimen374
+\l__siunitx_table_integer_box=\box138
+\l__siunitx_table_decimal_box=\box139
+\l__siunitx_table_uncert_box=\box140
+\l__siunitx_table_before_box=\box141
+\l__siunitx_table_after_box=\box142
+\l__siunitx_table_before_dim=\dimen375
+\l__siunitx_table_carry_dim=\dimen376
+\l__siunitx_unit_tmp_int=\count387
+\l__siunitx_unit_position_int=\count388
+\l__siunitx_unit_total_int=\count389
+)
+
+Package siunitx Info: Option "detect-all" has been deprecated in this release.
+(siunitx)             
+(siunitx)             Use "mode = match, propagate-math-font = true,
+(siunitx)             reset-math-version = false, reset-text-family = false,
+(siunitx)             reset-text-series = false, reset-text-shape = false,
+(siunitx)             text-family-to-math = true, text-series-to-math = true"
+(siunitx)             as a replacement.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/doclicense/doclicense.sty
+Package: doclicense 2023/10/01 v3.3.0 Support for putting documents under a license
+ (/usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+)) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count390
+\xs_countb=\count391
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks55
+\verbatim@line=\toks56
+\verbatim@in@stream=\read3
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
+Package: hyperxmp 2023/09/10 v5.12 Store hyperref metadata in XMP format
+\hyxmp@aep@toks=\toks57
+ (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@hyxmp@count=\count392
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
+\doclicense@hsize=\skip84
+ (/usr/share/texlive/texmf-dist/tex/latex/doclicense/doclicense-english.ldf
+File: doclicense-english.ldf 
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 53.
+ (/usr/share/texlive/texmf-dist/tex/latex/roboto/roboto.sty
+Package: roboto 2022/09/10 (Bob Tennent) Supports Roboto fonts for all LaTeX engines.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box143
+\UL@hyphenbox=\box144
+\UL@skip=\skip85
+\UL@hook=\toks58
+\UL@height=\dimen377
+\UL@pe=\count393
+\UL@pixel=\dimen378
+\ULC@box=\box145
+Package: ulem 2019/11/18
+\ULdepth=\dimen379
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+ (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box146
+\tcb@upperbox=\box147
+\tcb@lowerbox=\box148
+\tcb@phantombox=\box149
+\c@tcbbreakpart=\count394
+\c@tcblayer=\count395
+\c@tcolorbox@number=\count396
+\l__tcobox_tmpa_box=\box150
+\l__tcobox_tmpa_dim=\dimen380
+\tcb@temp=\box151
+\tcb@temp=\box152
+\tcb@temp=\box153
+\tcb@temp=\box154
+ (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+\c@tcbrastercolumn=\count397
+\c@tcbrasterrow=\count398
+\c@tcbrasternum=\count399
+\c@tcbraster=\count400
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+ (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+) (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box155
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(/usr/share/texlive/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box156
+\tcb@totalupperbox=\box157
+\tcb@totallowerbox=\box158
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+\tcbfitdim=\dimen381
+\tcb@lowerfitdim=\dimen382
+\tcb@upperfitdim=\dimen383
+\tcb@cur@hbadness=\count401
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count402
+\lst@gtempboxa=\box159
+\lst@token=\toks59
+\lst@length=\count403
+\lst@currlwidth=\dimen384
+\lst@column=\count404
+\lst@pos=\count405
+\lst@lostspace=\dimen385
+\lst@width=\dimen386
+\lst@newlines=\count406
+\lst@lineno=\count407
+\lst@maxwidth=\dimen387
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count408
+\lst@skipnumbers=\count409
+\lst@framebox=\box160
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+)
+\c@tcblisting=\count410
+)) (/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+))
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\%' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\#' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\&' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textunderscore' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\_' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\~' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textasciitilde' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Hy@tempa' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Hy@tempa' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\%' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\#' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\&' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textunderscore' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\_' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\~' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textasciitilde' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Hy@tempa' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Hy@tempa' on input line 128.
+
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 151.
+(/usr/share/texlive/texmf-dist/tex/latex/ccicons/ccicons.sty
+Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
+) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count411
+\csq@gtype=\count412
+\csq@glevel=\count413
+\csq@qlevel=\count414
+\csq@maxlvl=\count415
+\csq@tshold=\count416
+\csq@ltx@everypar=\toks60
+ (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+LaTeX Font Info:    Trying to load font information for OT1+Roboto-LF on input line 151.
+ (/usr/share/texlive/texmf-dist/tex/latex/roboto/OT1Roboto-LF.fd
+File: OT1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for OT1/Roboto-LF.
+)
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
+(Font)              `OT1/Roboto-LF/regular/n' on input line 151.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 151.
+ (./slides-research.aux)
+\openout1 = `slides-research.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 398.3386pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=398.3386pt
+* \textheight=227.62207pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=14.22636pt
+* \marginparwidth=3.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count417
+\scratchdimen=\dimen388
+\scratchbox=\box161
+\nofMPsegments=\count418
+\nofMParguments=\count419
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count420
+\MPscratchDim=\dimen389
+\MPnumerator=\count421
+\makeMPintoPDFobject=\count422
+\everyMPtoPDFconversion=\toks62
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package hyperref Info: Link coloring ON on input line 151.
+ (./slides-research.out) (./slides-research.out)
+\@outlinefile=\write5
+\openout5 = `slides-research.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 151.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 151.
+\symnumbers=\mathgroup11
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 151.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/Roboto-LF/m/it on input line 151.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/bx/sl --> OT1/Roboto-LF/m/it on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 151.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 151.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/Roboto-LF/m/n on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/Roboto-LF/m/n on input line 151.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/Roboto-LF/m/it on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/Roboto-LF/m/it on input line 151.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 151.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/Roboto-LF/m/n --> OT1/Roboto-LF/b/n on input line 151.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/Roboto-LF/m/it --> OT1/Roboto-LF/b/it on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/Roboto-LF/b/n --> OT1/Roboto-LF/b/n on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/Roboto-LF/m/n --> OT1/Roboto-LF/b/n on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/Roboto-LF/m/it --> OT1/Roboto-LF/b/it on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 151.
+LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 151.
+LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `normal'
+(Font)                  OT1/mathkerncmss/bx/sl --> OT1/Roboto-LF/bx/it on input line 151.
+LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/bx/sl --> OT1/Roboto-LF/bx/it on input line 151.
+ (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+Package chemgreek Info: Activating mapping `default' on line 151.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 151.
+\c@mv@tabular=\count423
+\c@mv@boldtabular=\count424
+\c@lstlisting=\count425
+ (./slides-research.nav)
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
+(Font)              `OT1/Roboto-LF/regular/n' on input line 151.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 5.0pt on input line 151.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
+(Font)              `OT1/Roboto-LF/regular/n' on input line 151.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 151.
+LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
+(Font)              scaled to size 9.0pt on input line 151.
+<graphics/logos/tub_logo.pdf, id=69, 190.0381pt x 106.00542pt>
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 151.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
+(Font)              `OT1/Roboto-LF/regular/n' on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 164.
+LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
+(Font)              scaled to size 14.4pt on input line 164.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 164.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 164.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
+(Font)              `OT1/Roboto-LF/regular/it' on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
+(Font)              `OT1/Roboto-LF/regular/it' on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 7.0pt on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
+(Font)              `OT1/Roboto-LF/regular/it' on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 5.0pt on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <10> not available
+(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
+(Font)              `OT1/Roboto-LF/bold/it' on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
+(Font)              scaled to size 10.0pt on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <7> not available
+(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
+(Font)              `OT1/Roboto-LF/bold/it' on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
+(Font)              scaled to size 7.0pt on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <5> not available
+(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
+(Font)              `OT1/Roboto-LF/bold/it' on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
+(Font)              scaled to size 5.0pt on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
+(Font)              `OT1/Roboto-LF/regular/n' on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
+(Font)              `OT1/Roboto-LF/regular/n' on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
+(Font)              `OT1/Roboto-LF/bold/n' on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 8.0pt on input line 164.
+<graphics/logos/cetp_logo.png, id=81, 3663.6875pt x 1804.7425pt>
+File: graphics/logos/cetp_logo.png Graphic file (type png)
+<use graphics/logos/cetp_logo.png>
+Package pdftex.def Info: graphics/logos/cetp_logo.png  used on input line 164.
+(pdftex.def)             Requested size: 57.7481pt x 28.45274pt.
+<graphics/logos/ensys_short_logo.pdf, id=84, 110.96574pt x 68.2866pt>
+File: graphics/logos/ensys_short_logo.pdf Graphic file (type pdf)
+<use graphics/logos/ensys_short_logo.pdf>
+Package pdftex.def Info: graphics/logos/ensys_short_logo.pdf  used on input line 164.
+(pdftex.def)             Requested size: 46.23616pt x 28.45274pt.
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 164.
+(pdftex.def)             Requested size: 51.00648pt x 28.45274pt.
+<graphics/logos/bmwe_en_logo.png, id=87, 170.6375pt x 175.65625pt>
+File: graphics/logos/bmwe_en_logo.png Graphic file (type png)
+<use graphics/logos/bmwe_en_logo.png>
+Package pdftex.def Info: graphics/logos/bmwe_en_logo.png  used on input line 164.
+(pdftex.def)             Requested size: 30.26949pt x 31.2982pt.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
+(Font)              `OT1/Roboto-LF/regular/n' on input line 164.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 4.0pt on input line 164.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_schjax.enc}
+
+ <./graphics/logos/cetp_logo.png> <./graphics/logos/ensys_short_logo.pdf> <./graphics/logos/tub_logo.pdf> <./graphics/logos/bmwe_en_logo.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 176.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/other/resilient_partners.png, id=128, 1816.7875pt x 883.3pt>
+File: graphics/other/resilient_partners.png Graphic file (type png)
+<use graphics/other/resilient_partners.png>
+Package pdftex.def Info: graphics/other/resilient_partners.png  used on input line 176.
+(pdftex.def)             Requested size: 338.59023pt x 164.60748pt.
+
+Overfull \vbox (11.87695pt too high) detected at line 176
+ []
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 176.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[2
+
+ <./graphics/other/resilient_partners.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 194.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
+(Font)              `OT1/Roboto-LF/regular/it' on input line 194.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 8.0pt on input line 194.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
+(Font)              `OT1/Roboto-LF/regular/it' on input line 194.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 6.0pt on input line 194.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <8> not available
+(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 194.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
+(Font)              `OT1/Roboto-LF/bold/it' on input line 194.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
+(Font)              scaled to size 8.0pt on input line 194.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <6> not available
+(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 194.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
+(Font)              `OT1/Roboto-LF/bold/it' on input line 194.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
+(Font)              scaled to size 6.0pt on input line 194.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
+(Font)              `OT1/Roboto-LF/regular/n' on input line 194.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 6.0pt on input line 194.
+<graphics/logos/logo-secondary-light.png, id=148, 433.33092pt x 528.87186pt>
+File: graphics/logos/logo-secondary-light.png Graphic file (type png)
+<use graphics/logos/logo-secondary-light.png>
+Package pdftex.def Info: graphics/logos/logo-secondary-light.png  used on input line 194.
+(pdftex.def)             Requested size: 99.58464pt x 121.54112pt.
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 194.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+ [3
+
+ <./graphics/logos/logo-secondary-light.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 200.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/other/resilient_project_structure.png, id=165, 262.42924pt x 146.62654pt>
+File: graphics/other/resilient_project_structure.png Graphic file (type png)
+<use graphics/other/resilient_project_structure.png>
+Package pdftex.def Info: graphics/other/resilient_project_structure.png  used on input line 200.
+(pdftex.def)             Requested size: 318.67209pt x 178.06525pt.
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 200.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+ [4
+
+ <./graphics/other/resilient_project_structure.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 280.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/other/pypsa_eur_elec.png, id=183, 571.4148pt x 412.1799pt>
+File: graphics/other/pypsa_eur_elec.png Graphic file (type png)
+<use graphics/other/pypsa_eur_elec.png>
+Package pdftex.def Info: graphics/other/pypsa_eur_elec.png  used on input line 280.
+(pdftex.def)             Requested size: 199.1693pt x 143.66763pt.
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 280.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+ [5
+
+ <./graphics/other/pypsa_eur_elec.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 302.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/osm_map.pdf, id=200, 504.08327pt x 640.20245pt>
+File: graphics/osm_map.pdf Graphic file (type pdf)
+<use graphics/osm_map.pdf>
+Package pdftex.def Info: graphics/osm_map.pdf  used on input line 302.
+(pdftex.def)             Requested size: 143.40213pt x 182.11769pt.
+
+Overfull \vbox (5.5783pt too high) detected at line 302
+ []
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 302.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[6
+
+ <./graphics/osm_map.pdf>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 311.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/tsc-weatheryears.png, id=262, 2330.7075pt x 1386.17876pt>
+File: graphics/tsc-weatheryears.png Graphic file (type png)
+<use graphics/tsc-weatheryears.png>
+Package pdftex.def Info: graphics/tsc-weatheryears.png  used on input line 311.
+(pdftex.def)             Requested size: 310.57768pt x 184.71657pt.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
+(Font)              `OT1/Roboto-LF/bold/n' on input line 311.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 14.4pt on input line 311.
+
+Overfull \vbox (3.31393pt too high) detected at line 311
+ []
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 311.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[7
+
+ <./graphics/tsc-weatheryears.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 330.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<figures/temperature_band_pie.pdf, id=280, 578.16pt x 361.35pt>
+File: figures/temperature_band_pie.pdf Graphic file (type pdf)
+<use figures/temperature_band_pie.pdf>
+Package pdftex.def Info: figures/temperature_band_pie.pdf  used on input line 330.
+(pdftex.def)             Requested size: 199.1693pt x 124.47841pt.
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 330.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+ [8
+
+ <./figures/temperature_band_pie.pdf>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 375.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
+(Font)              `OT1/Roboto-LF/bold/n' on input line 375.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 7.0pt on input line 375.
+<figures/map_adm_pcipmi.pdf, id=355, 249.69284pt x 279.87845pt>
+File: figures/map_adm_pcipmi.pdf Graphic file (type pdf)
+<use figures/map_adm_pcipmi.pdf>
+Package pdftex.def Info: figures/map_adm_pcipmi.pdf  used on input line 375.
+(pdftex.def)             Requested size: 143.40213pt x 160.74094pt.
+
+Overfull \vbox (7.73935pt too high) detected at line 375
+ []
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 375.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[9
+
+ <./figures/map_adm_pcipmi.pdf>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 395.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<figures/pci___base_s_adm___2050-balance_map_H2.pdf, id=420, 189.10602pt x 244.79378pt>
+File: figures/pci___base_s_adm___2050-balance_map_H2.pdf Graphic file (type pdf)
+<use figures/pci___base_s_adm___2050-balance_map_H2.pdf>
+Package pdftex.def Info: figures/pci___base_s_adm___2050-balance_map_H2.pdf  used on input line 395.
+(pdftex.def)             Requested size: 151.36757pt x 195.95107pt.
+<figures/pci___base_s_adm___2050-balance_map_co2_stored.pdf, id=421, 189.10602pt x 252.43794pt>
+File: figures/pci___base_s_adm___2050-balance_map_co2_stored.pdf Graphic file (type pdf)
+<use figures/pci___base_s_adm___2050-balance_map_co2_stored.pdf>
+Package pdftex.def Info: figures/pci___base_s_adm___2050-balance_map_co2_stored.pdf  used on input line 395.
+(pdftex.def)             Requested size: 151.36757pt x 202.07002pt.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
+(Font)              `OT1/Roboto-LF/regular/it' on input line 395.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 14.4pt on input line 395.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bx/it' in size <14.4> not available
+(Font)              Font shape `OT1/Roboto-LF/b/it' tried instead on input line 395.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/it' aliased to
+(Font)              `OT1/Roboto-LF/bold/it' on input line 395.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/it' will be
+(Font)              scaled to size 14.4pt on input line 395.
+
+Overfull \vbox (15.66739pt too high) detected at line 395
+ []
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 395.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[10
+
+ <./figures/pci___base_s_adm___2050-balance_map_H2.pdf> <./figures/pci___base_s_adm___2050-balance_map_co2_stored.pdf>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 421.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/gdu_comparison.pdf, id=600, 689.19757pt x 310.0176pt>
+File: graphics/gdu_comparison.pdf Graphic file (type pdf)
+<use graphics/gdu_comparison.pdf>
+Package pdftex.def Info: graphics/gdu_comparison.pdf  used on input line 421.
+(pdftex.def)             Requested size: 219.08743pt x 98.55011pt.
+<graphics/gdu_load_shedding.pdf, id=601, 867.24pt x 433.62pt>
+File: graphics/gdu_load_shedding.pdf Graphic file (type pdf)
+<use graphics/gdu_load_shedding.pdf>
+Package pdftex.def Info: graphics/gdu_load_shedding.pdf  used on input line 421.
+(pdftex.def)             Requested size: 197.17734pt x 98.58585pt.
+<graphics/Dniprohes-strike.png, id=602, 1505.625pt x 2007.5pt>
+File: graphics/Dniprohes-strike.png Graphic file (type png)
+<use graphics/Dniprohes-strike.png>
+Package pdftex.def Info: graphics/Dniprohes-strike.png  used on input line 421.
+(pdftex.def)             Requested size: 130.83669pt x 174.45697pt.
+
+Overfull \vbox (12.3734pt too high) detected at line 421
+ []
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 421.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[11
+
+ <./graphics/gdu_comparison.pdf> <./graphics/gdu_load_shedding.pdf> <./graphics/Dniprohes-strike.png (PNG copy)>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 436.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 436.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+ [12
+
+]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 456.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/other/blackstart_map.png, id=733, 993.7125pt x 1322.69156pt>
+File: graphics/other/blackstart_map.png Graphic file (type png)
+<use graphics/other/blackstart_map.png>
+Package pdftex.def Info: graphics/other/blackstart_map.png  used on input line 456.
+(pdftex.def)             Requested size: 119.50279pt x 159.05923pt.
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 456.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+ [13
+
+ <./graphics/other/blackstart_map.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 479.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input line 479.
+ (/usr/share/texlive/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
+File: TS1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for TS1/Roboto-LF.
+)
+LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' aliased to
+(Font)              `TS1/Roboto-LF/regular/n' on input line 479.
+LaTeX Font Info:    Font shape `TS1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 479.
+<graphics/other/industrial_tank.png, id=752, 1204.5pt x 800.9925pt>
+File: graphics/other/industrial_tank.png Graphic file (type png)
+<use graphics/other/industrial_tank.png>
+Package pdftex.def Info: graphics/other/industrial_tank.png  used on input line 479.
+(pdftex.def)             Requested size: 179.25114pt x 119.20258pt.
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 479.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+ [14
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc} <./graphics/other/industrial_tank.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 505.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<figures/gas_price_resilience_schematic.pdf, id=770, 722.7pt x 433.62pt>
+File: figures/gas_price_resilience_schematic.pdf Graphic file (type pdf)
+<use figures/gas_price_resilience_schematic.pdf>
+Package pdftex.def Info: figures/gas_price_resilience_schematic.pdf  used on input line 505.
+(pdftex.def)             Requested size: 258.91765pt x 155.3488pt.
+<figures/power_sector.png, id=771, 536.0025pt x 669.50125pt>
+File: figures/power_sector.png Graphic file (type png)
+<use figures/power_sector.png>
+Package pdftex.def Info: figures/power_sector.png  used on input line 505.
+(pdftex.def)             Requested size: 36.14998pt x 45.15363pt.
+<figures/heating_sector.png, id=772, 608.2725pt x 643.40375pt>
+File: figures/heating_sector.png Graphic file (type png)
+<use figures/heating_sector.png>
+Package pdftex.def Info: figures/heating_sector.png  used on input line 505.
+(pdftex.def)             Requested size: 42.68552pt x 45.15085pt.
+<figures/industry_sector.png, id=773, 612.2875pt x 584.1825pt>
+File: figures/industry_sector.png Graphic file (type png)
+<use figures/industry_sector.png>
+Package pdftex.def Info: figures/industry_sector.png  used on input line 505.
+(pdftex.def)             Requested size: 47.32098pt x 45.14888pt.
+<figures/europe.png, id=774, 520.94624pt x 605.26125pt>
+File: figures/europe.png Graphic file (type png)
+<use figures/europe.png>
+Package pdftex.def Info: figures/europe.png  used on input line 505.
+(pdftex.def)             Requested size: 38.8626pt x 45.1525pt.
+
+Overfull \vbox (15.65564pt too high) detected at line 505
+ []
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 505.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[15
+
+ <./figures/gas_price_resilience_schematic.pdf> <./figures/power_sector.png> <./figures/heating_sector.png> <./figures/industry_sector.png> <./figures/europe.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 516.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/other/neumann_hydrogen_paper.png, id=855, 2836.5975pt x 1281.78876pt>
+File: graphics/other/neumann_hydrogen_paper.png Graphic file (type png)
+<use graphics/other/neumann_hydrogen_paper.png>
+Package pdftex.def Info: graphics/other/neumann_hydrogen_paper.png  used on input line 516.
+(pdftex.def)             Requested size: 358.50229pt x 161.98346pt.
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 516.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+ [16
+
+ <./graphics/other/neumann_hydrogen_paper.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 526.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/other/carbon_networks_balance_map_carbon.png, id=874, 369.5406pt x 529.2573pt>
+File: graphics/other/carbon_networks_balance_map_carbon.png Graphic file (type png)
+<use graphics/other/carbon_networks_balance_map_carbon.png>
+Package pdftex.def Info: graphics/other/carbon_networks_balance_map_carbon.png  used on input line 526.
+(pdftex.def)             Requested size: 139.42093pt x 199.68236pt.
+<graphics/other/carbon_networks_balance_map_hydrogen.png, id=875, 369.5406pt x 530.2209pt>
+File: graphics/other/carbon_networks_balance_map_hydrogen.png Graphic file (type png)
+<use graphics/other/carbon_networks_balance_map_hydrogen.png>
+Package pdftex.def Info: graphics/other/carbon_networks_balance_map_hydrogen.png  used on input line 526.
+(pdftex.def)             Requested size: 139.42093pt x 200.04591pt.
+
+Overfull \vbox (18.64328pt too high) detected at line 526
+ []
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 526.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[17
+
+ <./graphics/other/carbon_networks_balance_map_carbon.png> <./graphics/other/carbon_networks_balance_map_hydrogen.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 535.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/other/stochastic_optimisation.png, id=894, 1622.06pt x 768.8725pt>
+File: graphics/other/stochastic_optimisation.png Graphic file (type png)
+<use graphics/other/stochastic_optimisation.png>
+Package pdftex.def Info: graphics/other/stochastic_optimisation.png  used on input line 535.
+(pdftex.def)             Requested size: 258.91765pt x 122.7288pt.
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 535.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+ [18
+
+ <./graphics/other/stochastic_optimisation.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 547.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
+(Font)              `OT1/Roboto-LF/bold/n' on input line 547.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 10.0pt on input line 547.
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 547.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+ [19
+
+]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 572.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/other/multisector_diagram.pdf, id=931, 259.66342pt x 240.12856pt>
+File: graphics/other/multisector_diagram.pdf Graphic file (type pdf)
+<use graphics/other/multisector_diagram.pdf>
+Package pdftex.def Info: graphics/other/multisector_diagram.pdf  used on input line 572.
+(pdftex.def)             Requested size: 199.1693pt x 184.18872pt.
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 572.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+ [20
+
+ <./graphics/other/multisector_diagram.pdf>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 596.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<figures/exogenous_demand.pdf, id=967, 273.12038pt x 290.67657pt>
+File: figures/exogenous_demand.pdf Graphic file (type pdf)
+<use figures/exogenous_demand.pdf>
+Package pdftex.def Info: figures/exogenous_demand.pdf  used on input line 596.
+(pdftex.def)             Requested size: 191.20082pt x 203.49883pt.
+
+Overfull \vbox (17.09619pt too high) detected at line 596
+ []
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 596.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[21
+
+ <./figures/exogenous_demand.pdf>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 618.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/other/hydrogen_balance.pdf, id=1089, 925.3471pt x 568.88536pt>
+File: graphics/other/hydrogen_balance.pdf Graphic file (type pdf)
+<use graphics/other/hydrogen_balance.pdf>
+Package pdftex.def Info: graphics/other/hydrogen_balance.pdf  used on input line 618.
+(pdftex.def)             Requested size: 478.00508pt x 99.85446pt.
+
+Overfull \hbox (79.66649pt too wide) in paragraph at lines 618--618
+[][]  
+ []
+
+
+Overfull \vbox (2.70212pt too high) detected at line 618
+ []
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 618.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[22
+
+ <./graphics/other/hydrogen_balance.pdf>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 637.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+<graphics/other/carbon_networks_cost_bar.png, id=1162, 297.2706pt x 297.2706pt>
+File: graphics/other/carbon_networks_cost_bar.png Graphic file (type png)
+<use graphics/other/carbon_networks_cost_bar.png>
+Package pdftex.def Info: graphics/other/carbon_networks_cost_bar.png  used on input line 637.
+(pdftex.def)             Requested size: 149.82788pt x 149.8258pt.
+<graphics/other/carbon_networks_balance_bar_carbon.png, id=1163, 297.2706pt x 261.1356pt>
+File: graphics/other/carbon_networks_balance_bar_carbon.png Graphic file (type png)
+<use graphics/other/carbon_networks_balance_bar_carbon.png>
+Package pdftex.def Info: graphics/other/carbon_networks_balance_bar_carbon.png  used on input line 637.
+(pdftex.def)             Requested size: 165.88979pt x 145.72322pt.
+
+Overfull \vbox (8.49217pt too high) detected at line 637
+ []
+
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 637.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+[23
+
+ <./graphics/other/carbon_networks_cost_bar.png> <./graphics/other/carbon_networks_balance_bar_carbon.png>]
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 643.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+
+
+pdfTeX warning: pdflatex (file ./graphics/methanol_routes.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graphics/methanol_routes.pdf, id=1182, 455.2441pt x 227.62204pt>
+File: graphics/methanol_routes.pdf Graphic file (type pdf)
+<use graphics/methanol_routes.pdf>
+Package pdftex.def Info: graphics/methanol_routes.pdf  used on input line 643.
+(pdftex.def)             Requested size: 318.67209pt x 159.34128pt.
+File: graphics/logos/tub_logo.pdf Graphic file (type pdf)
+<use graphics/logos/tub_logo.pdf>
+Package pdftex.def Info: graphics/logos/tub_logo.pdf  used on input line 643.
+(pdftex.def)             Requested size: 40.80519pt x 22.76228pt.
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
+) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def
+File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
+) [24
+
+ <./graphics/methanol_routes.pdf>]
+\tf@nav=\write6
+\openout6 = `slides-research.nav'.
+
+\tf@toc=\write7
+\openout7 = `slides-research.toc'.
+
+\tf@snm=\write8
+\openout8 = `slides-research.snm'.
+
+ (./slides-research.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+Package rerunfilecheck Info: File `slides-research.out' has not changed.
+(rerunfilecheck)             Checksum: 988A7F9586EE6CF9E5ACB306D3B2FFE3;592.
+ ) 
+Here is how much of TeX's memory you used:
+ 42584 strings out of 474222
+ 925686 string characters out of 5748734
+ 1941975 words of memory out of 5000000
+ 63980 multiletter control sequences out of 15000+600000
+ 602524 words of font info for 115 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,14n,123p,917b,1085s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
+Output written on slides-research.pdf (24 pages, 24676155 bytes).
+PDF statistics:
+ 1268 PDF objects out of 1440 (max. 8388607)
+ 451 compressed objects within 5 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 437 words of extra memory for PDF output out of 10000 (max. 10000000)
+
