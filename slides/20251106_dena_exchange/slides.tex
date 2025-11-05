@@ -122,24 +122,18 @@
 %\bibliography{references.bib}
 
 % TITLE PAGE
-\title{
-  \textbf{Exchange: dena // RESILIENT} \\
-}
+\title{RESILIENT -- Resilient Energy System Infrastructure Layouts for Industry, E-Fuels and Network Transitions}
 \vspace*{-.5cm}
 
-% \author{STRIse}
+\author{\url{https://resilient-project.github.io/}}
+
 \institute[Technische Universität Berlin] % (optional, but mostly needed)
-{ 
-  \normalsize
-  \alert{Project overview} \\ 
+{
   \footnotesize
-  \url{https://resilient-project.github.io/} \\
-  Digital Transformation in Energy Systems \\
+  \textbf{Iegor Riepin, Bobby Xiong, Lukas Franken}\\
+  % Department of Digital Transformation in Energy Systems \\
   Technische Universität Berlin \\
-
-  \vspace{0.3cm}
-
-  06. November 2025
+  \alert{Collegial exchange with dena} --- 06 November 2025
 }
 
 \date{}
@@ -285,25 +279,57 @@
   \source{\url{https://pypsa-eur.readthedocs.io}}
 \end{frame}
 
-\begin{frame}{PyPSA v1.0: Stochastic and risk-averse optimisation}
-  \centering
+\begin{frame}{Electricity high-voltage grid based on OpenStreetMap (OSM)}
+
+  \begin{columns}
+    \begin{column}{0.64\textwidth}
+      \footnotesize
+      \begin{itemize}
+        \setlength\itemsep{.8em}
+        \item Dataset contains a topologically connected representation of the European high-voltage grid (220 kV to 750 kV) constructed using OpenStreetMap data
+        \item Heuristic cleaning process was used to for lines and links where electrical parameters are incomplete, missing, or ambiguous
+        \item Close substations within a radius of 500 m are aggregated to single buses
+        \item Unique transformers are added for each voltage pair in a substation
+        \item AC lines mapped using pandapower's standard line type library. In default version, nominal capacity is set to 70 \% of the technical capacity to account for n-1 security approximation
+        \item Includes all 38 European HVDC connections with their nominal rating that are commissioned as of 2024
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.36\textwidth}
+      \includegraphics[width=1\textwidth]{osm_map}
+    \end{column}
+  \end{columns}
+  \source{Xiong, Fioriti, Neumann, Riepin, Brown (2025):\\\url{https://www.nature.com/articles/s41597-025-04550-7}}
+\end{frame} 
+
+
+\begin{frame}{System cost variations for different underlying \textbf{weather years}}
+
+  \source{G{\o}tske, Andresen, Neumann, Victoria, 2024; \url{https://www.nature.com/articles/s41467-024-54853-3} }
+  
+  \includegraphics[height=0.9\textheight]{graphics/tsc-weatheryears.png}
+
+\end{frame}
+
+\begin{frame}{Extending PyPSA-Eur: Representing industrial heating by temperature band}
   \footnotesize
-  \alert{Two-stage stochastic optimisation} (first investments, then uncertainty on e.g. gas price or hydrogen volume) allows for \alert{Conditional Value-at-Risk (CVaR)} formulation of risk aversion. \\
-  \vspace{0.5cm}
-  \includegraphics[width=0.65\textwidth]{other/stochastic_optimisation}
-  \source{\url{https://docs.pypsa.org/latest/user-guide/v1-guide/?h=stochastic}}
+
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \footnotesize
+      \begin{itemize}
+        \item PyPSA-Eur represents \alert{industrial decarbonisation} by allowing a shift to alternative, low-carbon production pathways.
+        \item In its current form, the model does not track the \alert{end-use of inputs}; in particular, it does not distinguish between heat use and feedstock use.
+        \item The ongoing work introduces this distinction by tracking feedstock and temperature-specific heat uses, enabling the model to \alert{endogenously} simulate cost-optimal decarbonisation pathways.
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \includegraphics[width=1\textwidth]{temperature_band_pie}
+    \end{column}
+  \end{columns}
+
 \end{frame}
 
 \section{Excerpt of recent studies}
-
-\begin{frame}{Transport H$_2$ to CO$_2$ or CO$_2$ to H$_2$ locations?}
-  
-  \centering
-  \includegraphics[width=0.35\textwidth]{other/carbon_networks_balance_map_carbon}
-  \includegraphics[width=0.35\textwidth]{other/carbon_networks_balance_map_hydrogen}
-
-  \source{Hofmann, Tries, Neumann, Zeyen, Brown (2025): \\\url{https://www.nature.com/articles/s41560-025-01752-6}}
-\end{frame}
 
 \begin{frame}{Motivation: PCI-PMI projects}
   \scriptsize
@@ -368,6 +394,35 @@
   \source{Preprint Xiong, Brown, Riepin (2025):\\\url{https://doi.org/10.48550/arXiv.2507.01860}}
 \end{frame}
 
+
+\begin{frame}{Mitigating Ukraine's Looming Electricity Crisis}
+
+  \vspace*{-1ex}
+
+  \begin{columns}[T,onlytextwidth]
+
+    \begin{column}{0.55\textwidth}
+      \begin{minipage}[t][0.425\textheight][t]{\linewidth}
+        \includegraphics[width=\linewidth,keepaspectratio]{gdu_comparison.pdf}
+      \end{minipage}
+      \vfill
+      \begin{minipage}[t][0.425\textheight][t]{\linewidth}
+        \includegraphics[width=0.9\linewidth,keepaspectratio]{gdu_load_shedding.pdf}
+      \end{minipage}
+    \end{column}
+
+    \begin{column}{0.44\textwidth}
+      \includegraphics[height=0.85\textheight]{Dniprohes-strike.png}
+    \end{column}
+  \end{columns}
+
+  \source{Photo by Reuters (credit: Denys Shmyhal); graphs from \url{https://ssrn.com/abstract=4930511}}
+
+\end{frame}
+
+
+\section{Research outlook}
+
 \begin{frame}{Idea: Electrification plus minimal methanol economy}
   \footnotesize
   \begin{itemize}
@@ -379,15 +434,6 @@
       \item (E-)biomethanol can absorb sustainable carbon from \alert{decentralised biomass and waste sources}, and can then be used directly in industry or for dense fuels (carbon management).
     \end{itemize}
 \end{frame}
-
-\begin{frame}{Methanol as platform for had-to-electrify}
-  \centering
-  \includegraphics[width=0.8\textwidth]{methanol_routes}
-  \source{Preprint Glaum, Neumann, Millinger, Brown (2025):\\\url{https://doi.org/10.48550/arXiv.2505.09277}}
-\end{frame}
-
-\section{Research outlook}
-
 
 \begin{frame}{Resilience: Network restoration after a blackout}
   \footnotesize
@@ -432,6 +478,7 @@
   \source{\url{https://www.netztransparenz.de/de-de/Systemdienstleistungen/Versorgungswiederaufbau}}
 \end{frame}
 
+% topic 2
 \begin{frame}{Upcoming: Resilience against gas shocks through EU electrification}
   \footnotesize
   \vspace{0.5cm}
@@ -457,45 +504,47 @@
 
 \end{frame}
 
-\begin{frame}{Extending PyPSA-Eur: Representing industrial heating by temperature band}
-  \footnotesize
-
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
-      \footnotesize
-      \begin{itemize}
-        \item PyPSA-Eur represents \alert{industrial decarbonisation} by allowing a shift to alternative, low-carbon production pathways.
-        \item In its current form, the model does not track the \alert{end-use of inputs}; in particular, it does not distinguish between heat use and feedstock use.
-        \item The ongoing work introduces this distinction by tracking feedstock and temperature-specific heat uses, enabling the model to \alert{endogenously} simulate cost-optimal decarbonisation pathways.
-      \end{itemize}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      \includegraphics[width=1\textwidth]{temperature_band_pie}
-    \end{column}
-  \end{columns}
-
-\end{frame}
-
-\begin{frame}
-  \setbeamercolor{background canvas}{bg=red}
+% topic 3
+\begin{frame}{Electricity vs. hydrogen network expansion}
   \centering
-  \fcolorbox{white}{tub-red}{\parbox[c][0.9\textheight][c]{\textwidth}{%
-      \centering \color{white}\Large{\textbf{Thank you.}} \\ 
-      \scriptsize
-      \vspace{0.5cm}
-      \textbf{RESILIENT} \\
-      \textit{Resilient Energy System Infrastructure Layouts for Industry, E-Fuels and Network Transitions} \\
-      \href{https://resilient-project.github.io}{\textcolor{white}{$\hookrightarrow$ resilient-project.github.io}} \\
-      \href{https://github.com/pypsa/pypsa-eur}{\textcolor{white}{$\hookrightarrow$ github.com/pypsa/pypsa-eur}} \\
-      \href{https://github.com/resilient-project/pypsa-eur-resilient}{\textcolor{white}{$\hookrightarrow$ github.com/resilient-project/pypsa-eur-resilient}} \\
-      \vspace{0.5cm}
-      Department of\\\textbf{Digital Transformation in Energy Systems (ENSYS)} \\
-      \vspace{0.5cm}
-      \textbf{Project coordination: Dr. Iegor Riepin}\\
-      \href{mailto:iegor.riepin@tu-berlin.de}{\textcolor{white}{$\hookrightarrow$ iegor.riepin@tu-berlin.de}} \\
-  }}
+  \includegraphics[width=0.9\textwidth]{other/neumann_hydrogen_paper}
+  \\
+  \footnotesize
+  $\rightarrow$ Hydrogen grid \alert{reduces system costs}, but \alert{electricity grid expansion is more attractive.} \\
+
+  \source{Neumann, Zeyen, Victoria, Brown:\\\url{https://doi.org/10.1016/j.joule.2023.06.016}}
 \end{frame}
 
+
+\begin{frame}{Transport H$_2$ to CO$_2$ or CO$_2$ to H$_2$ locations?}
+  
+  \centering
+  \includegraphics[width=0.35\textwidth]{other/carbon_networks_balance_map_carbon}
+  \includegraphics[width=0.35\textwidth]{other/carbon_networks_balance_map_hydrogen}
+
+  \source{Hofmann, Tries, Neumann, Zeyen, Brown (2025): \\\url{https://www.nature.com/articles/s41560-025-01752-6}}
+\end{frame}
+
+\begin{frame}{PyPSA v1.0: Stochastic and risk-averse optimisation}
+  \centering
+  \footnotesize
+  \alert{Two-stage stochastic optimisation} (first investments, then uncertainty on e.g. gas price or hydrogen volume) allows for \alert{Conditional Value-at-Risk (CVaR)} formulation of risk aversion. \\
+  \vspace{0.5cm}
+  \includegraphics[width=0.65\textwidth]{other/stochastic_optimisation}
+  \source{\url{https://docs.pypsa.org/latest/user-guide/v1-guide/?h=stochastic}}
+\end{frame}
+
+
+\begin{frame}{RESILIENT -- Resilient Energy System Infrastructure Layouts for Industry, E-Fuels and Network Transitions}
+
+  \textbf{Iegor Riepin, Bobby Xiong, Lukas Franken, Tom Brown}\\
+  Technische Universität Berlin, Germany \\
+  \vspace{0.5cm}
+  \alert{Project coordination}: iegor.riepin@tu-berlin.de \\
+  \alert{About project}: \url{https://resilient-project.github.io/} \\
+  \alert{About PyPSA ecosystem}: \url{https://pypsa.org/} \\
+
+\end{frame}
 
 % Appendix
 \section{Appendix}
@@ -546,17 +595,6 @@
   \source{Preprint Xiong, Brown, Riepin (2025):\\\url{https://doi.org/10.48550/arXiv.2507.01860}}
 \end{frame}
 
-\begin{frame}{Electricity vs. hydrogen network expansion}
-  \centering
-  \includegraphics[width=0.9\textwidth]{other/neumann_hydrogen_paper}
-  \\
-  \footnotesize
-  $\rightarrow$ Hydrogen grid \alert{reduces system costs}, but \alert{electricity grid expansion is more attractive.} \\
-
-  \source{Neumann, Zeyen, Victoria, Brown:\\\url{https://doi.org/10.1016/j.joule.2023.06.016}}
-\end{frame}
-
-
 \begin{frame}{Why H$_2$? Most H$_2$ is used for derivative fuels and chemicals}
   
   \includegraphics[width=1.2\textwidth, trim=0cm 6.6cm 0cm 6.6cm, clip]{other/hydrogen_balance.pdf}
@@ -596,32 +634,12 @@
   \end{center}
 
   \source{Hofmann, Tries, Neumann, Zeyen, Brown (2024): \\\url{https://www.nature.com/articles/s41560-025-01752-6}}
-
 \end{frame}
 
-
-\begin{frame}{Electricity high-voltage grid based on OpenStreetMap (OSM)}
-
-  \begin{columns}
-    \begin{column}{0.64\textwidth}
-      \footnotesize
-      \begin{itemize}
-        \setlength\itemsep{.8em}
-        \item Dataset contains a topologically connected representation of the European high-voltage grid (220 kV to 750 kV) constructed using OpenStreetMap data
-        \item Heuristic cleaning process was used to for lines and links where electrical parameters are incomplete, missing, or ambiguous
-        \item Close substations within a radius of 500 m are aggregated to single buses
-        \item Unique transformers are added for each voltage pair in a substation
-        \item AC lines mapped using pandapower's standard line type library. In default version, nominal capacity is set to 70 \% of the technical capacity to account for n-1 security approximation
-        \item Includes all 38 European HVDC connections with their nominal rating that are commissioned as of 2024
-      \end{itemize}
-    \end{column}
-    \begin{column}{0.36\textwidth}
-      \includegraphics[width=1\textwidth]{osm_map}
-    \end{column}
-  \end{columns}
-  \source{Xiong, Fioriti, Neumann, Riepin, Brown (2025):\\\url{https://www.nature.com/articles/s41597-025-04550-7}}
-  
-  
+\begin{frame}{Methanol as platform for had-to-electrify}
+  \centering
+  \includegraphics[width=0.8\textwidth]{methanol_routes}
+  \source{Preprint Glaum, Neumann, Millinger, Brown (2025):\\\url{https://doi.org/10.48550/arXiv.2505.09277}}
 \end{frame}
 
 \end{document}
