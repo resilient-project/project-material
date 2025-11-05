@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1762357750.85519 "/home/iegor/ensys/project-material/slides/20251106_dena_exchange/slides-research.tex" "slides-research.pdf" "slides-research" 1762357758.78556 0
+["pdflatex"] 1762376553.99195 "/home/iegor/ensys/project-material/slides/20251106_dena_exchange/slides-research.tex" "slides-research.pdf" "slides-research" 1762376561.82259 0
   "/etc/texmf/web2c/texmf.cnf" 1725612317.63484 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/iegor/ensys/project-material/slides/20251106_dena_exchange/slides-research.tex" 1762356694.72217 24791 95de381de249dca3295fc0d358ad8979 ""
+  "/home/iegor/ensys/project-material/slides/20251106_dena_exchange/slides-research.tex" 1762376541.25309 24793 66e49845d20eae339193889283898346 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc" 1576101225 3314 42351250ac95a91f488e14b5633f75ce ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_schjax.enc" 1576101225 2974 729e60f1953f7d28deb744dead16208c ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -359,10 +359,10 @@
   "graphics/other/resilient_project_structure.png" 1762346341.79467 622203 e1c8d19f3392b19b974ee317c893dc94 ""
   "graphics/other/stochastic_optimisation.png" 1762346341.79819 266445 1249b1428edaef2e58a2b8d46a67d2da ""
   "graphics/tsc-weatheryears.png" 1762356229.51134 431414 1cbbf289ccefd621e03bf615cfe401ef ""
-  "slides-research.aux" 1762357758.59592 4981 655fd78db1124499bcf6b2690f887f00 "pdflatex"
-  "slides-research.nav" 1762357758.59702 3212 58ffb591c57808dc72a40da44a6b6370 "pdflatex"
-  "slides-research.out" 1762357758.59592 592 988a7f9586ee6cf9e5acb306d3b2ffe3 "pdflatex"
-  "slides-research.tex" 1762356694.72217 24791 95de381de249dca3295fc0d358ad8979 ""
+  "slides-research.aux" 1762376561.61486 4981 089e3577ccb940400e5539c94d39630a "pdflatex"
+  "slides-research.nav" 1762376561.61631 3212 f86f870664e98bdb2963a65c8c4a68ce "pdflatex"
+  "slides-research.out" 1762376561.61486 592 988a7f9586ee6cf9e5acb306d3b2ffe3 "pdflatex"
+  "slides-research.tex" 1762376541.25309 24793 66e49845d20eae339193889283898346 ""
   (generated)
   "slides-research.aux"
   "slides-research.log"
