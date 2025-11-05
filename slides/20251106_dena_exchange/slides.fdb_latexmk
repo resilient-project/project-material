@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1762294051.37539 "/home/lukas/Desktop/res/dena/project-material/slides/20251106_dena_exchange/slides.tex" "slides.pdf" "slides" 1762294058.71246 0
+["pdflatex"] 1762349885.74208 "/home/lukas/Desktop/res/dena/project-material/slides/20251106_dena_exchange/slides.tex" "slides.pdf" "slides" 1762349893.11132 0
   "/etc/texmf/web2c/texmf.cnf" 1762289470.44883 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lukas/Desktop/res/dena/project-material/slides/20251106_dena_exchange/slides.tex" 1762294051.11166 24307 de08d91d0efa69f543ea813fb7bf938a ""
+  "/home/lukas/Desktop/res/dena/project-material/slides/20251106_dena_exchange/slides.tex" 1762349880.06646 24259 e2979848610584722dadd92ff66e161d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc" 1576101225 2976 14f3c84565dd1bc57c13b9dc0aaeea06 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc" 1576101225 3314 42351250ac95a91f488e14b5633f75ce ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_schjax.enc" 1576101225 2974 729e60f1953f7d28deb744dead16208c ""
@@ -357,10 +357,10 @@
   "graphics/other/resilient_partners.png" 1762285264.45145 322267 06b6eb0a75c1600ca05bbd253a8436a1 ""
   "graphics/other/resilient_project_structure.png" 1762285264.45345 622203 e1c8d19f3392b19b974ee317c893dc94 ""
   "graphics/other/stochastic_optimisation.png" 1762285264.45645 266445 1249b1428edaef2e58a2b8d46a67d2da ""
-  "slides.aux" 1762294058.5313 4725 b32c670b9585148865c282a70fc821fb "pdflatex"
-  "slides.nav" 1762294058.53322 3028 b2ecdcb4da8c70a936dd76178e807f88 "pdflatex"
-  "slides.out" 1762294058.53248 592 988a7f9586ee6cf9e5acb306d3b2ffe3 "pdflatex"
-  "slides.tex" 1762294051.11166 24307 de08d91d0efa69f543ea813fb7bf938a ""
+  "slides.aux" 1762349892.9433 4725 b32c670b9585148865c282a70fc821fb "pdflatex"
+  "slides.nav" 1762349892.94515 3028 b2ecdcb4da8c70a936dd76178e807f88 "pdflatex"
+  "slides.out" 1762349892.94436 592 988a7f9586ee6cf9e5acb306d3b2ffe3 "pdflatex"
+  "slides.tex" 1762349880.06646 24259 e2979848610584722dadd92ff66e161d ""
   (generated)
   "slides.aux"
   "slides.log"

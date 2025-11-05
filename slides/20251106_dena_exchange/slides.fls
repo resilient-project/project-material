@@ -764,8 +764,6 @@ INPUT ./figures/power_sector.png
 INPUT ./figures/power_sector.png
 INPUT ./figures/power_sector.png
 INPUT ./figures/power_sector.png
-INPUT ./figures/power_sector.png
-INPUT ./figures/heating_sector.png
 INPUT ./figures/heating_sector.png
 INPUT ./figures/heating_sector.png
 INPUT ./figures/heating_sector.png
@@ -774,8 +772,6 @@ INPUT ./figures/industry_sector.png
 INPUT ./figures/industry_sector.png
 INPUT ./figures/industry_sector.png
 INPUT ./figures/industry_sector.png
-INPUT ./figures/industry_sector.png
-INPUT ./figures/europe.png
 INPUT ./figures/europe.png
 INPUT ./figures/europe.png
 INPUT ./figures/europe.png
