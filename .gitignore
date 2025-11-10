@@ -1,0 +1,49 @@
+# LaTeX/PDF auxiliary files
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.nav
+*.snm
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.spl
+*.ist
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.brf
+*.run.xml
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Python (if any scripts are added)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.env

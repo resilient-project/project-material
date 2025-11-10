@@ -1,0 +1,48 @@
+# latexindent configuration for formatting LaTeX files
+# https://latexindentpl.readthedocs.io/
+
+# Indentation settings
+defaultIndent: "  "  # Use 2 spaces for indentation
+
+# Environments
+indentPreamble: 1
+indentAfterItems: 1
+indentAfterHeadings:
+    part: 0
+    chapter: 0
+    section: 0
+    subsection: 0
+    subsubsection: 0
+
+# Items and lists
+itemNames:
+  - item
+  - bibitem
+
+# Special environments
+noAdditionalIndent:
+  - document
+  - frame
+  - tikzpicture
+  - center
+  - columns
+  - column
+
+# Trailing comments
+lookForAlignDelims:
+  tabular: 1
+  tabularx: 1
+  longtable: 1
+  array: 1
+
+# Remove trailing whitespace
+removeTrailingWhitespace:
+  beforeProcessing: 0
+  afterProcessing: 1
+
+# Line breaks
+modifyLineBreaks:
+  preserveBlankLines: 1
+  condenseMultipleBlankLinesInto: 1
+  oneSentencePerLine:
+    manipulateSentences: 0

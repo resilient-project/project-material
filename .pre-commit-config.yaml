@@ -1,0 +1,34 @@
+repos:
+  # LaTeX formatting and linting
+  - repo: https://github.com/cmhughes/latexindent.pl
+    rev: V3.24.4
+    hooks:
+      - id: latexindent
+        name: Format LaTeX files
+        files: \.tex$
+        args: ['-s', '-w', '-m']
+
+  # Clean up trailing whitespace
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+        files: \.tex$
+      - id: end-of-file-fixer
+        files: \.tex$
+      - id: mixed-line-ending
+        files: \.tex$
+        args: ['--fix=lf']
+      - id: check-added-large-files
+        args: ['--maxkb=5000']
+      - id: check-merge-conflict
+
+  # LaTeX auxiliary files cleanup
+  - repo: local
+    hooks:
+      - id: clean-latex-aux
+        name: Clean LaTeX auxiliary files
+        entry: bash -c 'find . -type f \( -name "*.aux" -o -name "*.log" -o -name "*.fls" -o -name "*.fdb_latexmk" -o -name "*.synctex.gz" -o -name "*.nav" -o -name "*.snm" -o -name "*.out" -o -name "*.toc" \) -delete'
+        language: system
+        pass_filenames: false
+        always_run: true
