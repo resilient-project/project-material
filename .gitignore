@@ -39,6 +39,14 @@
 *.synctex.gz(busy)
 *.pdfsync
 
+# latexindent backup files
+*.bak0
+*.bak1
+*.bak2
+*.bak3
+*.bak4
+*.bak5
+
 # Python (if any scripts are added)
 __pycache__/
 *.py[cod]
