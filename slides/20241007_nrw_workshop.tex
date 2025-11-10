@@ -1,0 +1,291 @@
+\documentclass[10pt,aspectratio=169,dvipsnames]{beamer}
+\usetheme[]{Berlin}
+
+\setbeamertemplate{footline}{
+  \usebeamercolor[fg]{framesource}%
+  \usebeamerfont{page number in head}%
+  \hspace{0.2cm}
+  \small \insertframenumber
+  \vspace{0.2cm}
+  \doclicenseIcon
+  \hfill
+  \includegraphics[height=0.8cm]{logo-secondary-light.png}
+  \hspace{0.2cm}
+}
+
+\setbeamercovered{invisible}
+
+\setbeamertemplate{footline}[
+ myframe number]
+
+% PACKAGES
+\usepackage[absolute,overlay]{textpos}
+\usepackage[utf8]{inputenc}
+\usepackage[official]{eurosym}
+\usepackage{booktabs}
+\usepackage{parskip}
+\usepackage{bm}
+\usepackage{tikz}
+\usepackage{adjustbox}
+
+\usepackage[
+    type={CC},
+    modifier={by},
+    version={4.0},
+]{doclicense}
+
+% HYPERREFERENCES
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	citecolor=tub-blue,
+	linkcolor=tub-blue,
+	urlcolor=tub-blue
+}
+
+% GRAPHICS	
+\graphicspath{
+    {graphics/},
+    {graphics/logos/},
+  }
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png,.jpg}
+
+% FORMATTING
+\setlength{\parskip}{6pt}
+\linespread{1.1}
+\newcommand{\seprule}{\par\noindent\textcolor{black!25}{\rule{\textwidth}{0.4pt}}}
+
+% SOURCES
+\setbeamercolor{framesource}{fg=gray}
+\setbeamerfont{framesource}{size=\tiny}
+\newcommand{\source}[1]{\begin{textblock*}{5cm}(8.6cm,8.25cm)
+    \begin{beamercolorbox}[ht=0.5cm,right]{framesource}
+        \usebeamerfont{framesource}\usebeamercolor[fg]{framesource} Source: {#1}
+    \end{beamercolorbox}
+\end{textblock*}}
+
+% REFERENCES
+% \usepackage[style=nature, doi=true, maxcitenames=3]{biblatex}
+% \bibliography{bibliography}
+% \renewcommand*{\bibfont}{\footnotesize}
+
+% COLOR TEXT
+\newcommand{\bl}[1]{\textcolor{tub-blue}{#1}}
+\newcommand{\gr}[1]{\textcolor{tub-green}{#1}}
+\newcommand{\rd}[1]{\textcolor{tub-red}{#1}}
+\newcommand{\yl}[1]{\textcolor{tub-yellow}{#1}}
+\newcommand{\grey}[1]{\textcolor{gray}{#1}}
+% \newcommand{\org}[1]{\textcolor{tub-orange}{#1}}
+\newcommand{\cb}[1]{\colorbox{gray!20}{#1}}
+
+\usepackage{array}% https://ctan.org/pkg/array
+\makeatletter
+\g@addto@macro{\endtabular}{\rowfont{}}% Clear row font
+\makeatother
+\newcommand{\rowfonttype}{}% Current row font
+\newcommand{\rowfont}[1]{% Set current row font
+   \gdef\rowfonttype{#1}#1%
+}
+\newcolumntype{L}{>{\rowfonttype}l}
+\newcolumntype{R}{>{\rowfonttype}r}
+
+\usepackage[normalem]{ulem}
+\usepackage{multicol}
+
+
+% FONT
+\usepackage{roboto}
+
+% REFERENCES
+%\usepackage[backend=biber,style=authoryear-comp]{biblatex}
+%\bibliography{references.bib}
+
+% TITLE PAGE
+\title{RESILIENT -- Resilient Energy System Infrastructure Layouts for Industry, E-Fuels and Network
+Transitions}
+\author{\url{https://resilient-project.github.io/}}
+
+\institute[Technische Universität Berlin] % (optional, but mostly needed)
+{
+  \footnotesize
+  Prof Dr. Tom Brown, \href{mailto:t.brown@tu-berlin.de}{t.brown@tu-berlin.de} \\
+  Department of Digital Transformation in Energy Systems \\
+  Technical University of Berlin, Germany \\~\\
+  \alert{RESILIENT NRW Workshop}
+}
+
+\date{\today}
+
+\subject{RESILIENT}
+
+\titlegraphic{%
+\vspace{-2.2cm}
+\hspace{0.7cm}\includegraphics[height=1.7cm,clip=true]{logo-secondary-light.png}
+\hspace{0.7cm}\includegraphics[trim=0 0cm 0 0cm,height=1.2cm,clip=true]{tub_logo.pdf}
+\hspace{0.7cm}\includegraphics[height=1.2cm,clip=true]{cetp_logo.png}
+\hspace{0.7cm}\includegraphics[height=3cm,clip=true]{BMWE_Logo_mit_Förderzusatz_en.png}
+}
+
+\begin{document}
+
+\addtocounter{framenumber}{-1}
+{
+  \setbeamertemplate{footline}{
+    \usebeamercolor[fg]{framesource}%
+    \usebeamerfont{page number in head}%
+    \begin{center}
+      \Large
+      \doclicenseIcon
+      \vspace{0.4cm}
+    \end{center}
+  } 
+  \maketitle
+}
+
+\begin{frame}{RESILIENT-Projektübersicht}
+  \begin{itemize}
+  \item \alert{Problemdiagnose}: Welt befindet sich in einer Phase der \alert{Unsicherheit} und des \alert{Wandels}
+    (Geopolitik, Energiewende, Klimawandel); Szenarien mit einzelnen deterministischen
+    Lösungen nicht mehr bedarfsgerecht
+  \item \alert{Projektziel}: Entwicklung und Demonstration von Werkzeugen für eine resiliente Planung der Energiewende für Industrie, E-fuels und Netze
+  \item Baut auf dem schon etablierten, quelloffenen und weltweit genutzten Multi-Vektor-Energiesystemmodell \alert{Python for Power System
+    Analysis (PyPSA)}
+  \item \alert{Methodischer Schwerpunkt}: Optimierung unter Unsicherheit (stochastisch und robust),
+    Dekompositionsmethoden und Heuristiken für Resilienz
+  \item \alert{Fallstudien}: \alert{Industriewende in NRW}, Netzplanung in BW, E-Fuels in
+    Skandinavien, Klimaextremereignisse in Frankreich
+  \item Gefördert durch Clean Energy Transition (CET) Partnerschaft (EU-Kofinanzierung)
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}{PyPSA-Eur: CO$_2$ and H$_2$ networks for self-sufficient net-zero Europe}
+
+  \centering
+  \includegraphics[height=\textheight]{carbon_networks_balance_map_hydrogen.png}
+
+  \source{Hofmann, Tries, Neumann, Zeyen, Brown, 2024; \url{https://arxiv.org/abs/2402.19042}}
+
+\end{frame}
+
+
+\begin{frame}{Optimierung unter Unsicherheiten}
+
+  \begin{columns}[T] % align columns
+    \begin{column}{.5\textwidth}
+      \begin{itemize}
+        \item Unsicherheiten im Energiesystem erfordern Strategien, die in \alert{vielen Szenarien robust} sind
+        \item Welche Investitionen in 2025-2030 erlauben die Erreichung von Klimazielen in allen Szenarien?
+        \item Z.B. unter Verzögerungen beim Netzausbau, Knappheit von Wasserstoff, geopolitische Disruptionen
+        \item Welche Maßnahmen \alert{schaffen Optionen} für künftiges Reagieren?
+      \end{itemize}
+    \end{column}
+    \begin{column}{.5\textwidth}
+
+      \includegraphics[width=\textwidth]{stochastic_optimisation.png}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+
+\begin{frame}{Partners}
+  \centering
+  \includegraphics[width=0.9\textwidth]{resilient_partners.png}
+\end{frame}
+
+\begin{frame}{Work Plan}
+  \centering
+  \includegraphics[width=0.8\textwidth]{resilient_project_structure.png}
+\end{frame}
+
+\begin{frame}{Selection of Planned Model Developments}
+  \begin{columns}[T] % align columns
+    \begin{column}{.5\textwidth}
+        \begin{minipage}[t][.45\textheight]{\linewidth}
+            \begin{alertblock}{Computational Methods for Uncertainties}
+                \begin{itemize}
+                  \item decomposition techniques
+                  \item large-scale stochastic optimisation
+                  \item test robustness of system
+                  \item using SMS++ framework
+                \end{itemize}
+            \end{alertblock}
+        \end{minipage}
+        
+        \vspace{0.03\textheight} % separation between the boxes
+        
+        \begin{minipage}[t][.45\textheight]{\linewidth}
+            \begin{alertblock}{Industry Transformation (FORECAST)}
+              \begin{itemize}
+                \item fuel and process switching
+                \item industry relocation
+                \item carbon sources and feedstocks
+                \item data on stock \& investment cycles
+                \item new technologies (oxyfuel cement, etc.)
+              \end{itemize}
+            \end{alertblock}
+        \end{minipage}
+    \end{column}
+    
+    \begin{column}{.5\textwidth}
+        \begin{minipage}[t][.45\textheight]{\linewidth}
+            \begin{alertblock}{Carbon Management and Biomass Usage}
+              \begin{itemize}
+                \item CO$_2$ network
+                \item CO$_2$ sequestration potentials
+                \item circular carbon economy and recycling
+                \item biomass usage options
+              \end{itemize}
+            \end{alertblock}
+        \end{minipage}
+        
+        \vspace{0.03\textheight} % separation between the boxes
+        
+        \begin{minipage}[t][.45\textheight]{\linewidth}
+            \begin{alertblock}{Global Green Fuel and Material Markets}
+              \begin{itemize}
+                \item imports of green energy and materials
+                \item effects on European infrastructure
+                \item restructuring of value chains
+                \item risks (geopolitical, technological, etc.)
+              \end{itemize}
+            \end{alertblock}
+        \end{minipage}
+    \end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Fallstudie Industrietransformation in Nordrhein-Westfalen}
+
+  Warum NRW? Viel Industrie, Einbettung Europa, Strategien für CO$_2$ \& H$_2$(-Importe)
+
+  \centering
+  \includegraphics[height=0.85\textheight]{sequestration_map.png}
+
+   \source{\href{https://www.energy4climate.nrw/industrie-produktion/co2-management/umgang-mit-co2}{NRW.Energy4Climate}}
+\end{frame}
+
+
+\begin{frame}{Fallstudie Industrietransformation in Nordrhein-Westfalen}
+  \begin{itemize}
+    \item \alert{Problemdiagnose}: Transformation der energieintensiven Industrien erfordert Umstellung von sowohl Brennstoffen als auch Prozessen, Investitionszyklen sind lang, abhängig von verfügbaren Infrastrukturen, viele Unsicherheiten
+    \item \alert{RESILIENT-Ansatz}: Herausarbeitung und Konkretisierung der Probleme mit Partnern aus der Industrie $\Rightarrow$ \alert{heutiger Workshop}; Entwicklung von Strategien, die über mehrere Szenarien robust sind
+    \item Beispiele für \alert{Unsicherheiten}: Preise und Verfügbarkeit von grünem Wasserstoff; Verfügbarkeit CO$_2$-Pipelines und Biomasse; politische Unterstützung und Marktdynamiken (KSV, grüne Leitmärkte); Akzeptanz für Infrastruktur, CCS, usw.
+  \item Beispiele für \alert{Strategien}: Hybridansätze, z.B. bivalente Kessel, Nutzung von (Bio-)Methan für DRI bis H$_2$ da ist; Elektrolyseure vor Ort, CO$_2$-Transport per Schiff/Zug/Lkw, Speicherung von Strom/H$_2$/Derivaten, Flexibilisierung, blauer H$_2$, Import von Zwischenprodukten (HBI, Ammoniak, Methanol)
+  \end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{Ziel des Workshops heute}
+  \begin{itemize}
+    \item Verständnis für die Unsicherheiten und Hedging-Strategien schaffen
+    \item Wo sind die \alert{entscheidenden Herausforderungen}?
+    \item Welche Technologien können Robustheit gewährleisten?
+    \item Wie entwickeln wir unsere Fallstudie, sodass sie für die Praxis relevant bleibt?
+  \end{itemize}
+
+\end{frame}
+
+
+\end{document}

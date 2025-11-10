@@ -1,0 +1,516 @@
+\documentclass[10pt,aspectratio=169,dvipsnames]{beamer}
+\usetheme[]{Berlin}
+
+\setbeamertemplate{footline}{
+  \usebeamercolor[fg]{framesource}%
+  \usebeamerfont{page number in head}%
+  \hspace{0.2cm}
+  \small \insertframenumber
+  \vspace{0.2cm}
+  \doclicenseIcon
+  \hfill
+  \includegraphics[height=0.8cm]{logos/tub_logo.pdf}
+  \hspace{0.2cm}
+}
+
+\setbeamercovered{transparent}
+
+\setbeamertemplate{footline}[
+ myframe number]
+
+% PACKAGES
+\usepackage[absolute,overlay]{textpos}
+\usepackage[utf8]{inputenc}
+\usepackage[official]{eurosym}
+\usepackage{booktabs,multicol,multirow,tabularx,array}
+\usepackage{subcaption}
+\usepackage{parskip}
+\usepackage{bm}
+\usepackage{tikz}
+\usepackage{adjustbox}
+\usepackage[super]{nth}
+\usepackage[version=4]{mhchem}
+\usepackage{siunitx}
+
+\sisetup{
+  detect-all = true
+}
+
+
+\usepackage[
+    type={CC},
+    modifier={by},
+    version={4.0},
+]{doclicense}
+
+% HYPERREFERENCES
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	citecolor=tub-blue,
+	linkcolor=tub-blue,
+	urlcolor=tub-blue
+}
+
+\usepackage[sfdefault]{roboto}
+\usepackage[normalem]{ulem}
+
+% \usepackage[backend=biber,style=numeric-comp]{biblatex}
+% \addbibresource{references.bib}
+
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+
+% GRAPHICS	
+\graphicspath{
+    {graphics/},
+    {graphics/logos/},
+  }
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png,.jpg}
+
+% FORMATTING
+\setlength{\parskip}{6pt}
+\linespread{1.1}
+\newcommand{\seprule}{\par\noindent\textcolor{black!25}{\rule{\textwidth}{0.4pt}}}
+
+% SOURCES
+\setbeamercolor{framesource}{fg=gray}
+\setbeamerfont{framesource}{size=\tiny}
+\newcommand{\source}[1]{\begin{textblock*}{10cm}(3.6cm,8.25cm)
+    \begin{beamercolorbox}[ht=0.5cm,right]{framesource}
+        \usebeamerfont{framesource}\usebeamercolor[fg]{framesource} Quelle: {#1}
+    \end{beamercolorbox}
+\end{textblock*}}
+
+% REFERENCES
+% \usepackage[style=nature, doi=true, maxcitenames=3]{biblatex}
+% \bibliography{bibliography}
+% \renewcommand*{\bibfont}{\footnotesize}
+
+% COLOR TEXT
+\newcommand{\bl}[1]{\textcolor{tub-blue}{#1}}
+\newcommand{\gr}[1]{\textcolor{tub-green}{#1}}
+\newcommand{\rd}[1]{\textcolor{tub-red}{#1}}
+\newcommand{\yl}[1]{\textcolor{tub-yellow}{#1}}
+% \newcommand{\org}[1]{\textcolor{tub-orange}{#1}}
+\newcommand{\cb}[1]{\colorbox{gray!20}{#1}}
+
+\usepackage{array}% https://ctan.org/pkg/array
+\makeatletter
+\g@addto@macro{\endtabular}{\rowfont{}}% Clear row font
+\makeatother
+\newcommand{\rowfonttype}{}% Current row font
+\newcommand{\rowfont}[1]{% Set current row font
+   \gdef\rowfonttype{#1}#1%
+}
+\newcolumntype{L}{>{\rowfonttype}l}
+
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{listingsutf8}
+
+% Custom commands
+\usepackage{caption}
+\renewcommand{\figurename}{} % Removes the "Figure" text
+\captionsetup[figure]{labelformat=empty, labelsep=none} % Removes numbering and colon
+
+
+% FONT
+%\usepackage{utopia}
+
+% REFERENCES
+%\usepackage[backend=biber,style=authoryear-comp]{biblatex}
+%\bibliography{references.bib}
+
+% TITLE PAGE
+\title{
+  \textbf{IN4climate --- Kickoff Sprint CO$_2$ Infrastruktur}
+}
+\vspace*{-.5cm}
+
+% \author{STRIse}
+\institute[Technische Universität Berlin] % (optional, but mostly needed)
+{ 
+  \normalsize
+  \alert{Kurzvorstellung des RESILIENT-Projekts} \\ 
+  \footnotesize
+  \url{https://resilient-project.github.io/} \\
+  FG Digitaler Wander in Energiesystemen \\
+  Technische Universität Berlin \\
+
+  \vspace{0.3cm}
+
+  07. Oktober 2025
+}
+
+\date{}
+
+\subject{IN4climate --- Kickoff Sprint CO2 Infrastruktur}
+
+\titlegraphic{%
+\vspace{-1cm}
+\includegraphics[height=1cm,clip=true]{logos/cetp_logo.png}
+\hspace{0.5cm}\includegraphics[height=1cm,clip=true]{logos/ensys_short_logo.pdf}
+\hspace{0.5cm}\includegraphics[trim=0 0cm 0 0cm,height=1cm,clip=true]{logos/tub_logo.pdf}
+\hspace{0.5cm}\includegraphics[trim=0.2cm 0.6cm 0.6cm 0.2cm,height=1.1cm,clip=true]{logos/bmwk_en_logo.png}
+}
+
+\begin{document}
+
+\addtocounter{framenumber}{-1}
+{
+  \setbeamertemplate{footline}{
+    \usebeamercolor[fg]{framesource}%
+    \usebeamerfont{page number in head}%
+    \begin{center}
+      \Large
+      \doclicenseIcon
+      \vspace{0.4cm}
+    \end{center}
+  } 
+  \maketitle
+}
+
+\section{Projektvorstellung}
+\begin{frame}{RESILIENT Projektverbund}
+  \centering
+  \includegraphics[width=0.85\textwidth]{other/resilient_partners}
+  
+  \footnotesize
+  Förderung über das \alert{CETPartnership 2022} Programm, sowie \alert{BMWK} für die deutschen Projektpartner.
+
+  \source{\url{https://resilient-project.github.io/}}
+\end{frame}
+
+\begin{frame}{RESILIENT-Projektübersicht}
+  \footnotesize
+  \begin{columns}
+    \begin{column}{0.75\textwidth}
+    \begin{itemize}
+    \item \alert{Problemdiagnose}: Welt befindet sich in einer Phase der \alert{Unsicherheit} und des \alert{Wandels}
+      (Geopolitik, Energiewende, Klimawandel); Szenarien mit einzelnen deterministischen
+      Lösungen nicht mehr bedarfsgerecht
+    \item \alert{Projektziel}: Entwicklung und Demonstration von Werkzeugen für eine resiliente Planung der Energiewende für Industrie, E-fuels und Netze
+    \item Baut auf dem schon etablierten, quelloffenen und weltweit genutzten Multi-Vektor-Energiesystemmodell \alert{Python for Power System Analysis (PyPSA)}
+    \item \alert{Methodischer Schwerpunkt}: Optimierung unter Unsicherheit (stochastisch und robust),  Dekompositionsmethoden und Heuristiken für Resilienz
+    \item \alert{Fallstudien}: \alert{Industriewende in NRW}, Netzplanung in BW, E-Fuels in Skandinavien, Klimaextremereignisse in Frankreich
+    \end{itemize}
+    \end{column}
+    \begin{column}{0.25\textwidth}
+      \includegraphics[width=1\textwidth]{logos/logo-secondary-light.png}
+    \end{column}
+  \end{columns}
+
+
+\end{frame}
+
+\begin{frame}{Arbeitspakete}
+  \centering
+  \includegraphics[width=0.8\textwidth]{other/resilient_project_structure}
+\end{frame}
+
+
+
+\begin{frame}{PyPSA-Eur: Ein sektorenübergreifendes Energiesystemmodell}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \footnotesize
+      \begin{itemize}
+        \setlength\itemsep{.8em}
+        \item Räumlich und zeitlich hochaufgelöstes lineares Optimierungsmodell, das den \alert{europäischen} Kontinent abdeckt,
+        \item Aufbauend auf dem Open-Source-Framework \alert{PyPSA},
+        \item Berücksichtigt den \alert{Bestand} bestehender Kraftwerke, erneuerbare Potenziale, \alert{Verfügbarkeitszeitreihen},
+        \item Umfasst das \alert{elektrische Übertragungsnetz} von AC 220 kV bis 750 kV (UA) sowie DC ab 150 kV, mit der Option, geplante Netzausbauprojekte (TYNDP und deutscher NEP) einzubeziehen, ebenso das Gasnetz,
+        \item Betreuung und Entwicklung durch das FG Digitaler Wandel in Energiesystemen an der \alert{TU Berlin}.
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \includegraphics[width=1\textwidth]{other/pypsa_eur_elec}
+    \end{column}
+  \end{columns}
+
+  \source{\url{https://pypsa-eur.readthedocs.io}}
+\end{frame}
+
+% \begin{frame}{Selection of planned model developments}
+%   \footnotesize
+%   \begin{columns}[T] % align columns
+%     \begin{column}{.5\textwidth}
+%         \begin{minipage}[t][.45\textheight]{\linewidth}
+%             \begin{alertblock}{\textbf{Computational methods for uncertainties}}
+%                 \begin{itemize}
+%                   \item decomposition techniques
+%                   \item large-scale stochastic optimisation
+%                   \item \textbf{test robustness of system}
+%                   \item using SMS++ framework
+%                 \end{itemize}
+%             \end{alertblock}
+%         \end{minipage}
+        
+%         \vspace{-0.03\textheight} % separation between the boxes
+        
+%         \begin{minipage}[t][.45\textheight]{\linewidth}
+%             \begin{alertblock}{\textbf{Industry transformation (FORECAST)}}
+%               \begin{itemize}
+%                 \item fuel and process switching
+%                 \item industry relocation
+%                 \item carbon sources and feedstocks
+%                 \item data on stock \& investment cycles
+%                 \item new technologies (oxyfuel cement, etc.)
+%               \end{itemize}
+%             \end{alertblock}
+%         \end{minipage}
+%     \end{column}
+    
+%     \begin{column}{.5\textwidth}
+%         \begin{minipage}[t][.45\textheight]{\linewidth}
+%             \begin{alertblock}{\textbf{Carbon management and biomass usage}}
+%               \begin{itemize}
+%                 \item \textbf{CO$_2$ network}
+%                 \item \textbf{CO$_2$ sequestration potentials}
+%                 \item circular carbon economy and recycling
+%                 \item biomass usage options
+%               \end{itemize}
+%             \end{alertblock}
+%         \end{minipage}
+        
+%         \vspace{-0.03\textheight} % separation between the boxes
+        
+%         \begin{minipage}[t][.45\textheight]{\linewidth}
+%             \begin{alertblock}{\textbf{Global green fuel and material markets}}
+%               \begin{itemize}
+%                 \item \textbf{imports of green energy and materials}
+%                 \item \textbf{effects on European infrastructure}
+%                 \item restructuring of value chains
+%                 \item risks (geopolitical, technological, etc.) \newline
+%               \end{itemize}
+%             \end{alertblock}
+%         \end{minipage}
+%     \end{column}
+% \end{columns}
+% \end{frame}
+
+
+\section{Aktuelle Studienbeispiele}
+
+\begin{frame}{Studie: H$_2$ zu CO$_2$ oder CO$_2$ zu H$_2$ Standorten transportieren?}
+  
+  \centering
+  \includegraphics[width=0.35\textwidth]{other/carbon_networks_balance_map_carbon}
+  \includegraphics[width=0.35\textwidth]{other/carbon_networks_balance_map_hydrogen}
+
+  \source{Hofmann, Tries, Neumann, Zeyen, Brown (2025): \\\url{https://www.nature.com/articles/s41560-025-01752-6}}
+\end{frame}
+
+\begin{frame}{Studie: PCI-PMI H$_2$- und CO$_2$-Infrastrukturprojekte}
+  \scriptsize
+  \begin{columns}[T] % align columns
+    % Erste Spalte
+    \begin{column}{.63\textwidth}
+        \begin{minipage}[t][.45\textheight]{\linewidth}
+            \begin{alertblock}{\textbf{Was sind PCI-PMI-Projekte?}}
+                \begin{itemize}
+                  \setlength\itemsep{0.85em}
+                  \item Projects of Common Interest (PCI) sind zentrale \alert{grenzüberschreitende Infrastrukturprojekte}, die die Energiesysteme der EU-Mitgliedsstaaten verbinden
+                  \item Ihr Ziel ist es, `der EU beim Erreichen ihrer \alert{energiepolitischen und klimapolitischen Ziele} zu unterstützen: bezahlbare, sichere und nachhaltige Energie für alle Bürgerinnen und Bürger sowie die langfristige Dekarbonisierung der Wirtschaft im Einklang mit dem \alert{Pariser Abkommen}'
+                  \item Der potenzielle Gesamtnutzen jedes Projekts muss die Kosten übersteigen.
+                  \item Aufgrund ihres \alert{Leuchtturmcharakters} ist die Umsetzung dieser Projekte sehr wahrscheinlich
+                  \item Große Infrastrukturprojekte (einschließlich PCI-PMI) sind jedoch häufig von Verzögerungen durch Genehmigungen, Engpässe bei der Beschaffung usw. betroffen
+                \end{itemize}
+            \end{alertblock}
+        \end{minipage}
+    \end{column}
+
+    
+    % Second column
+    \begin{column}{.36\textwidth}
+        \begin{minipage}[t][.45\textheight]{\linewidth}
+            \begin{alertblock}{\textbf{Project map}}
+              \centering
+              \includegraphics[width=1\textwidth]{map_adm_pcipmi}
+            \end{alertblock}
+        \end{minipage}
+    \end{column}
+
+  \end{columns}
+
+  \vspace{2.1cm}
+
+\begin{enumerate} 
+  \item Welchen Beitrag erbringen PCI-PMI-Projekte bei der Erreichung der EU \\Klima- und Energiepolitikziele und welche Kosten sind damit verbunden?
+  \item Welche Kosten entstehen bei der Einhaltung der Ziele bei einer Verzögerunng dieser Projekte?
+\end{enumerate}
+
+  \source{Eigene Darstellung nach \url{https://ec.europa.eu/energy/infrastructure/transparency_platform/map-viewer}. Preprint Xiong, Brown, Riepin (2025): \url{https://doi.org/10.48550/arXiv.2507.01860}}
+
+\end{frame}
+
+\begin{frame}{Studie: PCI-PMI H$_2$- und CO$_2$-Infrastrukturprojekte}
+  \centering
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \footnotesize
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.8\textwidth]{pci___base_s_adm___2050-balance_map_H2}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.8\textwidth]{pci___base_s_adm___2050-balance_map_co2_stored}
+      \end{figure}
+    \end{column}
+  \end{columns}
+  \source{Preprint Xiong, Brown, Riepin (2025): \url{https://doi.org/10.48550/arXiv.2507.01860}}
+\end{frame}
+
+\begin{frame}
+  \setbeamercolor{background canvas}{bg=red}
+  \centering
+  \fcolorbox{white}{tub-red}{\parbox[c][0.9\textheight][c]{\textwidth}{%
+      \centering \color{white}\Large{\textbf{Vielen Dank.}} \\ 
+      \scriptsize
+      \vspace{0.5cm}
+      \textbf{RESILIENT} \\
+      \textit{Resilient Energy System Infrastructure Layouts for Industry, E-Fuels and Network Transitions} \\
+      \href{https://resilient-project.github.io}{\textcolor{white}{$\hookrightarrow$ resilient-project.github.io}} \\
+      \href{https://github.com/pypsa/pypsa-eur}{\textcolor{white}{$\hookrightarrow$ github.com/pypsa/pypsa-eur}} \\
+      \vspace{0.5cm}
+      Department of\\\textbf{Digital Transformation in Energy Systems (ENSYS)} \\
+      \vspace{0.5cm}
+      \textbf{Projektleitung: Dr. Iegor Riepin}\\
+      \href{mailto:iegor.riepin@tu-berlin.de}{\textcolor{white}{$\hookrightarrow$ iegor.riepin@tu-berlin.de}} \\
+      \vspace{0.5cm}
+      \textbf{Präsentation: Bobby Xiong}\\
+      \href{mailto:xiong@tu-berlin.de}{\textcolor{white}{$\hookrightarrow$ xiong@tu-berlin.de}} \\
+  }}
+\end{frame}
+
+% Appendix
+\section{Appendix}
+
+\begin{frame}{PyPSA-Eur: Eine typische Modellkonfiguration}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \footnotesize
+      \begin{itemize}
+        \setlength\itemsep{.8em}
+        \item \alert{Alle Energiesektoren} (Strom, Wärme, Verkehr, Industrie, Rohstroffe, Landwirtschaft)
+        \item \alert{Infrastrukturplanung} von Erzeugung, Übertragung, Speicherung und Power-to-X mit \alert{Technologieprognosen}
+        \item \alert{100-200 Regionen} in European
+        \item \alert{2-3 stündliche} segmentierte Zeitreihen
+        \item \alert{Netto-Null-Emissionen} bis 2050
+        \item Minimiere System in \alert{Optimierung}
+        \item Viele \alert{Szenarien} durchspielen (oder \alert{stochastische Optimierung})
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \includegraphics[width=1\textwidth]{other/multisector_diagram}
+    \end{column}
+  \end{columns}
+
+  \source{\url{https://pypsa-eur.readthedocs.io}}
+\end{frame}
+
+\begin{frame}{Annahmen zur Nachfrageverteilung pro Sektor}
+  \centering
+  \begin{columns}
+    \begin{column}{0.48\textwidth}
+      \footnotesize
+      \begin{figure}
+        \centering
+        \includegraphics[width=1\textwidth]{exogenous_demand}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.52\textwidth}
+      \footnotesize
+      \begin{itemize}
+        \item Nachfrage nach Strom, Wärme, Gas, Biomasse und Verkehr ist räumlich und zeitlich aufgelöst
+        \item Verbrennungsmotoren im Landverkehr werden voraussichtlich bis 2050 vollständig zugunsten von Elektrofahrzeugen abgelöst
+        \item Nachfrage nach Methanol und Kohlenwasserstoffen, einschließlich Kerosin, wird hauptsächlich durch Schifffahrt, Luftfahrt und Industrie getrieben (nicht räumlich aufgelöst)
+        \item Nicht vermeidbare Prozessemissionen aus der Industrie, z.\,B. Zement, werden ebenfalls berücksichtigt
+      \end{itemize}
+    \end{column}
+  \end{columns}
+  \source{Preprint Xiong, Brown, Riepin (2025): \url{https://doi.org/10.48550/arXiv.2507.01860}}
+\end{frame}
+
+\begin{frame}{Studie: Nutzenvergleich Stromnetzausbau vs. H$_2$-Netz}
+  \centering
+  \includegraphics[width=0.9\textwidth]{other/neumann_hydrogen_paper}
+  \\
+  \footnotesize
+  $\rightarrow$ Wasserstoffnetz \alert{reduziert Systemkosten}, aber \alert{Stromnetzausbau ist attraktiver.}
+
+  \source{Neumann, Zeyen, Victoria, Brown: \url{https://doi.org/10.1016/j.joule.2023.06.016}}
+\end{frame}
+
+
+\begin{frame}{H$_2$-Nutzung hauptsächlich für Derivate und als Grundstoff}
+  
+  \includegraphics[width=1.2\textwidth, trim=0cm 6.6cm 0cm 6.6cm, clip]{other/hydrogen_balance.pdf}
+
+  \footnotesize
+
+  \alert{Wenig direkte Anwendungen von Wasserstoff}; meist zur Synthese anderer Derivate
+
+  \begin{multicols}{2}
+  \begin{itemize}
+    \item Ammoniak für Düngemittel
+    \item Direktreduktion von Eisen für Stahl
+    \item Schiffs- und Flugkraftstoffe
+    \item Vorstufen für hochwertige Chemikalien
+    \item Backup für Wärme- und Stromversorgung
+    \item Einsatz evtl. im Schwerlastverkehr
+  \end{itemize}
+  \end{multicols}
+
+  \source{Neumann, Zeyen, Victoria, Brown (2023): \\\url{https://doi.org/10.1016/j.joule.2023.06.016}}
+\end{frame}
+
+\begin{frame}{CO$_2$: Abscheidung, Nutzung, Transport und Speicherung}
+  
+  \begin{center}
+    \includegraphics[height=0.73\textheight]{other/carbon_networks_cost_bar}
+    \includegraphics[height=0.71\textheight]{other/carbon_networks_balance_bar_carbon}
+
+    \vspace{-0.25cm}
+    \footnotesize
+    \begin{itemize}
+      \item \alert{CCS} für Prozessemissionen (z.\,B. in der Zementindustrie)
+      \item \alert{CCU} für E-Synfuels und E-Chemikalien (insbesondere Schifffahrt, Luftfahrt, Kunststoffe)
+      \item \alert{CDR} für nicht vermeidbare und negative Emissionen (zum Ausgleich unvollständiger Abscheideraten)
+    \end{itemize}
+
+  \end{center}
+
+  \source{Hofmann, Tries, Neumann, Zeyen, Brown (2024): \\\url{https://www.nature.com/articles/s41560-025-01752-6}}
+
+\end{frame}
+
+
+\begin{frame}{Übertragungsnetz basierend auf OpenStreetMap (OSM)}
+
+  \begin{columns}
+    \begin{column}{0.66\textwidth}
+      \footnotesize
+      \begin{itemize}
+        \setlength\itemsep{.8em}
+        \item Datensatz enthält das europäische Hoch- und Höchstspannungsnetz (220 kV bis 750 kV), erstellt auf Basis von OSM-Daten
+        \item Ein heuristischer Aufbereitungsprozess wurde angewendet für Einträge, bei denen elektrische Parameter unvollständig, fehlend oder mehrdeutig sind
+        \item Umspannwerke innerhalb eines Radius von 500 m werden zu gemeinsamen Knoten aggregiert
+        \item Für jedes Spannungspaar in einem Umspannwerk werden Transformatoren hinzugefügt
+        \item Wechselstromleitungen werden über Standarddaten der pandapower-Bibliothek parametriert und mit einem Faktor von 0.7 multipliziert, um eine n-1-Sicherheitsnäherung zu berücksichtigen
+        \item Enthält alle 38 europäischen HGÜ-Verbindungen in ihrer Nennleistung, die bis Ende 2024 in Betrieb genommen wurden
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.34\textwidth}
+      \includegraphics[width=1\textwidth]{osm_map}
+    \end{column}
+  \end{columns}
+  \source{Eigene Darstellung auf Basis von OSM-Daten, extrahiert mit der Overpass turbo API\\\url{https://openstreetmap.org}}
+  
+  
+\end{frame}
+
+\end{document}

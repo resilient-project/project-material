@@ -1,3 +1,0 @@
-\beamer@sectionintoc {1}{Projektvorstellung}{2}{0}{1}
-\beamer@sectionintoc {2}{Aktuelle Studienbeispiele}{6}{0}{2}
-\beamer@sectionintoc {3}{Appendix}{10}{0}{3}
