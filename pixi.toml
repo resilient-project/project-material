@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Bobby Xiong <bobbyxng@gmail.com>"]
+channels = ["conda-forge"]
+name = "project-material"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pre-commit = ">=4.4.0,<5"
