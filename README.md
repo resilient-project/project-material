@@ -1,6 +1,6 @@
 # Project Material - Presentation Slides
 
-This repository contains LaTeX presentation slides for the RESILIENT project.
+This repository contains LaTeX presentation slides for the RESILIENT project (https://resilient-project.github.io/).
 
 ## Repository Structure
 
@@ -19,19 +19,12 @@ slides/
 
 ### Prerequisites
 
+- pixi package management tool: https://pixi.sh
 - LaTeX distribution (TeX Live, MiKTeX, etc.)
 - Python 3.x (for pre-commit hooks)
 - pre-commit tool
 
-### Installing Pre-commit
+### Setting up pixi environment and pre-commit
 
-```bash
-# Install pre-commit
-pip install pre-commit
-
-# Install the pre-commit hooks
-pre-commit install
-
-# (Optional) Run on all files
-pre-commit run --all-files
-```
+- After installing pixi and cloning the repo for the first time, run `pixi shell`. This will also install pre-commit
+- To run the pre-commit hooks, use `pre-commit run --all-files`
