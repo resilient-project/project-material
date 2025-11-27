@@ -31,6 +31,9 @@
 \usepackage[super]{nth}
 \usepackage[version=4]{mhchem}
 \usepackage{siunitx}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
 
 \sisetup{
   detect-all = true
@@ -65,7 +68,7 @@
 \graphicspath{
     {graphics/},
     {graphics/logos/},
-	{graphics/pypsa-nrw/},
+	{graphics/nrw-case-study/},
   }
 \DeclareGraphicsExtensions{.pdf,.jpeg,.png,.jpg}
 
@@ -281,8 +284,177 @@
 \end{frame}
 
 \section{Modellerweiterungen NRW-Fallstudie}
-\begin{frame}{Regionale Erweiterungen für NRW-Fallstudie}
+\begin{frame}{Modellkonfiguration für die NRW-Fallstudie}
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			\footnotesize
+			\begin{itemize}
+				\setlength\itemsep{.8em}
+				\item Raum: \alert{NRW in NUTS3} (Kreise \& kreisfreie Städte), Deutschland in NUTS1 (Bundesländer), BE \& NL in NUTS1, restliche Nachbarregionen (+ PT) auf Länder-Ebene
+				\item Zeit: Durchschnittl. vierstündliche zeitliche Auflösung (\alert{2190 Segmente})
+				\item Infrastruktur: Geplante TYNDP \& NEP Netzausbauprojekte \& +10\%, Wasserstoffkernnetz und geplante \alert{CO$_2$-Pipelines/-speicherstätten}
+				\item Industriebedarf: DE aus \alert{FORECAST} (Orientierungsszenario Strom), Europa auf JRC-IDEES Grundlage
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.6\textwidth}
+			\includegraphics[width=1\textwidth]{ncs_map_model_inputs}
+		\end{column}
+	\end{columns}
+	\source{Eigene Darstellung.}
+\end{frame}
 
+\begin{frame}{Abbildung geplanter+ CO$_2$ pipelines sowie Speicherstätten}
+	\centering
+
+	\begin{columns}[t]
+		\begin{column}[t]{0.5\textwidth}
+			\footnotesize
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.67\textwidth]{in4climate_project_map.png}
+			\end{figure}
+		\end{column}
+
+		\begin{column}[t]{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.8\textwidth]{map_co2}
+			\end{figure}
+		\end{column}
+	\end{columns}
+
+	% Triangle overlay
+	\begin{tikzpicture}[remember picture,overlay]
+		% Right-pointing triangle (2× size)
+		\fill[tub-red]
+		% Base top
+		($(current page.center) + (-0.4cm, 0.6cm)$) --
+		% Base bottom
+		($(current page.center) + (-0.4cm,-0.6cm)$) --
+		% Tip to the right
+		($(current page.center) + ( 0.4cm, 0cm)$)
+		-- cycle;
+	\end{tikzpicture}
+
+	\source{IN4climate Projektkarte (links). Eigene Darstellung (rechts).}
+\end{frame}
+
+\begin{frame}{Abbildung der Industrie in nach Rohstoffbedarf}
+	Lukas graphics
+\end{frame}
+
+\begin{frame}{Szenarienübersicht NRW-Fallstudie}
+	\footnotesize
+
+	\begin{columns}[T] % align columns
+		% First column
+		\begin{column}{.3\textwidth}
+			\begin{minipage}[t][.45\textheight]{\linewidth}
+				\begin{alertblock}{\textbf{Base}}
+					\begin{itemize}
+						\item CCS bei schwer vermeidbaren Prozessemissionen (Stahl, Kalk, Zement, Müllverbrennung)
+						\item H$_2$-Kernnetz und CO$_2$-Pipelines 2035 verfügbar
+						\item Erfolgreicher Hochlauf der Wasserstoffwirtschaft
+					\end{itemize}
+					\vspace{0.06cm}
+				\end{alertblock}
+			\end{minipage}
+		\end{column}
+
+		% Second column
+		\begin{column}{.34\textwidth}
+			\begin{minipage}[t][.45\textheight]{\linewidth}
+				\begin{exampleblock}{\textbf{Delay}}
+					\begin{itemize}
+						\item Verspätung der CO$_2$-Pipelines um einen Planungshorizont (2035 $\rightarrow$ 2045)
+						\item H$_2$-Kernnetz weiterhin bereits 2035 verfügbar
+						\item Alternativer Offshorespeicherungsmöglichkeiten möglich
+					\end{itemize}
+				\end{exampleblock}
+			\end{minipage}
+		\end{column}
+
+		% Third column
+		\begin{column}{.3\textwidth}
+			\begin{minipage}[t][.45\textheight]{\linewidth}
+				\begin{exampleblock}{\textbf{Max CCS}}
+					\begin{itemize}
+						\item Ausweitung des CCS Einsatzes
+						\item Methanol reforming cc, Biogas upgrading cc, Biosng CC, Coal CC, SMR CC
+					\end{itemize}
+				\end{exampleblock}
+			\end{minipage}
+		\end{column}
+	\end{columns}
+
+	\vspace{1.3cm}
+
+\end{frame}
+
+\section{Erste Ergebnisse}
+ {
+  \title{
+	  \textbf{Erste Ergebnisse und Ausblick}
+  }
+  \institute[Technische Universität Berlin] % (optional, but mostly needed)
+  {
+	  \normalsize
+	  \alert{Sprint CO$_2$-Infrastruktur Planung --- Gelsenkirchen} \\
+	  \footnotesize
+	  Bobby Xiong, Dr. Lukas Franken \\
+	  FG Digitaler Wander in Energiesystemen, Technische Universität Berlin \\
+	  \url{https://resilient-project.github.io/} \\
+	  \vspace{0.3cm}
+
+	  01. Dezember 2025
+  }
+
+  \begin{frame}
+	  \titlepage
+  \end{frame}
+ }
+
+\begin{frame}{Erste Ergebnisse: Systemkosten (Modellregion Europa)}
+	\centering
+	\vspace{0.1cm}
+	\begin{columns}
+		% Left column
+		\begin{column}{0.5\textwidth}
+			\centering
+			\footnotesize
+			\textbf{Annuitätische Systemkosten}\\
+			\includegraphics[width=0.92\textwidth]{ncs_costs_overview}
+		\end{column}
+
+		% Right column
+		\begin{column}{0.5\textwidth}
+			\centering
+			\footnotesize
+			\textbf{Differenz zum Basisszenario}\\
+			\includegraphics[width=0.92\textwidth]{ncs_delta_costs_overview}
+		\end{column}
+	\end{columns}
+
+	\source{Eigene Darstellung.}
+\end{frame}
+
+\begin{frame}{CO$_2$ Bilanzen}
+	\centering
+	\includegraphics[width=0.47\textwidth]{balances_overview_co2 stored}
+	\source{Eigene Darstellung.}
+\end{frame}
+
+\begin{frame}{Auslastung der CO$_2$-Pipelines}
+\end{frame}
+
+\begin{frame}{CO$_2$-Preise}
+\end{frame}
+
+\begin{frame}{Zusammenfassung und Ausblick}
+	\begin{itemize}
+		\item Weniger DAC bei Pipeline-Ausbau und höherer CCS-Nutzung
+		\item ...
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -308,6 +480,54 @@
 
 % Appendix
 \section{Appendix}
+
+\begin{frame}{Erste Ergebnisse: Systemkosten (Deutschland)}
+	\centering
+	\vspace{0.1cm}
+	\begin{columns}
+		% Left column
+		\begin{column}{0.5\textwidth}
+			\centering
+			\footnotesize
+			\textbf{Annuitätische Systemkosten}\\
+			\includegraphics[width=0.92\textwidth]{ncs_costs_overview_DE}
+		\end{column}
+
+		% Right column
+		\begin{column}{0.5\textwidth}
+			\centering
+			\footnotesize
+			\textbf{Differenz zum Basisszenario}\\
+			\includegraphics[width=0.92\textwidth]{ncs_delta_costs_overview_DE}
+		\end{column}
+	\end{columns}
+
+	\source{Eigene Darstellung.}
+\end{frame}
+
+\begin{frame}{Erste Ergebnisse: Systemkosten (Nordrhein-Westfalen)}
+	\centering
+	\vspace{0.1cm}
+	\begin{columns}
+		% Left column
+		\begin{column}{0.5\textwidth}
+			\centering
+			\footnotesize
+			\textbf{Annuitätische Systemkosten}\\
+			\includegraphics[width=0.92\textwidth]{ncs_costs_overview_DEA}
+		\end{column}
+
+		% Right column
+		\begin{column}{0.5\textwidth}
+			\centering
+			\footnotesize
+			\textbf{Differenz zum Basisszenario}\\
+			\includegraphics[width=0.92\textwidth]{ncs_delta_costs_overview_DEA}
+		\end{column}
+	\end{columns}
+
+	\source{Eigene Darstellung.}
+\end{frame}
 
 % \begin{frame}{Selection of planned model developments}
 %   \footnotesize
