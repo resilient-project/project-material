@@ -377,10 +377,10 @@
 		% Third column
 		\begin{column}{.3\textwidth}
 			\begin{minipage}[t][.45\textheight]{\linewidth}
-				\begin{exampleblock}{\textbf{Expanded CCS adoption}}
+				\begin{exampleblock}{\textbf{Max CCS}}
 					\begin{itemize}
-						\item Ausweitung der CCS Technologien
-						\item Methanolreformierung, Biogas upgrading cc, Biosng CC, Coal CC, SMR CC
+						\item Ausweitung des CCS Einsatzes
+						\item Methanol reforming cc, Biogas upgrading cc, Biosng CC, Coal CC, SMR CC
 					\end{itemize}
 				\end{exampleblock}
 			\end{minipage}
@@ -413,9 +413,6 @@
 	  \titlepage
   \end{frame}
  }
-
-\begin{frame}{Karten}
-\end{frame}
 
 \begin{frame}{Erste Ergebnisse: Systemkosten (Modellregion Europa)}
 	\centering
@@ -454,18 +451,9 @@
 \end{frame}
 
 \begin{frame}{Zusammenfassung und Ausblick}
-	\textbf{Erste Erkenntnisse:}
 	\begin{itemize}
 		\item Weniger DAC bei Pipeline-Ausbau und höherer CCS-Nutzung
 		\item ...
-	\end{itemize}
-
-	\textbf{Möglicher Ausblick:}
-	\begin{itemize}
-		\item Verbesserung der Szenarienparameter
-		\item Anpassung/Erweiterung der Szenarien, z.B. CCS in weitieren Industriesubsektoren
-		\item Endogener CO$_2$-Pipeline-Ausbau (über das Plannetz hinaus)?
-		\item Kommerziell interessante Metriken?
 	\end{itemize}
 \end{frame}
 
@@ -482,7 +470,6 @@
 			\href{https://github.com/pypsa/pypsa-eur}{\textcolor{white}{$\hookrightarrow$ github.com/pypsa/pypsa-eur}} \\
 			\href{https://github.com/pypsa/pypsa-de}{\textcolor{white}{$\hookrightarrow$ github.com/pypsa/pypsa-de}} \\
 			\href{https://github.com/resilient-project/pypsa-nrw}{\textcolor{white}{$\hookrightarrow$ github.com/pypsa/pypsa-nrw}} \\
-			\href{https://www.forecast-model.eu}{\textcolor{white}{$\hookrightarrow$ forecast-model.eu/}} \\
 			\vspace{0.5cm}
 			Department of\\\textbf{Digital Transformation in Energy Systems (ENSYS)} \\
 			\vspace{0.5cm}

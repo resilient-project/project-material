@@ -414,8 +414,10 @@
   \end{frame}
  }
 
+
 \begin{frame}{Karten}
 \end{frame}
+
 
 \begin{frame}{Erste Ergebnisse: Systemkosten (Modellregion Europa)}
 	\centering
@@ -464,7 +466,7 @@
 	\begin{itemize}
 		\item Verbesserung der Szenarienparameter
 		\item Anpassung/Erweiterung der Szenarien, z.B. CCS in weitieren Industriesubsektoren
-		\item Endogener CO$_2$-Pipeline-Ausbau (über das Plannetz hinaus)?
+		\item Endogener CO$_2$-Pipeline-Ausbau (über das Plannetz hinaus)? 
 		\item Kommerziell interessante Metriken?
 	\end{itemize}
 \end{frame}
