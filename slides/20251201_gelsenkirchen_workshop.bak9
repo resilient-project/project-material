@@ -211,6 +211,10 @@
 	\source{\url{https://resilient-project.github.io/}}
 \end{frame}
 
+\begin{frame}{Other slides}
+	- Ariadne, other papers, others on RESILIENT
+\end{frame}
+
 % second part of presentation
 {
 \title{
@@ -282,25 +286,24 @@
 \section{Modellerweiterungen NRW-Fallstudie}
 \begin{frame}{Modellkonfiguration für die NRW-Fallstudie}
 	\begin{columns}
-		\begin{column}{0.43\textwidth}
+		\begin{column}{0.4\textwidth}
 			\footnotesize
 			\begin{itemize}
 				\setlength\itemsep{.8em}
 				\item Raum: \alert{NRW in NUTS3} (Kreise \& kreisfreie Städte), Deutschland in NUTS1 (Bundesländer), BE \& NL in NUTS1, restliche Nachbarregionen (+ PT) auf Länder-Ebene
 				\item Zeit: Durchschnittl. vierstündliche zeitliche Auflösung (\alert{2190 Segmente})
-				\item Drei Planugshorizonte 2035, 2040, 2045
-				\item Infrastruktur: Geplante TYNDP \& NEP Netzausbauprojekte \& +10\%, Wasserstoffkernnetz und geplante \alert{CO$_2$-Pipelines/-Speicher (offshore)}
+				\item Infrastruktur: Geplante TYNDP \& NEP Netzausbauprojekte \& +10\%, Wasserstoffkernnetz und geplante \alert{CO$_2$-Pipelines/-speicherstätten}
 				\item Industriebedarf: DE aus \alert{FORECAST} (Orientierungsszenario Strom), Europa auf JRC-IDEES Grundlage
 			\end{itemize}
 		\end{column}
-		\begin{column}{0.57\textwidth}
+		\begin{column}{0.6\textwidth}
 			\includegraphics[width=1\textwidth]{ncs_map_model_inputs}
 		\end{column}
 	\end{columns}
 	\source{Eigene Darstellung.}
 \end{frame}
 
-\begin{frame}{Abbildung geplanter CO$_2$-Pipelines sowie -Speicher (offshore)}
+\begin{frame}{Abbildung geplanter+ CO$_2$ pipelines sowie Speicherstätten}
 	\centering
 
 	\begin{columns}[t]
@@ -336,55 +339,8 @@
 	\source{IN4climate Projektkarte (links). Eigene Darstellung (rechts).}
 \end{frame}
 
-\begin{frame}{Abbildung geplanter CO$_2$-Pipelines und -Speicher (offshore)}
-	\centering
-	\begin{minipage}{0.48\textwidth}
-		\centering
-		\footnotesize
-		\textbf{Transportkapazitäten (Mtpa)}\\[0.2cm]
-		\begin{tabular}{l r}
-			\toprule
-			Projekt              & Mtpa \\
-			\midrule
-			Aramis               & 22   \\
-			Acorn                & 20   \\
-			Belgium backbone     & 30   \\
-			CO2TransPorts        & 10   \\
-			CarbonConnect        & 20   \\
-			Delta Rhine Corridor & 45   \\
-			EU2NSEA              & 20   \\
-			N-Lites              & 10   \\
-			OGE                  & 18.8 \\
-			PYCASSO              & 8    \\
-			\bottomrule
-		\end{tabular}
-	\end{minipage}
-	\hfill
-	\begin{minipage}{0.48\textwidth}
-		\centering
-		\footnotesize
-		\textbf{Speicherpotenziale (Mtpa)}\\[0.2cm]
-		\begin{tabular}{l r}
-			\toprule
-			Projekt        & Mtpa           \\
-			\midrule
-			Acorn          & 10             \\
-			Aramis         & 22             \\
-			CarbonConnect  & 40             \\
-			CO2TransPorts  & 2.5            \\
-			East Mey       & 33             \\
-			EU2NSEA        & 25             \\
-			N-Lites        & 5              \\
-			\midrule
-			\textbf{Summe} & \textbf{137.5} \\
-			\bottomrule
-		\end{tabular}
-		\source{Eigene Darstellung basierend auf IN4climate Projektkarte und ergänzt um öffentlich verfügbare Projektdaten.}
-	\end{minipage}
-	\newline
-	\newline
-	\vspace{0.2cm}
-
+\begin{frame}{Abbildung der Industrie in nach Rohstoffbedarf}
+	Lukas graphics
 \end{frame}
 
 \begin{frame}{Szenarienübersicht NRW-Fallstudie}
@@ -392,14 +348,13 @@
 
 	\begin{columns}[T] % align columns
 		% First column
-		\begin{column}{.4\textwidth}
+		\begin{column}{.3\textwidth}
 			\begin{minipage}[t][.45\textheight]{\linewidth}
 				\begin{alertblock}{\textbf{Base}}
 					\begin{itemize}
-						\item CCS von Prozessemissionen (u.a. Kalk, Zement, Müllverbrennung)
-						\item CCS im Energiesektor (Strom- \& Wärmeerzeugung): Gas- \& Biomasse-KWK
+						\item CCS bei schwer vermeidbaren Prozessemissionen (Stahl, Kalk, Zement, Müllverbrennung)
 						\item H$_2$-Kernnetz und CO$_2$-Pipelines 2035 verfügbar
-						\item Industriebedarf für DE aus FORECAST (Orientierungsszenario Strom)
+						\item Erfolgreicher Hochlauf der Wasserstoffwirtschaft
 					\end{itemize}
 					\vspace{0.06cm}
 				\end{alertblock}
@@ -407,11 +362,11 @@
 		\end{column}
 
 		% Second column
-		\begin{column}{.26\textwidth}
+		\begin{column}{.34\textwidth}
 			\begin{minipage}[t][.45\textheight]{\linewidth}
 				\begin{exampleblock}{\textbf{Delay}}
 					\begin{itemize}
-						\item Verspätung der CO$_2$-Pipelines um einen Planungshorizont (2035 $\rightarrow$ 2040)
+						\item Verspätung der CO$_2$-Pipelines um einen Planungshorizont (2035 $\rightarrow$ 2045)
 						\item H$_2$-Kernnetz weiterhin bereits 2035 verfügbar
 						\item Alternativer Offshorespeicherungsmöglichkeiten möglich
 					\end{itemize}
@@ -420,12 +375,12 @@
 		\end{column}
 
 		% Third column
-		\begin{column}{.34\textwidth}
+		\begin{column}{.3\textwidth}
 			\begin{minipage}[t][.45\textheight]{\linewidth}
-				\begin{exampleblock}{\textbf{Expanded CCS Adoption (ECCSA)}}
+				\begin{exampleblock}{\textbf{Expanded CCS adoption}}
 					\begin{itemize}
-						\item Ausweitung Technologien/Prozesse mit CCS-Option
-						\item Über das Base-Szenario hinaus: Methanolreformierung, Biomethanisierung (Biogasaufbereitung), Biomasse-zu-SNG, Dampfreformierung (SMR), Kohlekraftwerke
+						\item Ausweitung der CCS Technologien
+						\item Methanolreformierung, Biogas upgrading cc, Biosng CC, Coal CC, SMR CC
 					\end{itemize}
 				\end{exampleblock}
 			\end{minipage}
@@ -436,84 +391,83 @@
 
 \end{frame}
 
-% \section{Erste Ergebnisse}
-%  {
-%   \title{
-% 	  \textbf{Erste Ergebnisse und Ausblick}
-%   }
-%   \institute[Technische Universität Berlin] % (optional, but mostly needed)
-%   {
-% 	  \normalsize
-% 	  \alert{Sprint CO$_2$-Infrastruktur Planung --- Gelsenkirchen} \\
-% 	  \footnotesize
-% 	  Bobby Xiong, Dr. Lukas Franken \\
-% 	  FG Digitaler Wander in Energiesystemen, Technische Universität Berlin \\
-% 	  \url{https://resilient-project.github.io/} \\
-% 	  \vspace{0.3cm}
+\section{Erste Ergebnisse}
+ {
+  \title{
+	  \textbf{Erste Ergebnisse und Ausblick}
+  }
+  \institute[Technische Universität Berlin] % (optional, but mostly needed)
+  {
+	  \normalsize
+	  \alert{Sprint CO$_2$-Infrastruktur Planung --- Gelsenkirchen} \\
+	  \footnotesize
+	  Bobby Xiong, Dr. Lukas Franken \\
+	  FG Digitaler Wander in Energiesystemen, Technische Universität Berlin \\
+	  \url{https://resilient-project.github.io/} \\
+	  \vspace{0.3cm}
 
-% 	  01. Dezember 2025
-%   }
+	  01. Dezember 2025
+  }
 
-%   \begin{frame}
-% 	  \titlepage
-%   \end{frame}
-%  }
+  \begin{frame}
+	  \titlepage
+  \end{frame}
+ }
 
-% \begin{frame}{Karten}
-% \end{frame}
+\begin{frame}{Karten}
+\end{frame}
 
-% \begin{frame}{Erste Ergebnisse: Systemkosten (Modellregion Europa)}
-% 	\centering
-% 	\vspace{0.1cm}
-% 	\begin{columns}
-% 		% Left column
-% 		\begin{column}{0.5\textwidth}
-% 			\centering
-% 			\footnotesize
-% 			\textbf{Annuitätische Systemkosten}\\
-% 			\includegraphics[width=0.92\textwidth]{ncs_costs_overview}
-% 		\end{column}
+\begin{frame}{Erste Ergebnisse: Systemkosten (Modellregion Europa)}
+	\centering
+	\vspace{0.1cm}
+	\begin{columns}
+		% Left column
+		\begin{column}{0.5\textwidth}
+			\centering
+			\footnotesize
+			\textbf{Annuitätische Systemkosten}\\
+			\includegraphics[width=0.92\textwidth]{ncs_costs_overview}
+		\end{column}
 
-% 		% Right column
-% 		\begin{column}{0.5\textwidth}
-% 			\centering
-% 			\footnotesize
-% 			\textbf{Differenz zum Basisszenario}\\
-% 			\includegraphics[width=0.92\textwidth]{ncs_delta_costs_overview}
-% 		\end{column}
-% 	\end{columns}
+		% Right column
+		\begin{column}{0.5\textwidth}
+			\centering
+			\footnotesize
+			\textbf{Differenz zum Basisszenario}\\
+			\includegraphics[width=0.92\textwidth]{ncs_delta_costs_overview}
+		\end{column}
+	\end{columns}
 
-% 	\source{Eigene Darstellung.}
-% \end{frame}
+	\source{Eigene Darstellung.}
+\end{frame}
 
-% \begin{frame}{CO$_2$ Bilanzen}
-% 	\centering
-% 	\includegraphics[width=0.47\textwidth]{balances_overview_co2 stored}
-% 	\source{Eigene Darstellung.}
-% \end{frame}
+\begin{frame}{CO$_2$ Bilanzen}
+	\centering
+	\includegraphics[width=0.47\textwidth]{balances_overview_co2 stored}
+	\source{Eigene Darstellung.}
+\end{frame}
 
-% \begin{frame}{Auslastung der CO$_2$-Pipelines}
-% \end{frame}
+\begin{frame}{Auslastung der CO$_2$-Pipelines}
+\end{frame}
 
-% \begin{frame}{CO$_2$-Preise}
-% \end{frame}
+\begin{frame}{CO$_2$-Preise}
+\end{frame}
 
-% \begin{frame}{Zusammenfassung und Ausblick}
-% 	\textbf{Erste Erkenntnisse:}
-% 	\begin{itemize}
-% 		\item Nutzung der Pipelines primär zur Offshore CO$_2$ Speicherung
-% 		\item Durch Pipeline-Ausbau geringerer Ausbau und Nutzung von Direct Air Capture (DAC)
-% 		\item Verspätung des Pipeline-Ausbaus erhöht langfristig (2040+) geringfügig die Gesamtsystemkosten
-% 	\end{itemize}
+\begin{frame}{Zusammenfassung und Ausblick}
+	\textbf{Erste Erkenntnisse:}
+	\begin{itemize}
+		\item Weniger DAC bei Pipeline-Ausbau und höherer CCS-Nutzung
+		\item ...
+	\end{itemize}
 
-% 	\textbf{Möglicher Ausblick:}
-% 	\begin{itemize}
-% 		\item Verbesserung der Szenarienparameter
-% 		\item Anpassung/Erweiterung der Szenarien, z.B. CCS in weitieren Industriesubsektoren
-% 		\item Endogener CO$_2$-Pipeline-Ausbau (über das Plannetz hinaus)?
-% 		\item Kommerziell interessante Metriken?
-% 	\end{itemize}
-% \end{frame}
+	\textbf{Möglicher Ausblick:}
+	\begin{itemize}
+		\item Verbesserung der Szenarienparameter
+		\item Anpassung/Erweiterung der Szenarien, z.B. CCS in weitieren Industriesubsektoren
+		\item Endogener CO$_2$-Pipeline-Ausbau (über das Plannetz hinaus)?
+		\item Kommerziell interessante Metriken?
+	\end{itemize}
+\end{frame}
 
 \begin{frame}
 	\setbeamercolor{background canvas}{bg=red}
@@ -528,6 +482,7 @@
 			\href{https://github.com/pypsa/pypsa-eur}{\textcolor{white}{$\hookrightarrow$ github.com/pypsa/pypsa-eur}} \\
 			\href{https://github.com/pypsa/pypsa-de}{\textcolor{white}{$\hookrightarrow$ github.com/pypsa/pypsa-de}} \\
 			\href{https://github.com/resilient-project/pypsa-nrw}{\textcolor{white}{$\hookrightarrow$ github.com/pypsa/pypsa-nrw}} \\
+			\href{https://www.forecast-model.eu}{\textcolor{white}{$\hookrightarrow$ forecast-model.eu/}} \\
 			\vspace{0.5cm}
 			Department of\\\textbf{Digital Transformation in Energy Systems (ENSYS)} \\
 			\vspace{0.5cm}
@@ -538,37 +493,6 @@
 
 % Appendix
 \section{Appendix}
-
-\begin{frame}{Linearisierte Kostenannahmen für ausgewählte Technologien}
-	\centering
-	\begin{table}[htbp]
-		\centering
-		\label{tab:cost_assumptions}
-		\scriptsize
-		\begin{tabularx}{\linewidth}{R{4.2cm}>{\centering\arraybackslash}X>{\centering\arraybackslash}X>
-			{\centering\arraybackslash}X}
-			\toprule
-			                                 & \textbf{Einheit} & \textbf{CAPEX} & \textbf{FOM}                 \\
-			\midrule
-			\textbf{Pipeline-Infrastruktur}  &                  &                &                              \\
-			CO$_2$ Onshore Pipelines         & €/tCO$_2$/hkm    & 2\,116         & 0.9\% p.a.                   \\
-			CO$_2$ Offshore Pipelines        & €/tCO$_2$/hkm    & 4\,233         & 0.5\% p.a.                   \\
-			H$_2$ Onshore Pipelines          & €/MW$_{H_2}$/km  & 304            & 1.5-3.2\% p.a.               \\
-			H$_2$ Offshore Pipelines         & €/MW$_{H_2}$/km  & 456            & 3.0\% p.a.                   \\
-			\midrule
-			\textbf{Konversionstechnologien} &                  &                &                              \\
-			Elektrolyse                      & €/kW$_e$         & 1\,000-1\,500  & 4.0\% p.a.                   \\
-			Dampfreformierung                & €/MW$_{CH_4}$    & 522\,201       & 5.0\% p.a.                   \\
-			Dampfreformierung CC             & €/MW$_{CH_4}$    & 605\,753       & 5.0\% p.a.                   \\
-			\midrule
-			Direct Air Capture (DAC)         & €/tCO2/h         & 4.5-5.5M       & 4.95\% p.a. + Energieträger* \\
-			\bottomrule
-		\end{tabularx}
-		* Kompression (Strom): 0.15 MWh/tCO2, Kompression (Wärme): 0.2 MWh/tCO2, Betrieb (Strom): 0.4 MWh/tCO2
-		\source{Eigene Darstellung nach Kostenannahmen der \href{https://github.com/PyPSA/technology-data/}{Dänischen Energieagentur (DEA)}.}
-	\end{table}
-
-\end{frame}
 
 \begin{frame}{Erste Ergebnisse: Systemkosten (Deutschland)}
 	\centering

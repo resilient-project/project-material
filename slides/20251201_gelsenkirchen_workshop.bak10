@@ -337,55 +337,56 @@
 \end{frame}
 
 \begin{frame}{Abbildung geplanter CO$_2$-Pipelines und -Speicher (offshore)}
-	\centering
-	\begin{minipage}{0.48\textwidth}
-		\centering
-		\footnotesize
-		\textbf{Transportkapazitäten (Mtpa)}\\[0.2cm]
-		\begin{tabular}{l r}
-			\toprule
-			Projekt              & Mtpa \\
-			\midrule
-			Aramis               & 22   \\
-			Acorn                & 20   \\
-			Belgium backbone     & 30   \\
-			CO2TransPorts        & 10   \\
-			CarbonConnect        & 20   \\
-			Delta Rhine Corridor & 45   \\
-			EU2NSEA              & 20   \\
-			N-Lites              & 10   \\
-			OGE                  & 18.8 \\
-			PYCASSO              & 8    \\
-			\bottomrule
-		\end{tabular}
-	\end{minipage}
-	\hfill
-	\begin{minipage}{0.48\textwidth}
-		\centering
-		\footnotesize
-		\textbf{Speicherpotenziale (Mtpa)}\\[0.2cm]
-		\begin{tabular}{l r}
-			\toprule
-			Projekt        & Mtpa           \\
-			\midrule
-			Acorn          & 10             \\
-			Aramis         & 22             \\
-			CarbonConnect  & 40             \\
-			CO2TransPorts  & 2.5            \\
-			East Mey       & 33             \\
-			EU2NSEA        & 25             \\
-			N-Lites        & 5              \\
-			\midrule
-			\textbf{Summe} & \textbf{137.5} \\
-			\bottomrule
-		\end{tabular}
-		\source{Eigene Darstellung basierend auf IN4climate Projektkarte und ergänzt um öffentlich verfügbare Projektdaten.}
-	\end{minipage}
-	\newline
-	\newline
-	\vspace{0.2cm}
+\centering
+\begin{minipage}{0.48\textwidth}
+\centering
+\footnotesize
+\textbf{Transportkapazitäten (Mtpa)}\\[0.2cm]
+\begin{tabular}{l r}
+\toprule
+Projekt & Mtpa \\
+\midrule
+Aramis & 22 \\
+Acorn & 20 \\
+Belgium backbone & 30 \\
+CO2TransPorts & 10 \\
+CarbonConnect & 20 \\
+Delta Rhine Corridor & 45 \\
+EU2NSEA & 20 \\
+N-Lites & 10 \\
+OGE & 18.8 \\
+PYCASSO & 8 \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}{0.48\textwidth}
+\centering
+\footnotesize
+\textbf{Speicherpotenziale (Mtpa)}\\[0.2cm]
+\begin{tabular}{l r}
+\toprule
+Projekt & Mtpa \\
+\midrule
+Acorn & 10 \\
+Aramis & 22 \\
+CarbonConnect & 40 \\
+CO2TransPorts & 2.5 \\
+East Mey & 33 \\
+EU2NSEA & 25 \\
+N-Lites & 5 \\
+\midrule
+\textbf{Summe} & \textbf{137.5} \\
+\bottomrule
+\end{tabular}
+\source{Eigene Darstellung basierend auf IN4climate Projektkarte und ergänzt um öffentlich verfügbare Projektdaten.}
+\end{minipage}
+\newline
+\newline
+\vspace{0.2cm}
 
 \end{frame}
+
 
 \begin{frame}{Szenarienübersicht NRW-Fallstudie}
 	\footnotesize
@@ -540,35 +541,36 @@
 \section{Appendix}
 
 \begin{frame}{Linearisierte Kostenannahmen für ausgewählte Technologien}
-	\centering
-	\begin{table}[htbp]
-		\centering
-		\label{tab:cost_assumptions}
-		\scriptsize
-		\begin{tabularx}{\linewidth}{R{4.2cm}>{\centering\arraybackslash}X>{\centering\arraybackslash}X>
-			{\centering\arraybackslash}X}
-			\toprule
-			                                 & \textbf{Einheit} & \textbf{CAPEX} & \textbf{FOM}                 \\
-			\midrule
-			\textbf{Pipeline-Infrastruktur}  &                  &                &                              \\
-			CO$_2$ Onshore Pipelines         & €/tCO$_2$/hkm    & 2\,116         & 0.9\% p.a.                   \\
-			CO$_2$ Offshore Pipelines        & €/tCO$_2$/hkm    & 4\,233         & 0.5\% p.a.                   \\
-			H$_2$ Onshore Pipelines          & €/MW$_{H_2}$/km  & 304            & 1.5-3.2\% p.a.               \\
-			H$_2$ Offshore Pipelines         & €/MW$_{H_2}$/km  & 456            & 3.0\% p.a.                   \\
-			\midrule
-			\textbf{Konversionstechnologien} &                  &                &                              \\
-			Elektrolyse                      & €/kW$_e$         & 1\,000-1\,500  & 4.0\% p.a.                   \\
-			Dampfreformierung                & €/MW$_{CH_4}$    & 522\,201       & 5.0\% p.a.                   \\
-			Dampfreformierung CC             & €/MW$_{CH_4}$    & 605\,753       & 5.0\% p.a.                   \\
-			\midrule
-			Direct Air Capture (DAC)         & €/tCO2/h         & 4.5-5.5M       & 4.95\% p.a. + Energieträger* \\
-			\bottomrule
-		\end{tabularx}
-		* Kompression (Strom): 0.15 MWh/tCO2, Kompression (Wärme): 0.2 MWh/tCO2, Betrieb (Strom): 0.4 MWh/tCO2
-		\source{Eigene Darstellung nach Kostenannahmen der \href{https://github.com/PyPSA/technology-data/}{Dänischen Energieagentur (DEA)}.}
-	\end{table}
+  \centering
+\begin{table}[htbp]
+  \centering
+  \label{tab:cost_assumptions}
+  \scriptsize
+  \begin{tabularx}{\linewidth}{R{4.2cm}>{\centering\arraybackslash}X>{\centering\arraybackslash}X>
+  {\centering\arraybackslash}X}
+    \toprule
+    & \textbf{Einheit} & \textbf{CAPEX} & \textbf{FOM} \\
+    \midrule
+    \textbf{Pipeline-Infrastruktur} & & & \\
+    CO$_2$ Onshore Pipelines & €/tCO$_2$/hkm & 2\,116 & 0.9\% p.a. \\
+    CO$_2$ Offshore Pipelines & €/tCO$_2$/hkm & 4\,233 & 0.5\% p.a. \\
+    H$_2$ Onshore Pipelines & €/MW$_{H_2}$/km & 304 & 1.5-3.2\% p.a. \\
+    H$_2$ Offshore Pipelines & €/MW$_{H_2}$/km & 456 & 3.0\% p.a. \\
+    \midrule
+    \textbf{Konversionstechnologien} & & & \\
+    Elektrolyse & €/kW$_e$ & 1\,000-1\,500 & 4.0\% p.a. \\
+    Dampfreformierung & €/MW$_{CH_4}$ & 522\,201 & 5.0\% p.a. \\
+    Dampfreformierung CC & €/MW$_{CH_4}$ & 605\,753 & 5.0\% p.a. \\
+	\midrule
+	Direct Air Capture (DAC) & €/tCO2/h & 4.5-5.5M & 4.95\% p.a. + Energieträger* \\
+    \bottomrule
+  \end{tabularx}
+  * Kompression (Strom): 0.15 MWh/tCO2, Kompression (Wärme): 0.2 MWh/tCO2, Betrieb (Strom): 0.4 MWh/tCO2
+  \source{Eigene Darstellung nach Kostenannahmen der \href{https://github.com/PyPSA/technology-data/}{Dänischen Energieagentur (DEA)}.}
+\end{table}
 
 \end{frame}
+
 
 \begin{frame}{Erste Ergebnisse: Systemkosten (Deutschland)}
 	\centering
