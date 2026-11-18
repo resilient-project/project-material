@@ -83,6 +83,18 @@
     \end{beamercolorbox}
 \end{textblock*}}
 
+% \refblock{lines}: references in the same spot on each tool slide, growing upwards from the footer
+\newcommand{\refblock}[1]{\begin{textblock*}{14.8cm}[0,1](0.8cm,8.38cm)
+		\raggedright\fontsize{6.5}{8}\selectfont\setlength{\parskip}{0.15em}
+		#1
+	\end{textblock*}}
+% \refline{label}{url}{text}: one linked line of a \refblock
+\newcommand{\refline}[3]{\textbf{#1:} \href{#2}{#3}\par}
+% \prpaper{number}{PR title}{merge date}{paper citation}{paper url}: PyPSA-Eur pull request and related paper
+\newcommand{\prpaper}[5]{\refblock{%
+		\textbf{PyPSA-Eur PR:} \href{https://github.com/PyPSA/pypsa-eur/pull/#1}{\##1 #2} (merged #3)\par
+		\refline{Paper}{#5}{#4}}}
+
 % REFERENCES
 % \usepackage[style=nature, doi=true, maxcitenames=3]{biblatex}
 % \bibliography{bibliography}
@@ -124,6 +136,7 @@
 
 % DECK-SPECIFIC
 \usepackage{fontawesome5}
+\usepackage{twemojis}
 \usepackage{qrcode}
 \colorlet{ink}{black}
 \colorlet{mute}{black!60}
@@ -227,10 +240,8 @@
 	\centering
 	\vspace{-0.3em}
 	\includegraphics<1>[width=\linewidth]{graphics/final-workshop/timeline-step1.pdf}%
-	\includegraphics<2>[width=\linewidth]{graphics/final-workshop/timeline-step2.pdf}%
-	\includegraphics<3>[width=\linewidth]{graphics/final-workshop/timeline-step3.pdf}%
-	\includegraphics<4>[width=\linewidth]{graphics/final-workshop/timeline-step4.pdf}
-	\source{Monthly European gas price: World Bank, converted with ECB exchange rates. Daily records: ICE TTF front month.}
+	\includegraphics<2>[width=\linewidth]{graphics/final-workshop/timeline-step2.pdf}
+	\source{Dutch TTF front-month gas price, daily close: ICE Endex, via Yahoo Finance.}
 \end{frame}
 
 % QUESTIONS
@@ -241,39 +252,39 @@
 	\begin{tikzpicture}[x=1cm, y=1cm]
 		\useasboundingbox (0,0.35) rectangle (14.3,-5.95);
 		\topicat{1}{0}{Gas price shocks}
-		\topicat{2}{-0.75}{Price formation}
-		\topicat{3}{-1.5}{Industrial decarbonisation}
-		\topicat{4}{-2.25}{Weather extremes}
-		\topicat{5}{-3.0}{Biomass and e-fuels}
-		\topicat{6}{-3.75}{Trade and geopolitics}
+		\topicat{2}{-0.75}{Industrial decarbonisation}
+		\topicat{3}{-1.5}{Weather extremes}
+		\topicat{4}{-2.25}{Biomass and e-fuels}
+		\topicat{5}{-3.0}{Trade and geopolitics}
+		\topicat{6}{-3.75}{Price formation}
 		\topicat{7}{-4.5}{Attacks and outages}
 		\only<1>{
 			\pageat[\chipI\ \chipPanel]{5.2}{0.3}{4.4cm}{gas}{arXiv, 2026}
 		}
 		\only<2>{
-			\pageat{5.2}{0.3}{4.25cm}{priceformation}{Energy Economics, 2025}
-		}
-		\only<3>{
 			\pageat{5.2}{0.3}{4.6cm}{pci}{Environmental Research Letters, 2026}
 			\pageat[\chipPoster]{10.1}{0.3}{4.1cm}{nrw}{Case study NRW, 2026}
-			\pageat[\chipI\ \chipPoster]{10.1}{-2.55}{4.1cm}{cement}{CEMENT, 2026}
+			\pageat[\chipII\ \chipPoster]{10.1}{-2.55}{4.1cm}{cement}{CEMENT, 2026}
+		}
+		\only<3>{
+			\pageat{5.2}{0.3}{4.7cm}{dunkelflaute}{Applied Energy, 2026}
+			\pageat[\chipPoster]{10.2}{0.3}{4.1cm}{edf-pisa-poster}{EDF and University of Pisa, 2026}
 		}
 		\only<4>{
-			\pageat{5.2}{0.3}{4.7cm}{dunkelflaute}{Applied Energy, 2026}
-			\missingat[\chipPoster]{10.2}{0.3}{4.0cm}{3.18cm}{Case study France, 2026}{France in the European system (EDF)}
-		}
-		\only<5>{
 			\pageat[\chipI\ \chipPoster]{5.2}{0.3}{4.05cm}{biomass}{Nature Energy, 2025}
 			\pageat[\chipPoster]{9.6}{0.3}{4.4cm}{ebiofuels}{arXiv, 2026}
 			\pageat[\chipPoster]{9.6}{-2.95}{4.1cm}{finland}{Energy, 2026}
 		}
-		\only<6>{
+		\only<5>{
 			\pageat{5.2}{0.3}{4.45cm}{riskindex}{Smart Energy, 2025}
 			\pageat{9.85}{0.3}{4.45cm}{pypsaearth}{Applied Energy, 2025}
 		}
+		\only<6>{
+			\pageat{5.2}{0.3}{4.25cm}{priceformation}{Energy Economics, 2025}
+		}
 		\only<7>{
 			\pageat{5.2}{0.3}{4.3cm}{ukraine}{Energy Strategy Reviews, 2025}
-			\pageat[\chipII]{5.2}{-3.05}{4.3cm}{selfsufficiency}{Working paper, 2026}
+			\pageat[\chipI]{5.2}{-3.05}{4.3cm}{selfsufficiency}{Working paper, 2026}
 			\pageat{9.8}{0.3}{4.4cm}{osmgrid}{Scientific Data, 2025}
 		}
 	\end{tikzpicture}
@@ -328,58 +339,65 @@
 		\end{column}
 	\end{columns}
 
-	\source{Photo: Reuters (Denys Shmyhal); top: \href{https://doi.org/10.1016/j.esr.2025.101724}{Zachmann, Meißner, Riepin (2025)}; bottom: \href{https://dixigroup.org/en/electricity-outages-lasted-2-thousand-hours-for-ukrainian-households-in-2024/}{dixigroup.org}}
+	\begin{textblock*}{6.4cm}(8.8cm,8.15cm)
+		\raggedleft\usebeamerfont{framesource}\usebeamercolor[fg]{framesource}
+		Source: Photo: Reuters (Denys Shmyhal); top: \href{https://doi.org/10.1016/j.esr.2025.101724}{Zachmann, Meißner, Riepin (2025)};\\
+		bottom: \href{https://dixigroup.org/en/electricity-outages-lasted-2-thousand-hours-for-ukrainian-households-in-2024/}{dixigroup.org}
+	\end{textblock*}
 
 \end{frame}
 
 % TOOLS
 \section{Tools}
-\begin{frame}{}
-	\hspace*{-0.3cm}\includegraphics[width=15cm]{graphics/5_osm.png}
+\begin{frame}{Europe's transmission grid from OpenStreetMap data}
+	\centering
+	\vspace{-0.6em}
+	\includegraphics[height=5.55cm]{graphics/final-workshop/osm-grid.png}
+	\refblock{%
+		\textbf{PyPSA-Eur PR:} \href{https://github.com/PyPSA/pypsa-eur/pull/1079}{\#1079 Introducing OpenStreetMap high-voltage grid to PyPSA-Eur} (merged August 2024)\par
+		\textbf{PyPSA-Eur PR:} \href{https://github.com/PyPSA/pypsa-eur/pull/1740}{\#1740 Implementation of voltage levels 110kV-220kV using osm-raw} (merged August 2025)\par
+		\refline{Paper}{https://doi.org/10.1038/s41597-025-04550-7}{Xiong et al. (2025). Modelling the high-voltage grid using open data for Europe and beyond. Sci. Data}}
 \end{frame}
 
 \begin{frame}{Multiple weather years in one optimisation problem}
 	\vspace{-0.5em}
 	\begin{columns}[c,onlytextwidth]
 		\begin{column}{0.74\textwidth}
-			\includegraphics[width=\linewidth]{graphics/tsc-weatheryears.png}
+			\includegraphics[height=5.9cm]{graphics/tsc-weatheryears.png}
 		\end{column}
 		\begin{column}{0.24\textwidth}
 			\footnotesize
 			The cost-optimal system depends on the weather year it is designed for.
 
 			PyPSA-Eur can now optimise one system against \alert{several weather years at once}.
-
-			\vspace{1.2em}
-			\scriptsize
-			\textbf{Figure:} G{\o}tske, Andresen, Neumann, Victoria (2024). \emph{Designing a sector-coupled European energy system robust to 60 years of historical weather data.} Nature Communications. \href{https://doi.org/10.1038/s41467-024-54853-3}{doi:10.1038/s41467-024-54853-3}
 		\end{column}
 	\end{columns}
+	\prpaper{1613}{Multiple weather years in one optimisation problem}{April 2025}{G{\o}tske et al. (2024). Designing a sector-coupled European energy system robust to 60 years of historical weather data. Nat. Commun.}{https://doi.org/10.1038/s41467-024-54853-3}
 \end{frame}
 
 \begin{frame}{Industrial process heat by temperature band}
+	\vspace{-1.2em}
 	\begin{columns}[c,onlytextwidth]
-		\begin{column}{0.5\textwidth}
+		\begin{column}{0.34\textwidth}
 			\small
-			\begin{itemize}\setlength{\itemsep}{0.7em}
+			\begin{itemize}\setlength{\itemsep}{0.6em}
 				\item Before: industrial heat was a \alert{fixed demand} with fixed fuels
 				\item Now: demand is split into \alert{temperature bands}, by industry branch
 				\item The model \alert{chooses the supply}: heat pumps, electric boilers, biomass, methane, hydrogen
-				\item Built on process data from Fraunhofer ISI
-				\item Merged into PyPSA-Eur on \alert{16 November 2026}
 			\end{itemize}
 		\end{column}
-		\begin{column}{0.48\textwidth}
+		\begin{column}{0.64\textwidth}
 			\centering
-			\includegraphics[width=\linewidth]{graphics/temperature_band_pie.pdf}
+			\includegraphics[width=\linewidth]{graphics/final-workshop/industry-heat-supply.pdf}
 		\end{column}
 	\end{columns}
-	\source{\href{https://github.com/PyPSA/pypsa-eur/pull/1943}{PyPSA-Eur pull request 1943}}
+	\prpaper{1943}{Endogenous Industry Heat}{November 2026}{Franken et al. (2026). Accelerating fossil gas independence in Europe. arXiv}{https://arxiv.org/abs/2607.21048}
 \end{frame}
 
-\begin{frame}{Stochastic and risk-averse optimisation in PyPSA}
+\begin{frame}{Stochastic and risk-averse optimisation, released with PyPSA v1.0}
 	\centering
-	\begin{tikzpicture}[x=0.98cm, y=1.05cm, font=\footnotesize,
+	\vspace{-0.8em}
+	\begin{tikzpicture}[x=0.98cm, y=1.0cm, font=\footnotesize,
 			dec/.style={circle, draw=black!70, fill=white, line width=0.6pt, inner sep=0pt, minimum size=6pt},
 			scen/.style={circle, draw=tub-yellow, fill=tub-yellow!25, line width=0.6pt, inner sep=0pt, minimum size=6pt},
 			worst/.style={circle, draw=tub-red, fill=tub-red!30, line width=0.6pt, inner sep=0pt, minimum size=6pt}]
@@ -415,37 +433,47 @@
 		\node[anchor=west] at (5.7, -1.2) {$\min\; \mathrm{CAPEX} + \rd{(1-\omega)}\displaystyle\sum_{s} p_s \cdot \mathrm{OPEX}_s + \rd{\omega \cdot \mathrm{CVaR}_\alpha}$};
 	\end{tikzpicture}
 
-	\vspace{0.3em}
-	{\footnotesize Released with PyPSA v1.0 in October 2025\par
-		\vspace{0.2em}
-		\texttt{n.set\_scenarios(...)}\qquad\texttt{n.set\_risk\_preference(alpha=0.95, omega=0.1)}\par}
-	\source{\url{https://docs.pypsa.org}}
+	\refblock{%
+		\textbf{PyPSA PR:} \href{https://github.com/PyPSA/PyPSA/pull/1154}{\#1154 New Optimization Module \& Stochastic Networks} (merged August 2025)\par
+		\textbf{PyPSA PR:} \href{https://github.com/PyPSA/PyPSA/pull/1345}{\#1345 Add risk-averse optimization} (merged September 2025)\par
+		\textbf{Case study:} EDF R\&D and University of Pisa. Optimising a large-scale European power network (poster)\par}
 \end{frame}
 
 \begin{frame}{Solving it at scale, with the University of Pisa}
+	\vspace{-1.6em}
 	\begin{columns}[c,onlytextwidth]
 		\begin{column}{0.58\textwidth}
 			\centering
-			\includegraphics[width=\linewidth]{graphics/final-workshop/smspp-benchmark.pdf}
+			\includegraphics[height=4.7cm]{graphics/final-workshop/smspp-benchmark.pdf}
 		\end{column}
 		\begin{column}{0.38\textwidth}
 			\small
 			\begin{itemize}\setlength{\itemsep}{0.6em}
 				\item PyPSA now talks to \alert{SMS++}, a framework for \alert{decomposition}
-				\item Same results, shorter solving times for large models
-				\item Open solvers, built for supercomputers
+				\item Same optimal solution; solving time grows slower with increasing problem size
+				\item Small subproblems make large models tractable also without commercial solvers
 			\end{itemize}
 		\end{column}
 	\end{columns}
-	\source{University of Pisa, RESILIENT benchmark, January 2026 (numbers to be confirmed)}
+	\refblock{%
+		\textbf{PyPSA PR:} \href{https://github.com/PyPSA/PyPSA/pull/1558}{\#1558 Smspp optimization} (in review)\par
+		\refline{SMS++ development}{https://gitlab.com/smspp/smspp-project}{gitlab.com/smspp/smspp-project}
+		\twemoji{1f3c6} \href{https://resilient-project.github.io/static/uploads/062026_hackaton_pipssms.pdf}{Enrico Calandrini (University of Pisa) wins second place at the PEREGRINE PIPS-IPM++ Hackathon for integrating PIPS-IPM++ into SMS++}\par}
 \end{frame}
 
 % PEOPLE
 \section{People}
+% Participant groups, coloured as on the participant map (Okabe-Ito)
+\definecolor{grp-research}{HTML}{0072B2}
+\definecolor{grp-tso}{HTML}{E69F00}
+\definecolor{grp-utility}{HTML}{CC79A7}
+\definecolor{grp-consult}{HTML}{009E73}
+\definecolor{grp-other}{HTML}{999999}
+\newcommand{\groupdot}[1]{\tikz[baseline=-0.6ex]\fill[#1] (0,0) circle (0.08cm);}
 % \photoat{x}{y}{file}{caption}: workshop photo with a small caption directly below
 \newcommand{\photoat}[4]{%
 	\node[anchor=north west, inner sep=0pt] (ph) at (#1,#2)
-	{\includegraphics[width=3.68cm]{graphics/final-workshop/photos/#3.jpg}};
+	{\includegraphics[width=3.5cm]{graphics/final-workshop/photos/#3.jpg}};
 	\node[anchor=north west, inner sep=0pt, font=\fontsize{5.5}{5.5}\selectfont, text=mute]
 	at ([yshift=-0.06cm]ph.south west) {#4};}
 \begin{frame}{Two workshops planned, seven held in 2025}
@@ -453,38 +481,43 @@
 	\begin{tikzpicture}[x=1cm, y=1cm]
 		\useasboundingbox (0,0.2) rectangle (14.3,-6.05);
 		\photoat{0}{0.15}{stuttgart}{Stuttgart, TransnetBW, January}
-		\photoat{3.8}{0.15}{groningen}{Groningen, Gasunie, February}
-		\photoat{7.6}{0.15}{berlin-tso}{Berlin, four German TSOs, May}
-		\photoat{0}{-2.72}{berlin-tub}{Berlin, TU Berlin, May}
-		\photoat{3.8}{-2.72}{copenhagen}{Copenhagen, DTU, June}
-		\photoat{7.6}{-2.72}{gothenburg}{Gothenburg, RISE, November}
-		\node[anchor=north west, inner sep=0pt, align=left, text width=2.7cm] at (11.6,0.15) {%
+		\photoat{3.6}{0.15}{groningen}{Groningen, Gasunie, February}
+		\photoat{7.2}{0.15}{berlin-tso}{Berlin, four German TSOs, May}
+		\photoat{0}{-2.62}{berlin-tub}{Berlin, TU Berlin, May}
+		\photoat{3.6}{-2.62}{copenhagen}{Copenhagen, DTU, June}
+		\photoat{7.2}{-2.62}{gothenburg}{Gothenburg, RISE, November}
+		\node[anchor=north west, inner sep=0pt, align=left, text width=3.5cm] at (10.95,0.15) {%
 		{\Huge\bfseries\rd{210}}\\[-0.1em]
-		{\footnotesize participants in 2025}\\[0.8em]
-		\small
-		\begin{tabular}{@{}>{\bfseries}r@{\hspace{0.5em}}l@{}}
-			37          & grid operators \\
-			34          & consultancies  \\
-			24          & utilities      \\
-			64{\small+} & research       \\
+		{\footnotesize participants in 2025}\\[0.7em]
+		\footnotesize
+		\begin{tabular}{@{}c@{\hspace{0.35em}}>{\bfseries}r@{\hspace{0.45em}}>{\raggedright\arraybackslash}p{2.68cm}@{}}
+			\groupdot{grp-research} & 67 & Universities and research institutes \\[0.25em]
+			\groupdot{grp-tso}      & 38 & TSOs                                 \\[0.25em]
+			\groupdot{grp-utility}  & 44 & Utilities and industry               \\[0.25em]
+			\groupdot{grp-consult}  & 37 & Consultancies                        \\[0.25em]
+			\groupdot{grp-other}    & 24 & Public sector, NGOs, other           \\
 		\end{tabular}};
 		\node[anchor=north west, inner sep=0pt, font=\footnotesize] at (0,-5.72)
 		{All training material is public: \href{https://resilient-project.github.io/}{resilient-project.github.io}};
 	\end{tikzpicture}
 \end{frame}
 
-\begin{frame}{Where participants came from}
-	\centering
-	\vspace{0.5em}
-	\placeholder{12cm}{5.2cm}{Map of workshop participants, to be redrawn from the anonymised participant list}
+\begin{frame}
+	\vspace{-0.6em}
+	\includegraphics[height=7.5cm]{graphics/final-workshop/participant-map.pdf}
+	\begin{tikzpicture}[remember picture, overlay]
+		\node[anchor=north west, inner sep=0pt, align=left, text=tub-red, font=\usebeamerfont{frametitle}]
+		at ([xshift=10.3cm, yshift=-1.05cm]current page.north west) {Where participants\\came from};
+	\end{tikzpicture}
+	\source{Anonymised registration list of the 2025 workshops; organisations placed at their head offices.}
 \end{frame}
 
 % BEYOND
 \section{Beyond}
 \begin{frame}{Open tools and models as a basis for public decisions}
 	\centering
-	\vspace{-0.6em}
-	\includegraphics[height=0.84\textheight]{graphics/final-workshop/who-else-uses-pypsa.png}
+	\vspace{-0.75em}
+	\includegraphics[height=7.0cm]{graphics/final-workshop/who-else-uses-pypsa.png}
 \end{frame}
 
 \begin{frame}{RESILIENT in summary}

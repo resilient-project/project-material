@@ -1,0 +1,191 @@
+ID,Organisation or company,Type,Workshop
+1,WSP,Consulting,Stuttgart | Jan 25
+2,Citadel,Hedge fund,Stuttgart | Jan 25
+3,Elia Transmission Belgium,TSO,Stuttgart | Jan 25
+4,Ashipa Electric Corp ,Utility/developer,Stuttgart | Jan 25
+5,CRESYM,NGO,Stuttgart | Jan 25
+6,Energy System Researches LLP,University/research,Stuttgart | Jan 25
+7,Danish national regulator,Government,Stuttgart | Jan 25
+8,TU Wien,University/research,Stuttgart | Jan 25
+9,ENGIE ,Utility/developer,Stuttgart | Jan 25
+10,Adelsfors AB,Consulting,Stuttgart | Jan 25
+11,Terna,TSO,Stuttgart | Jan 25
+12,E.ON,Utility/developer,Stuttgart | Jan 25
+13,Edf renewables ,Utility/developer,Stuttgart | Jan 25
+14,Wien Energie,Utility/developer,Stuttgart | Jan 25
+15, Iberian Centre for Research in Energy Storage (CIIAE) ,University/research,Stuttgart | Jan 25
+16,Tunisian Company of Electricity and Gas «STEG»,Utility/developer,Stuttgart | Jan 25
+17,TU Delft,University/research,Stuttgart | Jan 25
+18,INTERNATIONAL INSTITUTE OF APPLIED SYSTEMS ANALYSIS,University/research,Stuttgart | Jan 25
+19,EDF France,Utility/developer,Stuttgart | Jan 25
+20,Entso-e,TSO,Stuttgart | Jan 25
+21,E4SMA,Consulting,Stuttgart | Jan 25
+22,Amprion,TSO,Stuttgart | Jan 25
+23,Fraunhofer ISI,University/research,Stuttgart | Jan 25
+24,TransnetBW,TSO,Stuttgart | Jan 25
+25,TransnetBW,TSO,Stuttgart | Jan 25
+26,TransnetBW,TSO,Stuttgart | Jan 25
+27,d-fine,Consulting,Stuttgart | Jan 25
+28,d-fine,Consulting,Stuttgart | Jan 25
+29,KU Leuven,University/research,Stuttgart | Jan 25
+30,OET,"NGO, Consulting",Stuttgart | Jan 25
+31,Ramboll,Consulting,Stuttgart | Jan 25
+32,Siemens AG,Utility/developer,Groningen | Feb 25
+33,Netherlands Environmental Asessment Agency (PBL),University/research,Groningen | Feb 25
+34,Compass Lexecon,Consulting,Groningen | Feb 25
+35,Common Futures,Consulting,Groningen | Feb 25
+36,Elia Grid International,Consulting,Groningen | Feb 25
+37,Agora Industry,NGO,Groningen | Feb 25
+38,50Hertz,TSO,Groningen | Feb 25
+39,SSEN Transmission ,TSO,Groningen | Feb 25
+40,Siemens,Utility/developer,Groningen | Feb 25
+41,50Hertz,TSO,Groningen | Feb 25
+42,TenneT ,TSO,Groningen | Feb 25
+43,Ramboll,Consulting,Groningen | Feb 25
+44,DTU,University/research,Groningen | Feb 25
+45,Elia Grid International,Consulting,Groningen | Feb 25
+46,RWE Supply and Trading ,Utility/developer,Groningen | Feb 25
+47,Technical University of Moldova,University/research,GDU | Mar 25
+48,Technical University of Moldova,University/research,GDU | Mar 25
+49,Technical University of Moldova,University/research,GDU | Mar 25
+50,Technical University of Moldova,University/research,GDU | Mar 25
+51,HZB,University/research,GDU | Mar 25
+52,HZB,University/research,GDU | Mar 25
+53,50Hertz,TSO,4 TSO | May 25
+54,50Hertz,TSO,4 TSO | May 25
+55,50Hertz,TSO,4 TSO | May 25
+56,50Hertz,TSO,4 TSO | May 25
+57,50Hertz,TSO,4 TSO | May 25
+58,50Hertz,TSO,4 TSO | May 25
+59,50Hertz,TSO,4 TSO | May 25
+60,Amprion,TSO,4 TSO | May 25
+61,Amprion,TSO,4 TSO | May 25
+62,Amprion,TSO,4 TSO | May 25
+63,Amprion,TSO,4 TSO | May 25
+64,Amprion,TSO,4 TSO | May 25
+65,TransnetBW,TSO,4 TSO | May 25
+66,TransnetBW,TSO,4 TSO | May 25
+67,TransnetBW,TSO,4 TSO | May 25
+68,TransnetBW,TSO,4 TSO | May 25
+69,TransnetBW,TSO,4 TSO | May 25
+70,Tennet ,TSO,4 TSO | May 25
+71,Tennet ,TSO,4 TSO | May 25
+72,50Hertz,TSO,Berlin | May 25
+73,Agora Energiewende,NGO,Berlin | May 25
+74,Agora Energiewende,NGO,Berlin | May 25
+75,Agora Energiewende,NGO,Berlin | May 25
+76,Berlin Energie und Netzholding GmbH,Utility/developer,Berlin | May 25
+77,ČEPS,TSO,Berlin | May 25
+78,Danish Energy Agency,Government,Berlin | May 25
+79,dena,"Government, Consulting",Berlin | May 25
+80,Dezernat Zukunft,NGO,Berlin | May 25
+81,Dezernat Zukunft,NGO,Berlin | May 25
+82,DLR Institute of Networked Energy Systems,University/research,Berlin | May 25
+83,EDP Renewables,Utility/developer,Berlin | May 25
+84,Electricity Maps,Else,Berlin | May 25
+85,Energy Modelling Lab,Consulting,Berlin | May 25
+86,EUF/dena,"University/research, Government, Consulting",Berlin | May 25
+87,Fraunhofer IEG,University/research,Berlin | May 25
+88,GET.transform,"Government, Else",Berlin | May 25
+89,GIZ,"Government, Else",Berlin | May 25
+90,IEA,Government,Berlin | May 25
+91,IREES,University/research,Berlin | May 25
+92,MAN Energy Solutions,Utility/developer,Berlin | May 25
+93,MAN Energy Solutions,Utility/developer,Berlin | May 25
+94,N-SIDE,Consulting,Berlin | May 25
+95,Neon Neue Energieökonomik,Consulting,Berlin | May 25
+96,Neon Neue Energieökonomik,Consulting,Berlin | May 25
+97,NET4GAS,TSO,Berlin | May 25
+98,Öko-Institut e.V,University/research,Berlin | May 25
+99,Onu Energy ,Else,Berlin | May 25
+100,Ore energy,Utility/developer,Berlin | May 25
+101,Ore energy,Utility/developer,Berlin | May 25
+102,RTE international,TSO,Berlin | May 25
+103,Statkraft,Utility/developer,Berlin | May 25
+104,TU Dresden,University/research,Berlin | May 25
+105,Vienna University of Economics (WU) and Macrocosm Inc.,University/research,Berlin | May 25
+106,Vienna University of Economics (WU) and Macrocosm Inc.,University/research,Berlin | May 25
+107,WindGrid - Elia Group,"TSO, Else",Berlin | May 25
+108,Wood Mackenzie,Consulting,Berlin | May 25
+109,COWI,Consulting,Copenhagen | June 25
+110,Danish Energy Agency,Government,Copenhagen | June 25
+111,Ramboll,Consulting,Copenhagen | June 25
+112,Electricity Maps,Else,Copenhagen | June 25
+113,DTU,University/research,Copenhagen | June 25
+114,Energy Modelling Lab,Consulting,Copenhagen | June 25
+115,DTU,University/research,Copenhagen | June 25
+116,Energy Modelling Lab,Consulting,Copenhagen | June 25
+117,Shell,Utility/developer,Copenhagen | June 25
+118,Ramboll,Consulting,Copenhagen | June 25
+119,Ramboll,Consulting,Copenhagen | June 25
+120,Ramboll,Consulting,Copenhagen | June 25
+121,Momentum Green Energy,Utility/developer,Copenhagen | June 25
+122,Open Energy Transition,"Consulting, NGO",Copenhagen | June 25
+123,Energy Systems Catapult,Consulting,Copenhagen | June 25
+124,IIASA,University/research,Copenhagen | June 25
+125,Polytechnic University of Catalonia,University/research,Copenhagen | June 25
+126,Imperial College London,University/research,Copenhagen | June 25
+127,Chalmers University of Technology,University/research,Copenhagen | June 25
+128,DTU,University/research,Copenhagen | June 25
+129,Ørsted,Utility/developer,Copenhagen | June 25
+130,Urbio SA,Consulting,Copenhagen | June 25
+131,Nordic RCC,TSO,Copenhagen | June 25
+132,Hochschule Flensburg,University/research,Copenhagen | June 25
+133,EDP Renewables,Utility/developer,Copenhagen | June 25
+134,Newcastle University,University/research,Copenhagen | June 25
+135,Newcastle University,University/research,Copenhagen | June 25
+136,Aalborg University,University/research,Copenhagen | June 25
+137,Universidad de Cantabria,University/research,Copenhagen | June 25
+138,EP Commodities,Else,Copenhagen | June 25
+139,DTU,University/research,Copenhagen | June 25
+140,Ea Energianalyse A/S,Consulting,Copenhagen | June 25
+141,Ea Energianalyse A/S,Consulting,Copenhagen | June 25
+142,University of Applied Science Flensburg,University/research,Copenhagen | June 25
+143,Ea Energianalyse A/S,Consulting,Copenhagen | June 25
+144,Ea Energianalyse A/S,Consulting,Copenhagen | June 25
+145,DTU,University/research,Copenhagen | June 25
+146,Aarhus university,University/research,Copenhagen | June 25
+147,DTU,University/research,Copenhagen | June 25
+148,ČEPS,TSO,Copenhagen | June 25
+149,STOFF2 ,Utility/developer,Copenhagen | June 25
+150,ČEPS,TSO,Copenhagen | June 25
+151,Go2power Consulting,Consulting,Copenhagen | June 25
+152,Electricity Maps,Else,Copenhagen | June 25
+153,Danish Energy Agency,Government,Copenhagen | June 25
+154,University of Málaga,University/research,Copenhagen | June 25
+155,University of South-Eastern Norway (USN),University/research,Copenhagen | June 25
+156,Universidad Politécnica de Madrid (UPM),University/research,Copenhagen | June 25
+157,Chalmers University of Technology,University/research,Gothenburg | Nov 25
+158,Chalmers University of Technology,University/research,Gothenburg | Nov 25
+159,Noda Technologies AB,Else,Gothenburg | Nov 25
+160,RISE,University/research,Gothenburg | Nov 25
+161,CICERO Center for International Climate Research,University/research,Gothenburg | Nov 25
+162,Chalmers University of Technology,University/research,Gothenburg | Nov 25
+163,Chalmers University of Technology,University/research,Gothenburg | Nov 25
+164,RISE,University/research,Gothenburg | Nov 25
+165,Flightform Insights Ltd.,Consulting,Gothenburg | Nov 25
+166,Chalmers University of Technology,University/research,Gothenburg | Nov 25
+167,Artelys,Consulting,Gothenburg | Nov 25
+168,IVL Swedish Environmental Research Institute,University/research,Gothenburg | Nov 25
+169,University of Rijeka,University/research,Gothenburg | Nov 25
+170,RISE,University/research,Gothenburg | Nov 25
+171,IVL Swedish Environmental Research Institute,University/research,Gothenburg | Nov 25
+172,Norsk e-Fuel AS,Utility/developer,Gothenburg | Nov 25
+173,Chalmers University of Technology,University/research,Gothenburg | Nov 25
+174,Finnish Meteorological Institute,University/research,Gothenburg | Nov 25
+175,Chalmers University of Technology,University/research,Gothenburg | Nov 25
+176,Danish Energy Agency,Government,Gothenburg | Nov 25
+177,RISE,University/research,Gothenburg | Nov 25
+178,Chalmers University of Technology,University/research,Gothenburg | Nov 25
+179,SYSTEMIQ,Consulting,Gothenburg | Nov 25
+180,The Swedish National Road and Transport Research Institute,University/research,Gothenburg | Nov 25
+181,Eesti Energia,Utility/developer,Gothenburg | Nov 25
+182,Luleå University of Technology,University/research,Gothenburg | Nov 25
+183,Luleå University of Technology,University/research,Gothenburg | Nov 25
+184,Profu,Consulting,Gothenburg | Nov 25
+185,SYSTEMIQ,Consulting,Gothenburg | Nov 25
+186,Profu,Consulting,Gothenburg | Nov 25
+187,KTH Royal Institute of Technology,University/research,Gothenburg | Nov 25
+188,KTH Royal Institute of Technology,University/research,Gothenburg | Nov 25
+189,KTH Royal Institute of Technology,University/research,Gothenburg | Nov 25
+190,Universidad Mayor de San Simón (Bolivia) / KTH,University/research,Gothenburg | Nov 25
