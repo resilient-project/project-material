@@ -268,7 +268,7 @@
 		}
 		\only<3>{
 			\pageat{5.2}{0.3}{4.7cm}{dunkelflaute}{\href{https://doi.org/10.1016/j.apenergy.2026.127671}{Applied Energy, 2026}}
-			\pageat[\chipPoster]{10.2}{0.3}{4.1cm}{edf-pisa-poster}{EDF and University of Pisa, 2026}
+			\pageat[\chipPoster]{10.2}{0.3}{4.1cm}{edf-pisa-poster}{\href{https://resilient-project.github.io/assets/docs/poster-edf-resilient-final-event.pdf}{EDF and University of Pisa, 2026}}
 		}
 		\only<4>{
 			\pageat[\chipI\ \chipPoster]{5.2}{0.3}{4.05cm}{biomass}{\href{https://doi.org/10.1038/s41560-024-01693-6}{Nature Energy, 2025}}
@@ -349,13 +349,14 @@
 
 % TOOLS
 \section{Code contributions}
-\begin{frame}{Europe's transmission grid from OpenStreetMap data}
+\begin{frame}[t]{Europe's transmission grid from OpenStreetMap data}
 	\centering
-	\vspace{-0.6em}
-	\includegraphics[height=5.55cm]{graphics/final-workshop/osm-grid.png}
+	\vspace*{-0.35cm}
+	\includegraphics[height=5.65cm]{graphics/final-workshop/osm-grid.png}
 	\refblock{%
 		\textbf{PyPSA-Eur PR:} \href{https://github.com/PyPSA/pypsa-eur/pull/1079}{\#1079 Introducing OpenStreetMap high-voltage grid to PyPSA-Eur} (merged August 2024)\par
 		\textbf{PyPSA-Eur PR:} \href{https://github.com/PyPSA/pypsa-eur/pull/1740}{\#1740 Implementation of voltage levels 110kV-220kV using osm-raw} (merged August 2025)\par
+		\textbf{grid-builder:} \href{https://github.com/PyPSA/grid-builder}{github.com/PyPSA/grid-builder} (build the grid for any country from the latest OSM data)\par
 		\refline{Paper}{https://doi.org/10.1038/s41597-025-04550-7}{Xiong et al. (2025). Modelling the high-voltage grid using open data for Europe and beyond. Sci. Data}}
 \end{frame}
 
@@ -397,7 +398,7 @@
 \begin{frame}{Stochastic and risk-averse optimisation, released with PyPSA v1.0}
 	\centering
 	\vspace{-1.3em}
-	\begin{tikzpicture}[x=0.98cm, y=1.0cm, font=\footnotesize,
+	\begin{tikzpicture}[x=0.95cm, y=1.0cm, font=\footnotesize,
 			dec/.style={circle, draw=black!70, fill=white, line width=0.6pt, inner sep=0pt, minimum size=6pt},
 			scen/.style={circle, draw=tub-yellow, fill=tub-yellow!25, line width=0.6pt, inner sep=0pt, minimum size=6pt},
 			worst/.style={circle, draw=tub-red, fill=tub-red!30, line width=0.6pt, inner sep=0pt, minimum size=6pt}]
@@ -438,7 +439,7 @@
 	\refblock{%
 		\textbf{PyPSA PR:} \href{https://github.com/PyPSA/PyPSA/pull/1154}{\#1154 New Optimization Module \& Stochastic Networks} (merged August 2025)\par
 		\textbf{PyPSA PR:} \href{https://github.com/PyPSA/PyPSA/pull/1345}{\#1345 Add risk-averse optimization} (merged September 2025)\par
-		\textbf{Case study:} EDF R\&D and University of Pisa. Optimising a large-scale European power network (poster)\par}
+		\textbf{Case study:} \href{https://resilient-project.github.io/assets/docs/poster-edf-resilient-final-event.pdf}{EDF R\&D and University of Pisa. Optimising a large-scale European power network} (poster)\par}
 \end{frame}
 
 \begin{frame}{Solving it at scale, with the University of Pisa}
@@ -522,16 +523,20 @@
 	\includegraphics[height=7.0cm]{graphics/final-workshop/who-else-uses-pypsa.png}
 \end{frame}
 
-\begin{frame}{RESILIENT in summary}
-	\vspace{0.3em}
-	\begin{columns}[c,onlytextwidth]
-		\begin{column}{0.64\textwidth}
-			\placeholder{8.8cm}{5.0cm}{Summary content, to be decided}
-		\end{column}
-		\begin{column}{0.32\textwidth}
+\begin{frame}{One question for you, and where to find our work}
+	\vspace{0.2cm}
+	\begin{columns}[T,onlytextwidth]
+		\begin{column}{0.5\textwidth}
 			\centering
-			\qrcode[height=3.4cm]{https://resilient-project.github.io/}\\[0.5cm]
-			\small\href{https://resilient-project.github.io/}{resilient-project.github.io}
+			\parbox[t][4.2cm][c]{\linewidth}{\centering\includegraphics[height=4.0cm]{graphics/final-workshop/slido-qr.pdf}}\\[0.4cm]
+			In a few words: what is the biggest threat to resilience in your field of work?\\[0.3em]
+			{\small Join at \href{https://resilient-project.github.io/slido}{slido.com} with \textbf{\#2205 286}}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\centering
+			\parbox[t][4.2cm][c]{\linewidth}{\centering\color{black}\qrcode[nolink,height=4.0cm]{https://resilient-project.github.io/}}\\[0.4cm]
+			All papers, code, data and\\training material from RESILIENT\\[0.3em]
+			{\small\href{https://resilient-project.github.io/}{resilient-project.github.io}}
 		\end{column}
 	\end{columns}
 \end{frame}
