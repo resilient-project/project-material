@@ -183,10 +183,10 @@
     align=flush left] at ([yshift=-0.1cm]pg.south west) {#6\ \ #1};}
 % \topicat{slide}{y}{topic}: black on its own slide, grey otherwise
 \newcommand{\topicat}[3]{%
-  \alt<#1>{\node[anchor=west, inner sep=0pt] at (0,#2)
-      {\textcolor{tub-red}{\rule[0.1ex]{0.85ex}{0.85ex}}\hspace{0.6em}\textbf{#3}};}
-    {\node[anchor=west, inner sep=0pt] at (0,#2)
-      {\textcolor{black!22}{\rule[0.1ex]{0.85ex}{0.85ex}}\hspace{0.6em}\textcolor{black!35}{#3}};}}
+  \alt<#1>{\node[anchor=base west, inner sep=0pt] at (0,#2)
+      {\textcolor{tub-red}{\rule[0.1ex]{0.85ex}{0.85ex}}\hspace{0.6em}\parbox[t]{4.3cm}{\raggedright\textbf{#3}}};}
+    {\node[anchor=base west, inner sep=0pt] at (0,#2)
+      {\textcolor{black!22}{\rule[0.1ex]{0.85ex}{0.85ex}}\hspace{0.6em}\parbox[t]{4.3cm}{\raggedright\textcolor{black!35}{#3}}};}}
 
 % TITLE PAGE
 \title{
@@ -257,7 +257,7 @@
 		\topicat{4}{-2.25}{Biomass and e-fuels}
 		\topicat{5}{-3.0}{Trade and geopolitics}
 		\topicat{6}{-3.75}{Price formation}
-		\topicat{7}{-4.5}{Attacks and outages}
+		\topicat{7}{-4.5}{Infrastructure attacks, outages, and energy self-sufficiency}
 		\only<1>{
 			\pageat[\chipI\ \chipPanel]{5.2}{0.3}{4.4cm}{gas}{\href{https://arxiv.org/abs/2607.21048}{arXiv, 2026}}
 		}
